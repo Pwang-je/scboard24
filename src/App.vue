@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+  <div>
+    <select v-model="selectedStudent">
+      <option v-for="student in students" :key="student.id" :value="student.name">
+        {{ student.name }}
+      </option>
+    </select>
+
+    <cmp-bar :selected-student="selectedStudent" />
+
+  </div>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CmpBar from "@/components/bar/cmpBar.vue";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    'cmp-bar': CmpBar
+  },
+
+  data() {
+    return {
+      selectedStudent: '',
+      students: [
+        { id: 1, name: '김철수'},
+        { id: 2, name: '이영희'}
+      ]
+      }
+    }
   }
-}
+
+
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
