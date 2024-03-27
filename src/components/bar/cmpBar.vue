@@ -22,7 +22,8 @@
           v-if="vocaChartData" />
       </div>
     </swiper-slide>
-    <!-- 여기에 더 많은 swiper-slide를 추가할 수 있습니다. -->
+
+
   </swiper>
 </template>
 
