@@ -1,12 +1,11 @@
 <template>
 
   <div>
-    <select v-model="selectedStudent">
-      <option v-for="student in students" :key="student.id" :value="student.name">
-        {{ student.name }}
-      </option>
-    </select>
-
+    <Dropdown v-model="selectedStudent"
+              :options="students"
+              optionLabel="name"
+              placeholder="학생을 선택하세요">
+    </Dropdown>
     <cmp-bar :selected-student="selectedStudent" />
 
   </div>
@@ -14,19 +13,21 @@
 </template>
 
 <script>
+import Dropdown from 'primevue/dropdown';
 import CmpBar from "@/components/bar/cmpBar.vue";
 
 export default {
   name: 'App',
   components: {
-    'cmp-bar': CmpBar
+    Dropdown,
+    CmpBar
   },
 
   data() {
     return {
-      selectedStudent: '',
+      selectedStudent: null,
       students: [
-        { id: 1, name: '김철수'},
+        { id: 1, name: '강현석'},
         { id: 2, name: '이영희'}
       ]
       }

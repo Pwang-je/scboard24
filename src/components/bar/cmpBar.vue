@@ -15,7 +15,7 @@ import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
 export default {
   props: ['selectedStudent'],
-  name: "App",
+  name: "cmpBar",
   components: {
       Bar,
   },
@@ -104,19 +104,7 @@ export default {
               },
               {
                 type: "line",
-                label: "전체분원 평균",
-                data: [],
-                backgroundColor: "rgb(255, 99, 132)",
-                borderColor: "rgb(255, 99, 132)",
-                datalabels: {
-                  anchor: "end",
-                  align: "-100",
-                  offset: "20",
-                },
-              },
-              {
-                type: "line",
-                label: "듀이카 평균",
+                label: "평균",
                 data: [],
                 backgroundColor: "rgb(255, 99, 132, 0.4)",
                 borderColor: "rgb(255, 99, 132, 0.4)",
