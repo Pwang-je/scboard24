@@ -1,24 +1,43 @@
 <template>
-  <div class="test-bar">
-    <Bar
-      :data="gramchartData"
-      :options="gramchartOptions"
-      v-if="gramchartData"
-    />
-  </div>
-
-  <div class="test-bar">
-    <Bar
-      :data="vocaChartData"
-      :options="vocaChartOptions"
-      v-if="vocaChartData"
-    />
-  </div>
+  <swiper 
+    :slides-per-view="1"
+    :pagination="{dynamicBullets: true}"
+    :modules="modules"
+    >
+    
+    <swiper-slide>
+      <div class="test-bar">
+        <Bar 
+          :data="gramchartData" 
+          :options="gramchartOptions" 
+          v-if="gramchartData" />
+      </div>
+    </swiper-slide>
+    
+    <swiper-slide>
+      <div class="test-bar">
+        <Bar 
+          :data="vocaChartData" 
+          :options="vocaChartOptions" 
+          v-if="vocaChartData" />
+      </div>
+    </swiper-slide>
+    <!-- 여기에 더 많은 swiper-slide를 추가할 수 있습니다. -->
+  </swiper>
 </template>
+
+
 
 <script>
 import { Bar } from "vue-chartjs";
 import { Chart, registerables } from "chart.js";
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+import { Pagination } from 'swiper';
+
+// import swiper module styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
 
 Chart.register(...registerables);
 
@@ -26,8 +45,16 @@ export default {
   props: ['selectedStudent'],
   name: "cmpBar",
   components: {
+    Swiper,
+    SwiperSlide,
     Bar,
   },
+  setup() {
+    return {
+      modules: [Pagination]
+    }
+  },
+
   data() {
     const chartOptions = {
       responsive: true,
@@ -173,8 +200,5 @@ export default {
 </script>
 
 <style>
-.test-bar {
-  width: 500px;
-  height: 500px;
-}
+
 </style>
