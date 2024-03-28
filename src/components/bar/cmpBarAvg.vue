@@ -27,9 +27,14 @@
     </swiper-slide>
 
 
-
-
   </swiper>
+
+  <div class="test-">
+    <bar :data="totEngChartData" :options="totEngChartOptions" v-if="totEngChartData" />
+  </div>
+
+
+
 </template>
 
 <script>
@@ -100,6 +105,12 @@ export default {
       readChartOptions: {
         ...chartOptions,
         scales: { y: { max: 50 }, x: { grid: { display: false } } },
+      },
+
+      totEngChartData: null,
+      totEngChartOptions: {
+        ...chartOptions,
+        scales: { y: { max: 100 }, x: { grid: { display: false } } },
       },
 
 
@@ -270,6 +281,40 @@ export default {
     },
 
 
+    async updateTotalEngChartData() {
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgRead.json");
+      const avgTotData = response.data;
+
+      if (this.selectedStudent) {
+        const { totjan, totfeb, totmar, totapr } = this.selectedStudent;
+
+        this.readChartData = {
+          labels: ["1월", "2월", "3월", "4월"],
+          datasets: [
+            {
+              type: "bar",
+              label: "총점",
+              backgroundColor: "rgba(160, 160, 160, 0.2)",
+              borderColor: "rgb(160, 160, 160)",
+              data: [ totjan, totfeb, totmar, totapr ],
+              borderWidth: 2,
+            },
+            {
+              type: "line",
+              label: "평균",
+              data: [
+                avgReadData.avgReadJan,
+                avgReadData.avgReadFeb,
+                avgReadData.avgReadMar,
+                avgReadData.avgReadApr,
+              ],
+              backgroundColor: "rgb(160, 160, 160, 0.4)",
+              borderColor: "rgb(160, 160, 160, 0.4)",
+            },
+          ],
+        };
+      }
+    },
 
 
 
