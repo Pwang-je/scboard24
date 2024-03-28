@@ -1,14 +1,12 @@
-﻿[
-    {
-        "avgLogicJan": 9.4,
-        "avgLogicFeb": 5,
-        "avgLogicMar": null,
-        "avgLogicApr": null,
-        "avgLogicMay": null,
-        "avgLogicJun": null,
-        "avgLogicJul": null,
-        "avgLogicAug": null,
-        "avgLogicSep": null,
-        "avgLogicOct": null
-    }
-]
+﻿{
+    "avgLogicJan": 9.4,
+    "avgLogicFeb": 5,
+    "avgLogicMar": null,
+    "avgLogicApr": null,
+    "avgLogicMay": null,
+    "avgLogicJun": null,
+    "avgLogicJul": null,
+    "avgLogicAug": null,
+    "avgLogicSep": null,
+    "avgLogicOct": null
+}
