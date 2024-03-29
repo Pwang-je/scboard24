@@ -134,6 +134,7 @@ export default {
         await this.updateVocaChartData();
         await this.updateLogicChartData();
         await this.updateReadChartData();
+        await this.updateTotalEngChartData();
       }
     },
 
@@ -244,7 +245,6 @@ export default {
       }
     },
 
-
     async updateReadChartData() {
       const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgRead.json");
       const avgReadData = response.data;
@@ -280,15 +280,14 @@ export default {
       }
     },
 
-
     async updateTotalEngChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgRead.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgTot.json");
       const avgTotData = response.data;
 
       if (this.selectedStudent) {
         const { totjan, totfeb, totmar, totapr } = this.selectedStudent;
 
-        this.readChartData = {
+        this.totEngChartData = {
           labels: ["1월", "2월", "3월", "4월"],
           datasets: [
             {
@@ -303,10 +302,10 @@ export default {
               type: "line",
               label: "평균",
               data: [
-                avgReadData.avgReadJan,
-                avgReadData.avgReadFeb,
-                avgReadData.avgReadMar,
-                avgReadData.avgReadApr,
+                avgTotData.avgTotJan,
+                avgTotData.avgTotFeb,
+                avgTotData.avgTotMar,
+                avgTotData.avgTotApr,
               ],
               backgroundColor: "rgb(160, 160, 160, 0.4)",
               borderColor: "rgb(160, 160, 160, 0.4)",
