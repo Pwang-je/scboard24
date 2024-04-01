@@ -29,7 +29,7 @@
 
   </swiper>
 
-  <div class="test-">
+  <div class="test-bar">
     <bar :data="totEngChartData" :options="totEngChartOptions" v-if="totEngChartData" />
   </div>
 
@@ -52,7 +52,7 @@ Chart.register(...registerables);
 
 export default {
   props: ["selectedStudent"],
-  name: "cmpBar",
+  name: "cmpEngBar",
   components: {
     Swiper,
     SwiperSlide,

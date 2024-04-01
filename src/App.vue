@@ -7,26 +7,34 @@
       placeholder="학생을 선택하세요"
     >
     </Dropdown>
-    <cmpBarAvg :selected-student="selectedStudent" />
+    <cmpEngBarAvg :selected-student="selectedStudent" />
+    <cmpMathBarAvg :selected-student="selectedStudent" />
   </div>
 
 
   <div>
-    <cmpBarAvg />
+    <cmpEngBarAvg />
+  </div>
+
+
+  <div>
+    <cmpMathBarAvg />
   </div>
 
 </template>
 
 <script>
 import Dropdown from "primevue/dropdown";
-import cmpBarAvg from "./components/bar/cmpBarAvg.vue";
+import cmpEngBarAvg from "./components/bar/cmpEngBarAvg.vue";
+import cmpMathBarAvg from "./components/bar/cmpMathBarAvg.vue";
 import axios from "axios";
 
 export default {
   name: "App",
   components: {
     Dropdown,
-    cmpBarAvg,
+    cmpEngBarAvg,
+    cmpMathBarAvg,
   },
 
   data() {
