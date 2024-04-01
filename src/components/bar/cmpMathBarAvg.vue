@@ -147,8 +147,8 @@ export default {
         await this.updateClcls2ChartData();
         await this.updateClcls3ChartData();
         await this.updateLnrAlgbrChartData();
-        await this.updateMltvrChartData();
-        await this.updateEngnrChartData();
+        // await this.updateMltvrChartData();
+        // await this.updateEngnrChartData();
         await this.updateTotalMathChartData();
       }
     },

@@ -139,7 +139,7 @@ export default {
     },
 
     async updateGramChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgGram.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/avgGram.json");
       const avgGramData = response.data; 
 
       if (this.selectedStudent) {
