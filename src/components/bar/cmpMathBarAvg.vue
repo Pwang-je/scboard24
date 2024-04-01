@@ -309,9 +309,9 @@ export default {
               type: "line",
               label: "평균",
               data: [
-                avgMathTotData.avgTotJan,
-                avgMathTotData.avgTotFeb,
-                avgMathTotData.avgTotMar,
+                avgMathTotData.avgMathTotJan,
+                avgMathTotData.avgMathTotFeb,
+                avgMathTotData.avgMathTotMar,
               ],
               backgroundColor: "rgb(160, 160, 160, 0.4)",
               borderColor: "rgb(160, 160, 160, 0.4)",
