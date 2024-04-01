@@ -139,7 +139,7 @@ export default {
     },
 
     async updateGramChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/avgGram.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/eng/avgGram.json");
       const avgGramData = response.data; 
 
       if (this.selectedStudent) {
@@ -174,7 +174,7 @@ export default {
     },
 
     async updateVocaChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgVoca.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/eng/avgVoca.json");
       const avgVocaData = response.data;
       
       if (this.selectedStudent) {
@@ -209,7 +209,7 @@ export default {
     },
 
     async updateLogicChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgLogic.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/eng/avgLogic.json");
       const avgLogicData = response.data; 
 
       // console.log("avgLogicData : ", avgLogicData)
@@ -246,7 +246,7 @@ export default {
     },
 
     async updateReadChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgRead.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/eng/avgRead.json");
       const avgReadData = response.data;
 
       if (this.selectedStudent) {
@@ -281,7 +281,7 @@ export default {
     },
 
     async updateTotalEngChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgTot.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/eng/avgTot.json");
       const avgTotData = response.data;
 
       if (this.selectedStudent) {

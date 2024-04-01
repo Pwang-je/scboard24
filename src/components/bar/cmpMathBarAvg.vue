@@ -155,7 +155,7 @@ export default {
 
 
     async updateClcls1ChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgCls1.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls1.json");
       const avgCls1Data = response.data; 
 
       if (this.selectedStudent) {
@@ -189,7 +189,7 @@ export default {
     },
 
     async updateClcls2ChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgCls2.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls2.json");
       const avgCls2Data = response.data;
       
       if (this.selectedStudent) {
@@ -222,7 +222,7 @@ export default {
     },
 
     async updateClcls3ChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/avgCls3.json");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls3.json");
       const avgCls3Data = response.data; 
 
       // console.log("avgLogicData : ", avgLogicData)
@@ -288,7 +288,7 @@ export default {
     },
 
     async updateTotalMathChartData() {
-      const response = await axios.get("");
+      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgMathTot.json");
       const avgMathTotData = response.data;
 
       if (this.selectedStudent) {
