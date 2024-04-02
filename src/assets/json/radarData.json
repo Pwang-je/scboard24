@@ -1,0 +1,933 @@
+[
+    {
+        "name": "강효원",
+        "ttlgrScore": 65,
+        "ttlvcScore": 40,
+        "ttllgScore": 70,
+        "ttlrdScore": 65
+    },
+    {
+        "name": "고유빈",
+        "ttlgrScore": 60,
+        "ttlvcScore": 40,
+        "ttllgScore": 100,
+        "ttlrdScore": 28
+    },
+    {
+        "name": "곽태원",
+        "ttlgrScore": 80,
+        "ttlvcScore": 40,
+        "ttllgScore": 100,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "권영도",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "권정연",
+        "ttlgrScore": 55,
+        "ttlvcScore": 50,
+        "ttllgScore": 60,
+        "ttlrdScore": 39
+    },
+    {
+        "name": "김가은",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": 33
+    },
+    {
+        "name": "김건",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김관웅",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김근아",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김기범",
+        "ttlgrScore": 40,
+        "ttlvcScore": 20,
+        "ttllgScore": 20,
+        "ttlrdScore": 10
+    },
+    {
+        "name": "김나연",
+        "ttlgrScore": 80,
+        "ttlvcScore": 20,
+        "ttllgScore": 60,
+        "ttlrdScore": 43
+    },
+    {
+        "name": "김단아",
+        "ttlgrScore": 55,
+        "ttlvcScore": 40,
+        "ttllgScore": 50,
+        "ttlrdScore": 34
+    },
+    {
+        "name": "김도연",
+        "ttlgrScore": 70,
+        "ttlvcScore": 40,
+        "ttllgScore": 100,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "김동현",
+        "ttlgrScore": 30,
+        "ttlvcScore": 40,
+        "ttllgScore": "",
+        "ttlrdScore": 18
+    },
+    {
+        "name": "김미소",
+        "ttlgrScore": 40,
+        "ttlvcScore": "",
+        "ttllgScore": 20,
+        "ttlrdScore": 28
+    },
+    {
+        "name": "김민서",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김민우",
+        "ttlgrScore": 65,
+        "ttlvcScore": 50,
+        "ttllgScore": 30,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "김민준",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김서우",
+        "ttlgrScore": 60,
+        "ttlvcScore": 40,
+        "ttllgScore": 40,
+        "ttlrdScore": 35
+    },
+    {
+        "name": "김세희",
+        "ttlgrScore": 25,
+        "ttlvcScore": 20,
+        "ttllgScore": 60,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "김유리",
+        "ttlgrScore": 30,
+        "ttlvcScore": 20,
+        "ttllgScore": 50,
+        "ttlrdScore": 26
+    },
+    {
+        "name": "김유민",
+        "ttlgrScore": 35,
+        "ttlvcScore": 30,
+        "ttllgScore": 40,
+        "ttlrdScore": 25
+    },
+    {
+        "name": "김유은",
+        "ttlgrScore": 30,
+        "ttlvcScore": 60,
+        "ttllgScore": 80,
+        "ttlrdScore": 28
+    },
+    {
+        "name": "김윤성",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김윤환",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김은상",
+        "ttlgrScore": 50,
+        "ttlvcScore": 60,
+        "ttllgScore": 80,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "김재성",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김정민",
+        "ttlgrScore": 70,
+        "ttlvcScore": 20,
+        "ttllgScore": "",
+        "ttlrdScore": 38
+    },
+    {
+        "name": "김종은",
+        "ttlgrScore": 35,
+        "ttlvcScore": 70,
+        "ttllgScore": 50,
+        "ttlrdScore": 26
+    },
+    {
+        "name": "김지윤",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김진경",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "김태우",
+        "ttlgrScore": 85,
+        "ttlvcScore": 50,
+        "ttllgScore": 80,
+        "ttlrdScore": 43
+    },
+    {
+        "name": "김하윤",
+        "ttlgrScore": 30,
+        "ttlvcScore": 20,
+        "ttllgScore": 20,
+        "ttlrdScore": 20
+    },
+    {
+        "name": "김현영",
+        "ttlgrScore": 40,
+        "ttlvcScore": 20,
+        "ttllgScore": 40,
+        "ttlrdScore": 23
+    },
+    {
+        "name": "김혜빈",
+        "ttlgrScore": 50,
+        "ttlvcScore": 40,
+        "ttllgScore": 60,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "김혜은",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "남여진",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "류수찬",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "맹지우",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "문경희",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "문제혁",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "문해름",
+        "ttlgrScore": 30,
+        "ttlvcScore": 40,
+        "ttllgScore": "",
+        "ttlrdScore": 33
+    },
+    {
+        "name": "문해찬",
+        "ttlgrScore": 60,
+        "ttlvcScore": "",
+        "ttllgScore": 60,
+        "ttlrdScore": 33
+    },
+    {
+        "name": "박기현",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "박동민",
+        "ttlgrScore": 10,
+        "ttlvcScore": 20,
+        "ttllgScore": 40,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "박민지",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "박진형",
+        "ttlgrScore": 90,
+        "ttlvcScore": 60,
+        "ttllgScore": 70,
+        "ttlrdScore": 33
+    },
+    {
+        "name": "방민솔",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "백수연",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "백은서",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "백정안",
+        "ttlgrScore": 65,
+        "ttlvcScore": 60,
+        "ttllgScore": 80,
+        "ttlrdScore": 31
+    },
+    {
+        "name": "백태경",
+        "ttlgrScore": 90,
+        "ttlvcScore": 40,
+        "ttllgScore": 80,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "변부윤",
+        "ttlgrScore": 55,
+        "ttlvcScore": 30,
+        "ttllgScore": 80,
+        "ttlrdScore": 33
+    },
+    {
+        "name": "변준영",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "서보은",
+        "ttlgrScore": 50,
+        "ttlvcScore": 40,
+        "ttllgScore": 20,
+        "ttlrdScore": 23
+    },
+    {
+        "name": "서태랑",
+        "ttlgrScore": 55,
+        "ttlvcScore": 70,
+        "ttllgScore": 80,
+        "ttlrdScore": 29
+    },
+    {
+        "name": "선지우",
+        "ttlgrScore": 90,
+        "ttlvcScore": 40,
+        "ttllgScore": 80,
+        "ttlrdScore": 43
+    },
+    {
+        "name": "성정호",
+        "ttlgrScore": 20,
+        "ttlvcScore": 40,
+        "ttllgScore": 40,
+        "ttlrdScore": 15
+    },
+    {
+        "name": "손혜린",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "신기륜",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "신예서",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "신재영",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "안정연",
+        "ttlgrScore": 70,
+        "ttlvcScore": 50,
+        "ttllgScore": 60,
+        "ttlrdScore": 41
+    },
+    {
+        "name": "안현빈",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "양아연",
+        "ttlgrScore": 85,
+        "ttlvcScore": 60,
+        "ttllgScore": 80,
+        "ttlrdScore": 35
+    },
+    {
+        "name": "양예진",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "양정환",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "양진호",
+        "ttlgrScore": 50,
+        "ttlvcScore": "",
+        "ttllgScore": 40,
+        "ttlrdScore": 13
+    },
+    {
+        "name": "양혜림",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "원민지",
+        "ttlgrScore": 30,
+        "ttlvcScore": 20,
+        "ttllgScore": 60,
+        "ttlrdScore": 25
+    },
+    {
+        "name": "원세빈",
+        "ttlgrScore": 30,
+        "ttlvcScore": 40,
+        "ttllgScore": 60,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "유수화",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "유승현",
+        "ttlgrScore": 40,
+        "ttlvcScore": 80,
+        "ttllgScore": 20,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "유지연",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "유지원",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이나경",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이동헌",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이선우",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이선유",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이소온",
+        "ttlgrScore": 55,
+        "ttlvcScore": 30,
+        "ttllgScore": 60,
+        "ttlrdScore": 40
+    },
+    {
+        "name": "이소은",
+        "ttlgrScore": 50,
+        "ttlvcScore": 60,
+        "ttllgScore": 60,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "이수빈_1",
+        "ttlgrScore": 80,
+        "ttlvcScore": 50,
+        "ttllgScore": 60,
+        "ttlrdScore": 31
+    },
+    {
+        "name": "이수빈_2",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이수빈_3",
+        "ttlgrScore": 10,
+        "ttlvcScore": 20,
+        "ttllgScore": 40,
+        "ttlrdScore": 28
+    },
+    {
+        "name": "이수아",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이신엽",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이연지",
+        "ttlgrScore": 50,
+        "ttlvcScore": 40,
+        "ttllgScore": 60,
+        "ttlrdScore": 25
+    },
+    {
+        "name": "이용재",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이우신",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이유나",
+        "ttlgrScore": 65,
+        "ttlvcScore": 50,
+        "ttllgScore": 70,
+        "ttlrdScore": 43
+    },
+    {
+        "name": "이은서",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이은지",
+        "ttlgrScore": 50,
+        "ttlvcScore": 50,
+        "ttllgScore": 70,
+        "ttlrdScore": 31
+    },
+    {
+        "name": "이의정",
+        "ttlgrScore": 70,
+        "ttlvcScore": 50,
+        "ttllgScore": 50,
+        "ttlrdScore": 25
+    },
+    {
+        "name": "이재원_1",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이재원_2",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이주호",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "이지우",
+        "ttlgrScore": 90,
+        "ttlvcScore": 20,
+        "ttllgScore": 80,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "이하은",
+        "ttlgrScore": 10,
+        "ttlvcScore": 40,
+        "ttllgScore": 20,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "이효우",
+        "ttlgrScore": 60,
+        "ttlvcScore": 40,
+        "ttllgScore": 20,
+        "ttlrdScore": 33
+    },
+    {
+        "name": "인서준",
+        "ttlgrScore": 30,
+        "ttlvcScore": 80,
+        "ttllgScore": 80,
+        "ttlrdScore": 23
+    },
+    {
+        "name": "임다은",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "임지호",
+        "ttlgrScore": 85,
+        "ttlvcScore": 40,
+        "ttllgScore": 80,
+        "ttlrdScore": 43
+    },
+    {
+        "name": "장윤서",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": 26
+    },
+    {
+        "name": "전예슬",
+        "ttlgrScore": 50,
+        "ttlvcScore": 20,
+        "ttllgScore": "",
+        "ttlrdScore": 8
+    },
+    {
+        "name": "전지민",
+        "ttlgrScore": 60,
+        "ttlvcScore": 20,
+        "ttllgScore": 60,
+        "ttlrdScore": 31
+    },
+    {
+        "name": "전지연",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "전진경",
+        "ttlgrScore": 50,
+        "ttlvcScore": "",
+        "ttllgScore": 80,
+        "ttlrdScore": 28
+    },
+    {
+        "name": "전찬웅",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "정동현",
+        "ttlgrScore": 30,
+        "ttlvcScore": 40,
+        "ttllgScore": 20,
+        "ttlrdScore": 15
+    },
+    {
+        "name": "정민혜",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "정병권",
+        "ttlgrScore": 30,
+        "ttlvcScore": 20,
+        "ttllgScore": 20,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "정서연",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "정원석",
+        "ttlgrScore": 60,
+        "ttlvcScore": 60,
+        "ttllgScore": 80,
+        "ttlrdScore": 20
+    },
+    {
+        "name": "정준민",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "정하림",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "정현태",
+        "ttlgrScore": 20,
+        "ttlvcScore": 30,
+        "ttllgScore": 20,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "조민혁",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "조수연",
+        "ttlgrScore": 85,
+        "ttlvcScore": 50,
+        "ttllgScore": 70,
+        "ttlrdScore": 43
+    },
+    {
+        "name": "조영우",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "조예지",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "조준희",
+        "ttlgrScore": 45,
+        "ttlvcScore": 70,
+        "ttllgScore": 60,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "지유경",
+        "ttlgrScore": 30,
+        "ttlvcScore": "",
+        "ttllgScore": 20,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "지효현",
+        "ttlgrScore": 10,
+        "ttlvcScore": 20,
+        "ttllgScore": 60,
+        "ttlrdScore": 18
+    },
+    {
+        "name": "차규진",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "천승현",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "최민석",
+        "ttlgrScore": 70,
+        "ttlvcScore": 40,
+        "ttllgScore": 20,
+        "ttlrdScore": 19
+    },
+    {
+        "name": "최유정",
+        "ttlgrScore": 20,
+        "ttlvcScore": 40,
+        "ttllgScore": 60,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "최진주",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "한성빈",
+        "ttlgrScore": 80,
+        "ttlvcScore": 20,
+        "ttllgScore": 60,
+        "ttlrdScore": 30
+    },
+    {
+        "name": "한에스더",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "허윤재",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    },
+    {
+        "name": "홍승리",
+        "ttlgrScore": 70,
+        "ttlvcScore": 60,
+        "ttllgScore": 70,
+        "ttlrdScore": 38
+    },
+    {
+        "name": "황태현",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
+    }
+]
