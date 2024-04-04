@@ -58,7 +58,7 @@ export default {
 
   created() {
     axios
-      .get("https://raw.githubusercontent.com/Pwang-je/ScoreBoard/main/appData.json")
+      .get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/appData.json")
       .then((response) => {
         this.students = response.data;
       })
