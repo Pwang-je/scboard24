@@ -193,17 +193,17 @@ export default {
       const avgCls2Data = response.data;
       
       if (this.selectedStudent) {
-        const { clcls2mar, clcls2apr } = this.selectedStudent;
+        const { clcls2apr } = this.selectedStudent;
 
         this.clCls2ChartData = {
-          labels: ["3월", "4월"],
+          labels: ["4월"],
           datasets: [
             {
               type: "bar",
               label: "미적분2",
               backgroundColor: "rgba(204, 122, 198, 0.2)",
               borderColor: "rgb(204, 122, 198)",
-              data: [clcls2mar, clcls2apr],
+              data: [clcls2apr],
               borderWidth: 2,
             },
             {
