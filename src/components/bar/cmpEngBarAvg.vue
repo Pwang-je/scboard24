@@ -98,7 +98,7 @@ export default {
       logicChartData: null,
       logicChartOptions: {
         ...chartOptions,
-        scales: { y: { max: 20 }, x: { grid: { display: false } } },
+        scales: { y: { max: 12.5 }, x: { grid: { display: false } } },
       },
 
       readChartData: null,
