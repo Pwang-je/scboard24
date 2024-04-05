@@ -52,7 +52,7 @@ export default {
   methods: {
     getStudentData() {
       axios
-        .get(`https://raw.githubusercontent.com/Pwang-je/ScoreBoard/main/radarData.json`)
+        .get(`https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/radarData.json`)
         .then((res) => {
           const studentData = res.data.find(
             (student) => student.name === this.selectedStudentName
@@ -89,7 +89,7 @@ export default {
           {
             label: "전체 평균",
             // data: [ttlgrScore, ttlvcScore, ttllgScore, ttlrdScore],
-            data: [11.6, 5.5, 7.3, 27.4],
+            data: [47.3, 36.0, 50.9, 52.7],
             fill: true,
             backgroundColor: "rgba(255, 99, 132, 0.2)",
             borderColor: "rgb(255, 99, 132)",
