@@ -25,7 +25,7 @@ import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
 
 export default {
-  name: "CmpPie",
+  name: "cmpPie",
   components: {
     Dropdown,
     Pie,
