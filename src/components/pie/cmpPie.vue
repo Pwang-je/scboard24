@@ -34,13 +34,19 @@ export default {
     const selectedMonth = ref("");
     const monthlyData = ref([
       {
-        month: "February",
-        data: [2, 2, 11, 18, 17, 25, 21, 16, 7, 2],
+        month: "1월",
+        data: [0, 4, 9, 12, 19, 23, 19, 15, 5, 2],
       },
       {
-        month: "March",
-        data: [0, 9, 28, 38, 63, 52, 24, 17, 0, 0],
+        month: "2월",
+        data: [2, 5, 21, 24, 28, 40, 16, 16, 2, 0],
       },
+      {
+        month: "3월",
+        data: [0, 12, 61, 90, 84, 42, 29, 11, 1, 0],
+      },
+
+
       // 추가 월별 데이터...
     ]);
 

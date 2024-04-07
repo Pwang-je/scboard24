@@ -1,4 +1,5 @@
 <template>
+  
   <div>
     <Dropdown
       v-model="selectedStudent"
@@ -101,4 +102,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
