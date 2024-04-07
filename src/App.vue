@@ -1,11 +1,11 @@
 <template>
-  
+
   <div>
     <Dropdown
       v-model="selectedStudent"
       :options="students"
       optionLabel="name"
-      placeholder="학생을 선택하세요"
+      placeholder="Select a student"
     >
     </Dropdown>
     
