@@ -25,6 +25,10 @@
   </div>
 
 
+  <div>
+    <cmpPie />
+  </div>
+
   <cmpEngBarAvg :selected-student="selectedStudent" />
   <cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
   <cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name: ''" />
@@ -36,7 +40,8 @@
 import Dropdown from "primevue/dropdown";
 import cmpEngBarAvg from "./components/bar/cmpEngBarAvg.vue";
 import cmpMathBarAvg from "./components/bar/cmpMathBarAvg.vue";
-import cmpRadar from "./components/radar/cmpRadar.vue"
+import cmpRadar from "./components/radar/cmpRadar.vue";
+import cmpPie from "./components/pie/cmpPie.vue";
 import axios from "axios";
 
 export default {
@@ -46,6 +51,7 @@ export default {
     cmpEngBarAvg,
     cmpMathBarAvg,
     cmpRadar,
+    cmpPie,
   },
 
   data() {
