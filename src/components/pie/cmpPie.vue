@@ -119,8 +119,8 @@ export default {
 </script>
 
 <style>
-.test-pie {
+/* .test-pie {
   width: 100%;
   height: 400px;
-}
+} */
 </style>

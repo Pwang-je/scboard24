@@ -161,5 +161,7 @@ export default {
 </script>
 
 <style>
-
+.test-bar {
+  height: 25rem;
+}
 </style>

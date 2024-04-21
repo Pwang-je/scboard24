@@ -80,6 +80,10 @@ export default {
           },
         },
       },
+      animation: {
+        duration: 1200,
+        easing: 'easeInOutBack'
+      },
     };
 
     return {
@@ -146,7 +150,7 @@ export default {
         const { gramjan, gramfeb, grammar, gramapr } = this.selectedStudent;
 
         this.gramChartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -155,6 +159,7 @@ export default {
               borderColor: "rgb(255, 99, 132)",
               data: [gramjan, gramfeb, grammar, gramapr],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
@@ -165,8 +170,8 @@ export default {
                 avgGramData.avgGramMar,
                 avgGramData.avgGramApr,
               ],
-              backgroundColor: "rgb(255, 99, 132, 0.4)",
-              borderColor: "rgb(255, 99, 132, 0.4)",
+              backgroundColor: "rgb(255, 99, 132, 0.6)",
+              borderColor: "rgb(255, 99, 132, 0.6)",
             },
           ],
         };
@@ -181,7 +186,7 @@ export default {
         const { vocajan, vocafeb, vocamar, vocaapr } = this.selectedStudent;
 
         this.vocaChartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -190,6 +195,7 @@ export default {
               borderColor: "rgb(54, 162, 235)",
               data: [vocajan, vocafeb, vocamar, vocaapr],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
@@ -200,8 +206,8 @@ export default {
                 avgVocaData.avgVocaMar,
                 avgVocaData.avgVocaApr,
               ],
-              backgroundColor: "rgb(54, 162, 235, 0.4)",
-              borderColor: "rgb(54, 162, 235, 0.4)",
+              backgroundColor: "rgb(54, 162, 235, 0.6)",
+              borderColor: "rgb(54, 162, 235, 0.6)",
             },
           ],
         };
@@ -218,7 +224,7 @@ export default {
         const { logicjan, logicfeb, logicmar, logicapr } = this.selectedStudent;
 
         this.logicChartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -227,6 +233,7 @@ export default {
               borderColor: "rgb(255, 159, 64)",
               data: [logicjan, logicfeb, logicmar, logicapr],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
@@ -237,8 +244,8 @@ export default {
                 avgLogicData.avgLogicMar,
                 avgLogicData.avgLogicApr,
               ],
-              backgroundColor: "rgb(255, 159, 64, 0.4)",
-              borderColor: "rgb(255, 159, 64, 0.4)",
+              backgroundColor: "rgb(255, 159, 64, 0.6)",
+              borderColor: "rgb(255, 159, 64, 0.6)",
             },
           ],
         };
@@ -253,7 +260,7 @@ export default {
         const { readjan, readfeb, readmar, readapr } = this.selectedStudent;
 
         this.readChartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -262,6 +269,7 @@ export default {
               borderColor: "rgb(75, 192, 192)",
               data: [readjan, readfeb, readmar, readapr ],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
@@ -272,8 +280,8 @@ export default {
                 avgReadData.avgReadMar,
                 avgReadData.avgReadApr,
               ],
-              backgroundColor: "rgb(75, 192, 192, 0.4)",
-              borderColor: "rgb(75, 192, 192, 0.4)",
+              backgroundColor: "rgb(75, 192, 192, 0.6)",
+              borderColor: "rgb(75, 192, 192, 0.6)",
             },
           ],
         };
@@ -288,7 +296,7 @@ export default {
         const { totjan, totfeb, totmar, totapr } = this.selectedStudent;
 
         this.totEngChartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ["1월", "2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -297,6 +305,7 @@ export default {
               borderColor: "rgb(160, 160, 160)",
               data: [ totjan, totfeb, totmar, totapr ],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
@@ -307,8 +316,8 @@ export default {
                 avgTotData.avgTotMar,
                 avgTotData.avgTotApr,
               ],
-              backgroundColor: "rgb(160, 160, 160, 0.4)",
-              borderColor: "rgb(160, 160, 160, 0.4)",
+              backgroundColor: "rgb(160, 160, 160, 0.6)",
+              borderColor: "rgb(160, 160, 160, 0.6)",
             },
           ],
         };

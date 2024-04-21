@@ -15,7 +15,7 @@ import { Chart, registerables } from "chart.js";
 Chart.register(...registerables);
 
 export default {
-    name: "cmpScat",
+    name: "cmpSct",
     components: {
         Scatter,
     },

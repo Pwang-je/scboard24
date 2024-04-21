@@ -37,6 +37,10 @@ export default {
     radarChartOptions: {
       responsive: true,
       maintainAspectRatio: false,
+      animation: {
+        duration: 1000,
+        easing: 'easeInOutBack'
+      },
       plugins: {
         legend: {
           position: "top",

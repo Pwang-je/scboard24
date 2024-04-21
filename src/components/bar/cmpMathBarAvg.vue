@@ -162,7 +162,7 @@ export default {
         const { clcls1feb, clcls1mar, clcls1apr } = this.selectedStudent;
 
         this.clCls1ChartData = {
-          labels: ["2월", "3월", "4월"],
+          labels: ["2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -171,6 +171,7 @@ export default {
               borderColor: "rgb(102, 205, 170)",
               data: [clcls1feb, clcls1mar, clcls1apr],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
@@ -180,8 +181,8 @@ export default {
                 avgCls1Data.avgCls1Mar,
                 avgCls1Data.avgCls1Apr,
               ],
-              backgroundColor: "rgb(102, 205, 170, 0.4)",
-              borderColor: "rgb(102, 205, 170, 0.4)",
+              backgroundColor: "rgb(102, 205, 170, 0.6)",
+              borderColor: "rgb(102, 205, 170, 0.6)",
             },
           ],
         };
@@ -196,7 +197,7 @@ export default {
         const { clcls2apr } = this.selectedStudent;
 
         this.clCls2ChartData = {
-          labels: ["4월"],
+          labels: ["4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -213,8 +214,8 @@ export default {
                 avgCls2Data.avgCls2Mar,
                 avgCls2Data.avgCls2Apr,
               ],
-              backgroundColor: "rgb(204, 122, 198, 0.4)",
-              borderColor: "rgb(204, 122, 198, 0.4)",
+              backgroundColor: "rgb(204, 122, 198, 0.6)",
+              borderColor: "rgb(204, 122, 198, 0.6)",
             },
           ],
         };
@@ -295,7 +296,7 @@ export default {
         const { totmathfeb, totmathmar, totmathapr } = this.selectedStudent;
 
         this.totalMathChartData = {
-          labels: ["2월", "3월", "4월"],
+          labels: ["2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
           datasets: [
             {
               type: "bar",
@@ -304,6 +305,7 @@ export default {
               borderColor: "rgb(160, 160, 160)",
               data: [ totmathfeb, totmathmar, totmathapr ],
               borderWidth: 2,
+              borderRadius: [{topLeft: 20, topRight: 20}],
             },
             {
               type: "line",
