@@ -12,9 +12,15 @@
     
   </div>
 
+  <div>
+    <cmpStat 
+      :selectedStudentName="selectedStudent ? selectedStudent.name: ''"
+    />
+  </div>
+
 
   <div>
-    <cmpEngBarAvg />
+    <cmpEngBarAvg :selected-student="selectedStudent" />
   </div>
 
 
@@ -31,10 +37,10 @@
     <cmpPie />
   </div>
 
-  <cmpEngBarAvg :selected-student="selectedStudent" />
+  <!-- <cmpEngBarAvg :selected-student="selectedStudent" /> -->
   <cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
   <cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name: ''" />
-
+  
 
 </template>
 
@@ -44,6 +50,7 @@ import cmpEngBarAvg from "./components/bar/cmpEngBarAvg.vue";
 import cmpMathBarAvg from "./components/bar/cmpMathBarAvg.vue";
 import cmpRadar from "./components/radar/cmpRadar.vue";
 import cmpPie from "./components/pie/cmpPie.vue";
+import cmpStat from "./components/status/cmpStat.vue";
 import axios from "axios";
 
 export default {
@@ -54,6 +61,7 @@ export default {
     cmpMathBarAvg,
     cmpRadar,
     cmpPie,
+    cmpStat,
   },
 
   data() {

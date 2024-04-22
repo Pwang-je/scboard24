@@ -3,26 +3,27 @@
 
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="gramChartData" :options="gramchartOptions" v-if="gramChartData" />
+        <Bar :data="gramChartData" :options="gramchartOptions" v-if="gramChartData" class="chart-size" />
+      </div>
+    </swiper-slide>
+
+    <swiper-slide>
+      <p>논리</p>
+      <div class="test-bar">
+        <Bar :data="vocaChartData" :options="vocaChartOptions" v-if="vocaChartData" class="chart-size" />
+      </div>
+    </swiper-slide>
+
+
+    <swiper-slide>
+      <div class="test-bar">
+        <Bar :data="logicChartData" :options="logicChartOptions" v-if="logicChartData" class="chart-size" />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="vocaChartData" :options="vocaChartOptions" v-if="vocaChartData" />
-      </div>
-    </swiper-slide>
-
-
-    <swiper-slide>
-      <div class="test-bar">
-        <Bar :data="logicChartData" :options="logicChartOptions" v-if="logicChartData" />
-      </div>
-    </swiper-slide>
-
-    <swiper-slide>
-      <div class="test-bar">
-        <Bar :data="readChartData" :options="readChartOptions" v-if="readChartData" />
+        <Bar :data="readChartData" :options="readChartOptions" v-if="readChartData" class="chart-size" />
       </div>
     </swiper-slide>
 
@@ -30,7 +31,7 @@
   </swiper>
 
   <div class="test-bar">
-    <bar :data="totEngChartData" :options="totEngChartOptions" v-if="totEngChartData" />
+    <bar :data="totEngChartData" :options="totEngChartOptions" v-if="totEngChartData" class="chart-size" />
   </div>
 
 
@@ -76,9 +77,24 @@ export default {
       plugins: {
         legend: {
           labels: {
-            font: { family: "SUITE-SemiBold", size: 14 },
+            font: { family: "omyu_pretty", size: 14 },
           },
         },
+        // title: {
+        //   display: true,
+        //   align: 'start',
+        //   // position: 'left',
+        //   // text: 'dt',
+        //   font: {
+        //     size: 30,
+        //     weight: 'bold',
+        //     family: 'omyu_pretty'
+        //   },
+        //   padding: {
+        //     top: 0,
+        //     bottom: 5
+        //   }
+        // }
       },
       animation: {
         duration: 1200,
@@ -90,30 +106,65 @@ export default {
       gramChartData: null,
       gramchartOptions: {
         ...chartOptions,
+        plugins: {
+          ...chartOptions.plugins,
+          title: {
+            ...chartOptions.plugins.title,
+            // text: '문법'
+          }
+        },
         scales: { y: { max: 25 }, x: { grid: { display: false } } },
       },
 
       vocaChartData: null,
       vocaChartOptions: {
         ...chartOptions,
+        plugins: {
+          ...chartOptions.plugins,
+          title: {
+            ...chartOptions.plugins.title,
+            // text: '어휘'
+          }
+        },
         scales: { y: { max: 12.5 }, x: { grid: { display: false } } },
       },
 
       logicChartData: null,
       logicChartOptions: {
         ...chartOptions,
+        plugins: {
+          ...chartOptions.plugins,
+          title: {
+            ...chartOptions.plugins.title,
+            // text: '논리'
+          }
+        },
         scales: { y: { max: 12.5 }, x: { grid: { display: false } } },
       },
 
       readChartData: null,
       readChartOptions: {
         ...chartOptions,
+        plugins: {
+          ...chartOptions.plugins,
+          title: {
+            ...chartOptions.plugins.title,
+            // text: '독해'
+          }
+        },
         scales: { y: { max: 50 }, x: { grid: { display: false } } },
       },
 
       totEngChartData: null,
       totEngChartOptions: {
         ...chartOptions,
+        plugins: {
+          ...chartOptions.plugins,
+          title: {
+            ...chartOptions.plugins.title,
+            text: '영어 총점'
+          }
+        },
         scales: { y: { max: 100 }, x: { grid: { display: false } } },
       },
 
@@ -154,7 +205,7 @@ export default {
           datasets: [
             {
               type: "bar",
-              label: "문법",
+              label: `${this.selectedStudent.name}`,
               backgroundColor: "rgba(255, 99, 132, 0.2)",
               borderColor: "rgb(255, 99, 132)",
               data: [gramjan, gramfeb, grammar, gramapr],
@@ -190,7 +241,7 @@ export default {
           datasets: [
             {
               type: "bar",
-              label: "어휘",
+              label: `${this.selectedStudent.name}`,
               backgroundColor: "rgba(54, 162, 235, 0.2)",
               borderColor: "rgb(54, 162, 235)",
               data: [vocajan, vocafeb, vocamar, vocaapr],
@@ -228,7 +279,7 @@ export default {
           datasets: [
             {
               type: "bar",
-              label: "논리",
+              label: `${this.selectedStudent.name}`,
               backgroundColor: "rgba(255, 159, 64, 0.2)",
               borderColor: "rgb(255, 159, 64)",
               data: [logicjan, logicfeb, logicmar, logicapr],
@@ -264,7 +315,7 @@ export default {
           datasets: [
             {
               type: "bar",
-              label: "독해",
+              label: `${this.selectedStudent.name}`,
               backgroundColor: "rgba(75, 192, 192, 0.2)",
               borderColor: "rgb(75, 192, 192)",
               data: [readjan, readfeb, readmar, readapr ],
@@ -300,7 +351,7 @@ export default {
           datasets: [
             {
               type: "bar",
-              label: "총점",
+              label: `${this.selectedStudent.name}`,
               backgroundColor: "rgba(160, 160, 160, 0.2)",
               borderColor: "rgb(160, 160, 160)",
               data: [ totjan, totfeb, totmar, totapr ],
@@ -338,4 +389,17 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@font-face {
+  font-family: 'omyu_pretty';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'omyu_pretty', sans-serif;
+}
+.chart-size {
+  height: 300px;
+}
+</style>
