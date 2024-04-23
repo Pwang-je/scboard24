@@ -8,7 +8,6 @@
     </swiper-slide>
 
     <swiper-slide>
-      <p>논리</p>
       <div class="test-bar">
         <Bar :data="vocaChartData" :options="vocaChartOptions" v-if="vocaChartData" class="chart-size" />
       </div>

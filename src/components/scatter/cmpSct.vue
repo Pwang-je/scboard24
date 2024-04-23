@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="sct-size">
         <Scatter 
             v-if="chartData"
             :data="chartData"
@@ -29,46 +29,156 @@ export default {
     setup(props) {
     const monthlyData = [
         {
-            mont: "January",
+            month: "March",
             data: [
                 {
-                    location: "Duica",
+                    location: "듀이카",
                     points: [
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
+                        {"x":"60","y":"100"},
+                        {"x":"75","y":"100"},
+                        {"x":"67.5","y":"100"},
+                        {"x":"65","y":"96"},
+                        {"x":"35","y":"96"},
+                        {"x":"57.5","y":"88"},
+                        {"x":"62.5","y":"84"},
+                        {"x":"42.5","y":"84"},
+                        {"x":"47.5","y":"80"},
+                        {"x":"32.5","y":"76"},
+                        {"x":"47.5","y":"64"},
+                        {"x":"45","y":"64"},
+                        {"x":"35","y":"56"},
+                        {"x":"30","y":"52"},
+                        {"x":"37.5","y":"48"},
+                        {"x":"37.5","y":"44"},
+                        {"x":"45","y":"44"},
+                        {"x":"30","y":"32"},
+                        {"x":"30","y":"32"},
+                        {"x":"22.5","y":"28"},
+                        {"x":"32.5","y":"28"},
+                        {"x":"27.5","y":"24"},
+                        {"x":"62.5","y":"24"},
+                        {"x":"32.5","y":"16"},
+                        {"x":"32.5","y":"16"},
+                        {"x":"37.5","y":"16"},
+                        {"x":"30","y":"8"},
                     ],
                 },
                 {
-                    location: "Gangnam",
+                    location: "강남",
                     points: [
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
+                        {"x":"27.5","y":"100"},
+                        {"x":"40","y":"100"},
+                        {"x":"42.5","y":"96"},
+                        {"x":"62.5","y":"96"},
+                        {"x":"65","y":"96"},
+                        {"x":"52.5","y":"96"},
+                        {"x":"62.5","y":"92"},
+                        {"x":"47.5","y":"92"},
+                        {"x":"72.5","y":"92"},
+                        {"x":"47.5","y":"92"},
+                        {"x":"50","y":"88"},
+                        {"x":"60","y":"88"},
+                        {"x":"47.5","y":"88"},
+                        {"x":"37.5","y":"88"},
+                        {"x":"22.5","y":"88"},
+                        {"x":"35","y":"88"},
+                        {"x":"40","y":"88"},
+                        {"x":"45","y":"84"},
+                        {"x":"27.5","y":"84"},
+                        {"x":"35","y":"84"},
+                        {"x":"42.5","y":"84"},
+                        {"x":"80","y":"84"},
+                        {"x":"65","y":"80"},
+                        {"x":"35","y":"80"},
+                        {"x":"25","y":"80"},
+                        {"x":"45","y":"80"},
+                        {"x":"37.5","y":"80"},
+                        {"x":"45","y":"76"},
+                        {"x":"67.5","y":"76"},
+                        {"x":"52.5","y":"76"},
+                        {"x":"55","y":"76"},
+                        {"x":"40","y":"72"},
+                        {"x":"45","y":"64"},
+                        {"x":"35","y":"64"},
+                        {"x":"30","y":"64"},
+                        {"x":"20","y":"64"},
+                        {"x":"27.5","y":"60"},
+                        {"x":"60","y":"60"},
+                        {"x":"32.5","y":"60"},
+                        {"x":"35","y":"56"},
+                        {"x":"30","y":"56"},
+                        {"x":"25","y":"52"},
+                        {"x":"62.5","y":"52"},
+                        {"x":"32.5","y":"52"},
+                        {"x":"47.5","y":"48"},
+                        {"x":"42.5","y":"36"},
+                        {"x":"50","y":"36"},
+                        {"x":"50","y":"36"},
+                        {"x":"50","y":"36"},
+                        {"x":"27.5","y":"28"},
+                        {"x":"30","y":"20"},
+                        {"x":"40","y":"16"},
+                        {"x":"42.5","y":"12"},
                     ]
                 },
                 {
-                    location: "Ilsan",
+                    location: "일산",
                     points: [
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
+                        {"x":"42.5","y":"96"},
+                        {"x":"62.5","y":"96"},
+                        {"x":"25","y":"96"},
+                        {"x":"65","y":"96"},
+                        {"x":"57.5","y":"92"},
+                        {"x":"55","y":"92"},
+                        {"x":"57.5","y":"88"},
+                        {"x":"42.5","y":"88"},
+                        {"x":"35","y":"88"},
+                        {"x":"47.5","y":"88"},
+                        {"x":"60","y":"88"},
+                        {"x":"52.5","y":"80"},
+                        {"x":"35","y":"80"},
+                        {"x":"50","y":"80"},
+                        {"x":"47.5","y":"76"},
+                        {"x":"35","y":"76"},
+                        {"x":"40","y":"76"},
+                        {"x":"80","y":"76"},
+                        {"x":"40","y":"68"},
+                        {"x":"47.5","y":"68"},
+                        {"x":"32.5","y":"60"},
+                        {"x":"57.5","y":"60"},
+                        {"x":"42.5","y":"56"},
+                        {"x":"55","y":"56"},
+                        {"x":"45","y":"52"},
                     ],
                 },
                 {
-                    location: "Nowon",
+                    location: "노원",
                     points: [
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
-                        {x: "", y: ""},
+                        {"x":"60","y":"100"},
+                        {"x":"27.5","y":"96"},
+                        {"x":"47.5","y":"92"},
+                        {"x":"45","y":"92"},
+                        {"x":"67.5","y":"92"},
+                        {"x":"50","y":"92"},
+                        {"x":"32.5","y":"88"},
+                        {"x":"52.5","y":"84"},
+                        {"x":"72.5","y":"84"},
+                        {"x":"27.5","y":"84"},
+                        {"x":"57.5","y":"84"},
+                        {"x":"40","y":"80"},
+                        {"x":"55","y":"80"},
+                        {"x":"32.5","y":"72"},
+                        {"x":"47.5","y":"68"},
+                        {"x":"30","y":"68"},
+                        {"x":"62.5","y":"68"},
+                        {"x":"42.5","y":"64"},
+                        {"x":"32.5","y":"52"},
+                        {"x":"55","y":"48"},
+                        {"x":"37.5","y":"44"},
+                        {"x":"30","y":"44"},
+                        {"x":"32.5","y":"36"},
+                        {"x":"42.5","y":"32"},
+                        {"x":"42.5","y":"16"},
                     ]
                 },
             ]
@@ -99,24 +209,49 @@ export default {
                 datalabels: {
                     display: false,
                 },
-                legeld: {
+                legend: {
                     position: "top",
                 },
                 title: {
                     display: true,
                     text: "자연계열 영어 수학 점수분포",
-                },
+                },                
+            },
+            animation: {
+                duration: 1200,
+                easing: 'easeInOutExpo'
             },
         };
+
+
+        const findDataForMonth = (month) => {
+            const data = monthlyData.find((data) => data.month === month);
+            if (!data) {
+                console.error("No data found for the selected month:", month);
+                return null;
+            }
+            return data;
+        };
+
+        const updateChartData = (data) => {
+            if (data) {
+                chartData.value = {
+                    datasets: generateChartData(data.data),
+                };
+            } else {
+                chartData.value = null;
+            }
+        };
+
 
         const generateChartData = (selectedData) => {
             const datasets = [];
 
             const colors = {
-                Duica: "rgb(255, 205, 86)",
-                Gangnam: "rgb(255, 99, 132)",
-                Nowon: "rgb(6,166,108)",
-                Ilsan: "rgb(54, 162, 235)",
+                듀이카: "rgb(255, 205, 86)",
+                강남: "rgb(255, 99, 132)",
+                노원: "rgb(6,166,108)",
+                일산: "rgb(54, 162, 235)",
             };
 
             selectedData.forEach((item) => {
@@ -132,41 +267,14 @@ export default {
         };
 
         onMounted(() => {
-            const selectedData = monthlyData.find(
-                (data) => data.month === props.selectedMonth
-            );
-
-            console.log("scatter selected data(onMounted): ", selectedData);
-            console.log(
-                "scatter selected props.selectedMonth data(onMounted): ",
-                props.selectedMonth
-            );
-
-            if (selectedData) {
-                chartData.value = {
-                datasets: generateChartData(selectedData.data),
-                };
-            }
+            const data = findDataForMonth(props.selectedMonth);
+            updateChartData(data);
         });
 
-        watch(
-            () => props.selectedMonth,
-            (newMonth) => {
-                const selectedData = monthlyData.find((data) => data.month === newMonth);
-
-                console.log("scatter selected data(watch): ", selectedData);
-                console.log(
-                "scatter selected props.selectedMonth data(watch): ",
-                props.selectedMonth
-                );
-
-                if (selectedData) {
-                    chartData.value = {
-                        datasets: generateChartData(selectedData.data),
-                    };
-                }
-            }
-        );
+        watch(() => props.selectedMonth, (newMonth) => {
+            const data = findDataForMonth(newMonth);
+            updateChartData(data);
+        });
 
         return { chartData, chartOptions };
 
@@ -175,5 +283,7 @@ export default {
 };
 </script>
 <style>
-    
+.sct-size {
+    height: 28.75rem;
+}
 </style>

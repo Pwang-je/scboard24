@@ -10,10 +10,16 @@
     <Pie
       :data="selectedData"
       :options="pieChartOptions"
-      v-if="selectedData"
+      v-if="selectedData && selectedMonth"
       :key="selectedMonth"
     />
   </div>
+
+  <cmpSct 
+    v-if="selectedMonth"
+    :selected-month="selectedMonth"
+  />
+
 </template>
 
 <script>
@@ -21,6 +27,7 @@ import { ref, computed } from "vue";
 import Dropdown from "primevue/dropdown";
 import { Pie } from "vue-chartjs";
 import { Chart, registerables } from "chart.js";
+import cmpSct from "../scatter/cmpSct.vue";
 
 Chart.register(...registerables);
 
@@ -29,20 +36,21 @@ export default {
   components: {
     Dropdown,
     Pie,
+    cmpSct,
   },
   setup() {
     const selectedMonth = ref("");
     const monthlyData = ref([
       {
-        month: "1월",
+        month: "January",
         data: [0, 4, 9, 12, 19, 23, 19, 15, 5, 2],
       },
       {
-        month: "2월",
+        month: "february",
         data: [2, 5, 21, 24, 28, 40, 16, 16, 2, 0],
       },
       {
-        month: "3월",
+        month: "March",
         data: [0, 12, 61, 90, 84, 42, 29, 11, 1, 0],
       },
 
@@ -65,7 +73,11 @@ export default {
         title: {
           display: true,
           text: "점수별 인원 분포",
-        },
+        },        
+      },
+      animation: {
+        duration: 2000,
+        easing: 'easeInOutBack'
       },
     });
 
@@ -119,8 +131,8 @@ export default {
 </script>
 
 <style>
-/* .test-pie {
+.test-pie {
   width: 100%;
   height: 400px;
-} */
+}
 </style>

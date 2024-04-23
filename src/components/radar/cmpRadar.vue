@@ -38,7 +38,7 @@ export default {
       responsive: true,
       maintainAspectRatio: false,
       animation: {
-        duration: 1000,
+        duration: 1200,
         easing: 'easeInOutBack'
       },
       plugins: {
