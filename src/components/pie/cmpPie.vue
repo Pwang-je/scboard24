@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { ref, computed } from "vue";
+import { ref, computed, } from "vue";
 import Dropdown from "primevue/dropdown";
 import { Pie } from "vue-chartjs";
 import { Chart, registerables } from "chart.js";
@@ -127,6 +127,7 @@ export default {
       selectedData,
     };
   },
+
 };
 </script>
 

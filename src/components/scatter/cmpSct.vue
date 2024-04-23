@@ -1,12 +1,19 @@
 <template>
-    <div class="sct-size">
-        <Scatter 
-            v-if="chartData"
-            :data="chartData"
-            :options="chartOptions"
-        />
+    <div>
+        <div v-if="chartData && chartData.datasets.length > 0" class="sct-size">
+            <Scatter 
+                :data="chartData"
+                :options="chartOptions"
+            />
+        </div>
+        <div v-else-if="selectedMonth && !chartData" class="no-data">
+            선택된 달에 대한 데이터가 없습니다.
+        </div>
     </div>
 </template>
+
+
+
 <script>
 import { ref, onMounted, watch } from "vue";
 import { Scatter } from "vue-chartjs";
@@ -225,13 +232,9 @@ export default {
 
 
         const findDataForMonth = (month) => {
-            const data = monthlyData.find((data) => data.month === month);
-            if (!data) {
-                console.error("No data found for the selected month:", month);
-                return null;
-            }
-            return data;
+            return monthlyData.find((data) => data.month === month) || null;
         };
+
 
         const updateChartData = (data) => {
             if (data) {
@@ -239,7 +242,7 @@ export default {
                     datasets: generateChartData(data.data),
                 };
             } else {
-                chartData.value = null;
+                chartData.value = null; // 데이터가 없으면 null 설정
             }
         };
 
@@ -285,5 +288,13 @@ export default {
 <style>
 .sct-size {
     height: 28.75rem;
+}
+.no-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 28.75rem; /* 메시지가 원래 차트 자리를 차지하도록 같은 높이 설정 */
+    font-size: 1.2rem;
+    color: #666;
 }
 </style>
