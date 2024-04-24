@@ -29,7 +29,7 @@ export default {
     props: {
         selectedMonth: {
             type: String,
-            required: true,
+            required: false,
         },
     },
 

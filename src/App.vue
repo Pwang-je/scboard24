@@ -37,9 +37,7 @@
     <cmpPie />
   </div>
 
-  <div>
-    <cmpSct />
-  </div>
+
 
 
 </template>
@@ -51,7 +49,6 @@ import cmpMathBarAvg from "./components/bar/cmpMathBarAvg.vue";
 import cmpRadar from "./components/radar/cmpRadar.vue";
 import cmpPie from "./components/pie/cmpPie.vue";
 import cmpStat from "./components/status/cmpStat.vue";
-import cmpSct from "./components/scatter/cmpSct.vue";
 import axios from "axios";
 
 export default {
@@ -63,7 +60,6 @@ export default {
     cmpRadar,
     cmpPie,
     cmpStat,
-    cmpSct,
   },
 
   data() {

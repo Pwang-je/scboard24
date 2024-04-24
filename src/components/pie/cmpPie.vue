@@ -14,11 +14,20 @@
       :key="selectedMonth"
     />
   </div>
+  
+  <div>
+    <cmpSct 
+      v-if="selectedMonth"
+      :selected-month="selectedMonth"
+    />
+  </div>
 
-  <cmpSct 
-    v-if="selectedMonth"
-    :selected-month="selectedMonth"
-  />
+  <div>
+    <cmpTable
+        v-if="selectedMonth"
+        :selected-month="selectedMonth"
+    />
+  </div>
 
 </template>
 
@@ -28,6 +37,7 @@ import Dropdown from "primevue/dropdown";
 import { Pie } from "vue-chartjs";
 import { Chart, registerables } from "chart.js";
 import cmpSct from "../scatter/cmpSct.vue";
+import cmpTable from "../datatable/cmpTable.vue";
 
 Chart.register(...registerables);
 
@@ -37,6 +47,7 @@ export default {
     Dropdown,
     Pie,
     cmpSct,
+    cmpTable,
   },
   setup() {
     const selectedMonth = ref("");
