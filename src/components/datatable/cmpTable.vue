@@ -1,6 +1,18 @@
 <template>
   <div>
-
+    <DataTable 
+      stripedRows
+      paginator
+      selectionMode="single"
+      :rowsPerPageOptions="[5, 10, 15, 20]"
+    >
+      <Column field="stdName"></Column>
+      <Column field="dePart"></Column>
+      <Column field="branCh"></Column>
+      <Column field="engScore"></Column>
+      <Column field="mathScore"></Column>
+    </DataTable>
+    
   </div>
 </template>
 
@@ -8,20 +20,26 @@
 import axios from "axios";
 import DataTable from "primevue/datatable";
 import Column from "primevue/column";
-import { Chart, registerables } from "chart.js";
-
-Chart.register(...registerables);
 
   export default {
     name: "cmpTable",
     components: {
       DataTable,
+      Column,
     },
     props: {
       selectedMonth: {
         type: String,
-        require: true, 
+        require: false,
+        default: "", 
       },
+    },
+
+
+    data() {
+      return {
+        key: value
+      }
     },
 
 
