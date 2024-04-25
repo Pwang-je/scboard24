@@ -1,20 +1,30 @@
 <template>
   <div>
-    <!-- 데이터가 있을 때만 DataTable을 보여줍니다 -->
     <DataTable
       v-if="filteredData.length > 0"
       :value="filteredData"
+      :rowClass="rowClass"
       paginator :rows="20"
       :rowsPerPageOptions="[5, 10, 20, 50]"
       dataKey="id"
-      striped
+      stripedRows
+      selectionMode="single"
       responsiveLayout="scroll"
+      scrollable 
+      scrollHeight="600px"
     >
-      <Column field="stdName" header="이름" sortable></Column>
-      <Column field="dePart" header="분원"></Column>
-      <Column field="branCh" header="계열" sortable></Column>
-      <Column field="engScore" header="영어점수" sortable></Column>
-      <Column field="mathScore" header="수학점수" sortable></Column>
+      <Column field="stdName" header="이름" sortable style="min-width: 100px"></Column>
+
+      <Column field="dePart" header="분원" sortable style="min-width: 100px">
+        <template #body="slotProps">
+          <span :class="getDepotClass(slotProps.data.dePart)">{{ slotProps.data.dePart }}</span>
+        </template>
+      </Column>
+
+      <Column field="branCh" header="계열" sortable style="min-width: 120px"></Column>
+      <Column field="engScore" header="영어점수" sortable style="min-width: 120px"></Column>
+      <Column field="mathScore" header="수학점수" sortable style="min-width: 120px"></Column>
+      <template #footer> In total students are {{ filteredData ? filteredData.length : 0 }} students.</template>
     </DataTable>
     <p v-else>선택된 월에 해당하는 데이터가 없습니다.</p>
   </div>
@@ -74,7 +84,44 @@ export default {
       } catch (error) {
         console.error("Error loading data: ", error);
       }
+    },
+    getDepotClass(dePart) {
+      if (dePart === '강남') return 'depot-gangnam';
+      if (dePart === '듀이카') return 'depot-duica';
+      if (dePart === '노원') return 'depot-nowon';
+      if (dePart === '일산') return 'depot-ilsan';
+      return '';
     }
   }
 }
 </script>
+
+<style>
+.depot-gangnam {
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  background-color: rgb(255, 99, 132); 
+  color: #FFFFFF; 
+}
+.depot-duica {
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  background-color: rgb(255, 205, 86); 
+  color: #FFFFFF; 
+}
+.depot-nowon {
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  background-color: rgb(6,166,108); 
+  color: #FFFFFF; 
+}
+.depot-ilsan {
+  padding: 0.4rem;
+  border-radius: 0.8rem;
+  background-color: rgb(54, 162, 235); 
+  color: #FFFFFF; 
+}
+</style>
+
+
+

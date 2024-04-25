@@ -87,8 +87,8 @@ export default {
         },        
       },
       animation: {
-        duration: 2000,
-        easing: 'easeInOutBack'
+        duration: 600,
+        easing: 'easeIn'
       },
     });
 
