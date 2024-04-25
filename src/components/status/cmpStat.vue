@@ -13,14 +13,6 @@
       {{ studentInfo.Cls }}
     </div>
 
-    <!-- <div>
-      {{ studentInfo.csatEng }}
-    </div>
-
-    <div>
-      {{ studentInfo.csatMath }}
-    </div> -->
-
 
 
   </div>

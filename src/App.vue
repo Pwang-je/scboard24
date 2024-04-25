@@ -1,15 +1,20 @@
 <template>
 
-  <div>
+
+  <div class="container mx-auto">
     <Dropdown
       v-model="selectedStudent"
       :options="students"
       optionLabel="name"
       placeholder="Select a student"
       filter
+      class="p-1"
     >
     </Dropdown>
     
+    <div class="p-4" style="background-color: red;">asdf</div>
+    <div class="p-4" style="background-color: blue;">asdf</div>
+
   </div>
 
   <div>
