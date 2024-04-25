@@ -15,6 +15,7 @@
     >
       <Column field="stdName" header="이름" sortable style="min-width: 100px"></Column>
 
+      // NOTE -. This part shows the colour change for each Department.
       <Column field="dePart" header="분원" sortable style="min-width: 100px">
         <template #body="slotProps">
           <span :class="getDepotClass(slotProps.data.dePart)">{{ slotProps.data.dePart }}</span>
@@ -75,7 +76,7 @@ export default {
       try {
         const response = await axios.get('https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/tableData.json');
         this.filteredData = response.data[this.selectedMonth] || [];
-        // 수학 점수가 비어있는 경우 'N/A'로 처리
+        //IMPORTANT -. If MATH score is empty, treat as 'blank'.
         this.filteredData.forEach(item => {
           if (!item.mathScore) {
             item.mathScore = '';
