@@ -44,7 +44,7 @@ import { Swiper, SwiperSlide } from "vue-awesome-swiper";
 import { Pagination } from "swiper";
 import axios from "axios";
 
-// NOTE -. import swiper module styles
+//NOTE -. import swiper module styles
 import "swiper/css";
 import "swiper/css/pagination";
 
