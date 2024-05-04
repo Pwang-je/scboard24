@@ -1,48 +1,55 @@
 <template>
 
 <div class="container mx-auto">
-  <Dropdown
-    v-model="selectedStudent"
-    :options="students"
-    optionLabel="name"
-    placeholder="Select a student"
-    filter
-    class="p-1"
-  >
-  </Dropdown>
-  
-  <div class="p-4" style="background-color: red;">asdf</div>
-  <div class="p-4" style="background-color: blue;">asdf</div>
+
+
+    <div class="m-4 grid grid-cols-2 content-center">
+      
+      <div class="grid grid-cols-1 gat-3">
+        <Dropdown
+          v-model="selectedStudent"
+          :options="students"
+          optionLabel="name"
+          placeholder="Select a student"
+          filter
+          class="w-full"
+        >
+        </Dropdown>
+      </div>
+
+      <div class="grid grid-cols-3 gap-3 content-center">
+        <cmpStat 
+          :selectedStudentName="selectedStudent ? selectedStudent.name: ''"
+          class=""
+        />
+      </div>
+
+    </div>
+
+
+
+
+
+  <div>
+    <cmpEngBarAvg :selected-student="selectedStudent" />
+  </div>
+
+
+  <div>
+    <cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
+  </div>
+    
+  <div>
+    <cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name: ''" style="height: 100%;" />
+  </div>
+
+
+  <div>
+    <cmpPie />
+  </div>
+
 
 </div>
-
-<div>
-  <cmpStat 
-    :selectedStudentName="selectedStudent ? selectedStudent.name: ''"
-  />
-</div>
-
-
-<div>
-  <cmpEngBarAvg :selected-student="selectedStudent" />
-</div>
-
-
-<div>
-  <cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
-</div>
-  
-<div>
-  <cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name: ''" style="height: 100%;" />
-</div>
-
-
-<div>
-  <cmpPie />
-</div>
-
-
-
 
 </template>
 

@@ -1,21 +1,21 @@
 <template>
-  <div>
+
+
       
-    <div>
+    <div class="rounded-md text-center" style="background-color: blue;">
       {{ studentInfo.engCls }}
     </div>
 
-    <div>
+    <div class="rounded-md text-center" style="background-color: red;">
       {{ studentInfo.mtCls }}
     </div>
 
-    <div>
+    <div class="rounded-md text-center" style="background-color: green;">
       {{ studentInfo.Cls }}
     </div>
 
 
 
-  </div>
 </template>
 <script>
 import axios from "axios";
