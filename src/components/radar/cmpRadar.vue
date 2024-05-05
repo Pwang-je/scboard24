@@ -60,20 +60,12 @@ export default {
           `https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/radarData.json`
         )
         .then(res => {
-          const studentData = res.data.find(
-            student => student.name === this.selectedStudentName
-          );
+          const studentData = res.data.find(student => student.name === this.selectedStudentName);
 
           if (studentData) {
-            const { ttlgrScore, ttlvcScore, ttllgScore, ttlrdScore } =
-              studentData;
+            const { ttlgrScore, ttlvcScore, ttllgScore, ttlrdScore } = studentData;
 
-            this.updateChartData(
-              ttlgrScore,
-              ttlvcScore,
-              ttllgScore,
-              ttlrdScore
-            );
+            this.updateChartData(ttlgrScore, ttlvcScore, ttllgScore, ttlrdScore);
           } else {
             console.log('Student data not found for', this.selectedStudentName);
           }

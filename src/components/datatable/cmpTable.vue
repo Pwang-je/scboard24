@@ -14,40 +14,18 @@
       scrollable
       scrollHeight="600px"
     >
-      <Column
-        field="stdName"
-        header="이름"
-        sortable
-        style="min-width: 100px"
-      ></Column>
+      <Column field="stdName" header="이름" sortable style="min-width: 100px"></Column>
 
       <!-- NOTE -. This part shows the colour change for each Department. -->
       <Column field="dePart" header="분원" sortable style="min-width: 100px">
         <template #body="slotProps">
-          <span :class="getDepotClass(slotProps.data.dePart)">{{
-            slotProps.data.dePart
-          }}</span>
+          <span :class="getDepotClass(slotProps.data.dePart)">{{ slotProps.data.dePart }}</span>
         </template>
       </Column>
 
-      <Column
-        field="branCh"
-        header="계열"
-        sortable
-        style="min-width: 120px"
-      ></Column>
-      <Column
-        field="engScore"
-        header="영어점수"
-        sortable
-        style="min-width: 120px"
-      ></Column>
-      <Column
-        field="mathScore"
-        header="수학점수"
-        sortable
-        style="min-width: 120px"
-      ></Column>
+      <Column field="branCh" header="계열" sortable style="min-width: 120px"></Column>
+      <Column field="engScore" header="영어점수" sortable style="min-width: 120px"></Column>
+      <Column field="mathScore" header="수학점수" sortable style="min-width: 120px"></Column>
       <template #footer>
         In total students are
         {{ filteredData ? filteredData.length : 0 }} students.</template

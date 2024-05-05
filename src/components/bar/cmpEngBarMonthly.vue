@@ -1,14 +1,11 @@
 <template>
   <div>
-    <Bar
-      :data="monthyGramChartData"
-      :options="chartOptions"
-      v-if="monthyGramChartData"
-    />
+    <Line :data="monthlyGramChartData" :options="monthlyChartOptions" v-if="monthlyGramChartData" />
   </div>
 </template>
+
 <script>
-import { Bar } from 'vue-chartjs';
+import { Line } from 'vue-chartjs';
 import { Chart, registerables } from 'chart.js';
 import axios from 'axios';
 
@@ -17,26 +14,37 @@ Chart.register(...registerables);
 export default {
   name: 'cmpMonthly',
   components: {
-    Bar,
+    Line, // Bar에서 Line으로 변경
   },
 
   data() {
-    const chartOptions = {
+    const baseChartOptions = {
       responsive: true,
       maintainAspectRatio: false,
       devicePixelRatio: 2,
       scales: {
-        y: { max: 100 },
+        y: {
+          suggestedMax: 25, // y축의 최대 값 조정
+        },
+        x: {
+          grid: {
+            display: false,
+          },
+        },
       },
       plugins: {
         legend: {
           labels: {
-            font: { family: 'omyu_pretty', size: 14 },
+            font: {
+              family: 'omyu_pretty',
+              size: 14,
+            },
           },
         },
         title: {
           display: true,
           align: 'start',
+          text: '문법', // 차트 제목
           font: {
             size: 30,
             weight: 'bold',
@@ -55,46 +63,43 @@ export default {
     };
 
     return {
-      monthyGramChartData: null,
-      monthyChartOptions: {
-        ...chartOptions,
-        plugins: {
-          ...chartOptions.plugins,
-          title: {
-            ...chartOptions.plugins.title,
-            text: '문법',
-          },
-        },
-        scales: { y: { max: 25 }, x: { grid: { display: false } } },
-      },
+      monthlyGramChartData: null,
+      monthlyChartOptions: baseChartOptions,
     };
   },
 
   created() {
-    this.updateMonthyGramChartData();
+    this.updateMonthlyGramChartData();
   },
-  // TODO -. something problems here.
-  methods: {
-    async updateMonthyGramChartData() {
-      const response = await axios.get(
-        'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json'
-      );
-      const mhyData = response.data;
-      console.log(mhydata);
 
-      const { gramjan, gramfeb, grammar, gramapr } = mhyData;
-      this.monthyGramChartData = {
-        labels: ['1', '2', '3', '4'],
-        datasets: [
-          {
-            type: 'line',
-            data: [gramjan, gramfeb, grammar, gramapr],
-            borderColor: 'rgb(255, 99, 132)',
-          },
-        ],
-      };
+  methods: {
+    async updateMonthlyGramChartData() {
+      try {
+        const response = await axios.get(
+          'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json'
+        );
+        const { monthlygramjan, monthlygramfeb, monthlygrammar, monthlygramapr } = response.data;
+        this.monthlyGramChartData = {
+          labels: ['1월', '2월', '3월', '4월'],
+          datasets: [
+            {
+              type: 'line', // 차트 유형을 line으로 설정
+              data: [monthlygramjan, monthlygramfeb, monthlygrammar, monthlygramapr],
+              backgroundColor: 'rgba(255, 99, 132, 0.5)',
+              borderColor: 'rgb(255, 99, 132)',
+              borderWidth: 2,
+              tension: 0.4, // 선의 곡률을 추가
+            },
+          ],
+        };
+      } catch (error) {
+        console.error('Data fetch error:', error);
+      }
     },
   },
 };
 </script>
-<style></style>
+
+<style scoped>
+/* 여기에 필요한 CSS 스타일을 추가하세요 */
+</style>

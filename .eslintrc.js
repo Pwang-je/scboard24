@@ -7,11 +7,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: [
-    'plugin:vue/vue3-essential',
-    'eslint:recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: ['plugin:vue/vue3-essential', 'eslint:recommended', 'plugin:prettier/recommended'],
   plugins: ['vue', 'prettier'],
   rules: {
     'prettier/prettier': 'error',

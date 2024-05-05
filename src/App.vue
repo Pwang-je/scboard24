@@ -14,10 +14,7 @@
       </div>
 
       <div class="content-center col-span-2 gap-1">
-        <cmpStat
-          :selectedStudentName="selectedStudent ? selectedStudent.name : ''"
-          class=""
-        />
+        <cmpStat :selectedStudentName="selectedStudent ? selectedStudent.name : ''" class="" />
       </div>
     </div>
 

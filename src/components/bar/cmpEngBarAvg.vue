@@ -1,9 +1,5 @@
 <template>
-  <swiper
-    :slides-per-view="1"
-    :pagination="{ dynamicBullets: true }"
-    :modules="modules"
-  >
+  <swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
     <swiper-slide>
       <div class="test-bar">
         <Bar
@@ -222,18 +218,7 @@ export default {
         const { gramjan, gramfeb, grammar, gramapr } = this.selectedStudent;
 
         this.gramChartData = {
-          labels: [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',
@@ -271,18 +256,7 @@ export default {
         const { vocajan, vocafeb, vocamar, vocaapr } = this.selectedStudent;
 
         this.vocaChartData = {
-          labels: [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',
@@ -322,18 +296,7 @@ export default {
         const { logicjan, logicfeb, logicmar, logicapr } = this.selectedStudent;
 
         this.logicChartData = {
-          labels: [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',
@@ -371,18 +334,7 @@ export default {
         const { readjan, readfeb, readmar, readapr } = this.selectedStudent;
 
         this.readChartData = {
-          labels: [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',
@@ -420,18 +372,7 @@ export default {
         const { totjan, totfeb, totmar, totapr } = this.selectedStudent;
 
         this.totEngChartData = {
-          labels: [
-            '1월',
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',

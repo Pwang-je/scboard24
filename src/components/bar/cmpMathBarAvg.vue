@@ -1,56 +1,32 @@
 <template>
-  <swiper
-    :slides-per-view="1"
-    :pagination="{ dynamicBullets: true }"
-    :modules="modules"
-  >
+  <swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
     <swiper-slide>
       <div class="chart-style">
-        <Bar
-          :data="clCls1ChartData"
-          :options="clCls1ChartOptions"
-          v-if="clCls1ChartData"
-        />
+        <Bar :data="clCls1ChartData" :options="clCls1ChartOptions" v-if="clCls1ChartData" />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="chart-style">
-        <Bar
-          :data="clCls2ChartData"
-          :options="clCls2ChartOptions"
-          v-if="clCls2ChartData"
-        />
+        <Bar :data="clCls2ChartData" :options="clCls2ChartOptions" v-if="clCls2ChartData" />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="chart-style">
-        <Bar
-          :data="clCls3ChartData"
-          :options="clCls3ChartOptions"
-          v-if="clCls3ChartData"
-        />
+        <Bar :data="clCls3ChartData" :options="clCls3ChartOptions" v-if="clCls3ChartData" />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="chart-style">
-        <Bar
-          :data="lnrAlgbrChartData"
-          :options="lnrAlgbrChartOptions"
-          v-if="lnrAlgbrChartData"
-        />
+        <Bar :data="lnrAlgbrChartData" :options="lnrAlgbrChartOptions" v-if="lnrAlgbrChartData" />
       </div>
     </swiper-slide>
   </swiper>
 
   <div class="chart-style">
-    <bar
-      :data="totalMathChartData"
-      :options="totalMathChartOptions"
-      v-if="totalMathChartData"
-    />
+    <bar :data="totalMathChartData" :options="totalMathChartOptions" v-if="totalMathChartData" />
   </div>
 </template>
 
@@ -177,17 +153,7 @@ export default {
         const { clcls1feb, clcls1mar, clcls1apr } = this.selectedStudent;
 
         this.clCls1ChartData = {
-          labels: [
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',
@@ -201,11 +167,7 @@ export default {
             {
               type: 'line',
               label: '평균',
-              data: [
-                avgCls1Data.avgCls1Feb,
-                avgCls1Data.avgCls1Mar,
-                avgCls1Data.avgCls1Apr,
-              ],
+              data: [avgCls1Data.avgCls1Feb, avgCls1Data.avgCls1Mar, avgCls1Data.avgCls1Apr],
               backgroundColor: 'rgb(102, 205, 170, 0.6)',
               borderColor: 'rgb(102, 205, 170, 0.6)',
             },
@@ -322,17 +284,7 @@ export default {
         const { totmathfeb, totmathmar, totmathapr } = this.selectedStudent;
 
         this.totalMathChartData = {
-          labels: [
-            '2월',
-            '3월',
-            '4월',
-            '5월',
-            '6월',
-            '7월',
-            '8월',
-            '9월',
-            '10월',
-          ],
+          labels: ['2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
               type: 'bar',
