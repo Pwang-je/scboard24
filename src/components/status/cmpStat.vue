@@ -1,38 +1,32 @@
 <template>
+  <div class="text-center rounded-md" style="background-color: blue">
+    {{ studentInfo.engCls }}
+  </div>
 
+  <div class="text-center rounded-md" style="background-color: red">
+    {{ studentInfo.mtCls }}
+  </div>
 
-      
-    <div class="rounded-md text-center" style="background-color: blue;">
-      {{ studentInfo.engCls }}
-    </div>
-
-    <div class="rounded-md text-center" style="background-color: red;">
-      {{ studentInfo.mtCls }}
-    </div>
-
-    <div class="rounded-md text-center" style="background-color: green;">
-      {{ studentInfo.Cls }}
-    </div>
-
-
-
+  <div class="text-center rounded-md" style="background-color: green">
+    {{ studentInfo.Cls }}
+  </div>
 </template>
 <script>
-import axios from "axios";
+import axios from 'axios';
 
 export default {
-  name: "cmpStat",
-  props: ["selectedStudentName"], // prop에서 props로 변경
+  name: 'cmpStat',
+  props: ['selectedStudentName'], // prop에서 props로 변경
 
   data() {
     return {
       studentInfo: {
-        name: "",
-        engCls: "", // engClas에서 engCls로 변경
-        mtCls: "",
-        Cls: "",
-        csatEng: "",
-        csatMath: "",
+        name: '',
+        engCls: '', // engClas에서 engCls로 변경
+        mtCls: '',
+        Cls: '',
+        csatEng: '',
+        csatMath: '',
       },
       loading: false, // 로딩 상태 추가
     };
@@ -40,7 +34,7 @@ export default {
 
   watch: {
     selectedStudentName(newSelectedStudentName) {
-      console.log("cmpStat.vue selectedStudentName: ", newSelectedStudentName);
+      console.log('cmpStat.vue selectedStudentName: ', newSelectedStudentName);
       this.getStudentData();
     },
   },
@@ -53,27 +47,25 @@ export default {
           `https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/statData.json?name=${this.selectedStudentName}`
         ); // 백틱과 ${} 수정
 
-        console.log("selected name : ", this.selectedStudentName);
+        console.log('selected name : ', this.selectedStudentName);
 
         const selectedStudent = response.data.find(
-          (student) => student.name === this.selectedStudentName
+          student => student.name === this.selectedStudentName
         );
 
         if (selectedStudent) {
           this.studentInfo = selectedStudent;
         } else {
-          console.error("Student name not found.");
+          console.error('Student name not found.');
         }
       } catch (error) {
-        console.error("Error retrieving student data: ", error);
+        console.error('Error retrieving student data: ', error);
       } finally {
         this.loading = false;
       }
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
-<style>
-  
-</style>
+<style></style>

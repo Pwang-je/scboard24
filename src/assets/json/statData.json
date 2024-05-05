@@ -1,1066 +1,1066 @@
 [
   {
-      "name": "강효원",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 5
-  },
-  {
-      "name": "고유빈",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 6
-  },
-  {
-      "name": "곽태원",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 2,
-      "csatMath": 7
-  },
-  {
-      "name": "권영도",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 5,
-      "csatMath": 4
-  },
-  {
-      "name": "권정연",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 5
-  },
-  {
-      "name": "김가은",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 4,
-      "csatMath": ""
-  },
-  {
-      "name": "김건",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": 6,
-      "csatMath": ""
-  },
-  {
-      "name": "김관웅",
-      "engCls": "기본반",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 2
-  },
-  {
-      "name": "김근아",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 3,
-      "csatMath": ""
-  },
-  {
-      "name": "김기범",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "사회복지학과",
-      "csatEng": "",
-      "csatMath": ""
-  },
-  {
-      "name": "김나연",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 1,
-      "csatMath": ""
-  },
-  {
-      "name": "김단아",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 5,
-      "csatMath": 5
-  },
-  {
-      "name": "김도연",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "멀티미디어학과",
-      "csatEng": 2,
-      "csatMath": 5
+    "name": "강효원",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 5
+  },
+  {
+    "name": "고유빈",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 6
+  },
+  {
+    "name": "곽태원",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 2,
+    "csatMath": 7
+  },
+  {
+    "name": "권영도",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 5,
+    "csatMath": 4
+  },
+  {
+    "name": "권정연",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 5
+  },
+  {
+    "name": "김가은",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 4,
+    "csatMath": ""
+  },
+  {
+    "name": "김건",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": 6,
+    "csatMath": ""
+  },
+  {
+    "name": "김관웅",
+    "engCls": "기본반",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 2
+  },
+  {
+    "name": "김근아",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 3,
+    "csatMath": ""
+  },
+  {
+    "name": "김기범",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "사회복지학과",
+    "csatEng": "",
+    "csatMath": ""
+  },
+  {
+    "name": "김나연",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 1,
+    "csatMath": ""
+  },
+  {
+    "name": "김단아",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 5,
+    "csatMath": 5
+  },
+  {
+    "name": "김도연",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "멀티미디어학과",
+    "csatEng": 2,
+    "csatMath": 5
   },
   {
-      "name": "김동현",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 3
+    "name": "김동현",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 3
   },
   {
-      "name": "김미소",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 4,
-      "csatMath": 4
+    "name": "김미소",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 4,
+    "csatMath": 4
   },
   {
-      "name": "김민서",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": ""
+    "name": "김민서",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": ""
   },
   {
-      "name": "김민우",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "김민우",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "김민준",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "김민준",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "김서우",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 4,
-      "csatMath": 4
+    "name": "김서우",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 4,
+    "csatMath": 4
   },
   {
-      "name": "김세희",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 6,
-      "csatMath": 7
+    "name": "김세희",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 6,
+    "csatMath": 7
   },
   {
-      "name": "김유리",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 3,
-      "csatMath": ""
+    "name": "김유리",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 3,
+    "csatMath": ""
   },
   {
-      "name": "김유민",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 6,
-      "csatMath": 5
+    "name": "김유민",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 6,
+    "csatMath": 5
   },
   {
-      "name": "김유은",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "김유은",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "김윤성",
-      "engCls": "기본반",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 4,
-      "csatMath": 5
+    "name": "김윤성",
+    "engCls": "기본반",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 4,
+    "csatMath": 5
   },
   {
-      "name": "김윤환",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 2,
-      "csatMath": 6
+    "name": "김윤환",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 2,
+    "csatMath": 6
   },
   {
-      "name": "김은상",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "김은상",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "김재성",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "김재성",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "김정민",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "김정민",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "김종은",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "건강관리학과",
-      "csatEng": 5,
-      "csatMath": 6
+    "name": "김종은",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "건강관리학과",
+    "csatEng": 5,
+    "csatMath": 6
   },
   {
-      "name": "김지윤",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 4
+    "name": "김지윤",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 4
   },
   {
-      "name": "김진경",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 2,
-      "csatMath": ""
+    "name": "김진경",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 2,
+    "csatMath": ""
   },
   {
-      "name": "김태우",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 7
+    "name": "김태우",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 7
   },
   {
-      "name": "김하윤",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 6,
-      "csatMath": ""
+    "name": "김하윤",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 6,
+    "csatMath": ""
   },
   {
-      "name": "김현영",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 5,
-      "csatMath": 6
+    "name": "김현영",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 5,
+    "csatMath": 6
   },
   {
-      "name": "김혜빈",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "김혜빈",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "김혜은",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": "",
-      "csatMath": 8
+    "name": "김혜은",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": "",
+    "csatMath": 8
   },
   {
-      "name": "남여진",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "남여진",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "류수찬",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "행정학과",
-      "csatEng": 4,
-      "csatMath": 6
+    "name": "류수찬",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "행정학과",
+    "csatEng": 4,
+    "csatMath": 6
   },
   {
-      "name": "맹지우",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 4,
-      "csatMath": 4
+    "name": "맹지우",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 4,
+    "csatMath": 4
   },
   {
-      "name": "문경희",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "사회복지학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "문경희",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "사회복지학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "문제혁",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 5,
-      "csatMath": 5
+    "name": "문제혁",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 5,
+    "csatMath": 5
   },
   {
-      "name": "문해름",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "문해름",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "문해찬",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "행정학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "문해찬",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "행정학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "박기현",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "사회복지학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "박기현",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "사회복지학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "박동민",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "박동민",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "박민지",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 2,
-      "csatMath": 6
+    "name": "박민지",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 2,
+    "csatMath": 6
   },
   {
-      "name": "박진형",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 4,
-      "csatMath": 1
+    "name": "박진형",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 4,
+    "csatMath": 1
   },
   {
-      "name": "방민솔",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": 5,
-      "csatMath": 5
+    "name": "방민솔",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": 5,
+    "csatMath": 5
   },
   {
-      "name": "백수연",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 1,
-      "csatMath": 3
+    "name": "백수연",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 1,
+    "csatMath": 3
   },
   {
-      "name": "백은서",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "멀티미디어학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "백은서",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "멀티미디어학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "백정안",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "백정안",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "백태경",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 4,
-      "csatMath": 4
+    "name": "백태경",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 4,
+    "csatMath": 4
   },
   {
-      "name": "변부윤",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 5,
-      "csatMath": 7
+    "name": "변부윤",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 5,
+    "csatMath": 7
   },
   {
-      "name": "변준영",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 1,
-      "csatMath": 4
+    "name": "변준영",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 1,
+    "csatMath": 4
   },
   {
-      "name": "서보은",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "사회복지학과",
-      "csatEng": 5,
-      "csatMath": 5
+    "name": "서보은",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "사회복지학과",
+    "csatEng": 5,
+    "csatMath": 5
   },
   {
-      "name": "서태랑",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "서태랑",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "선지우",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 2,
-      "csatMath": 4
+    "name": "선지우",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 2,
+    "csatMath": 4
   },
   {
-      "name": "성정호",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "멀티미디어학과",
-      "csatEng": 5,
-      "csatMath": 8
+    "name": "성정호",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "멀티미디어학과",
+    "csatEng": 5,
+    "csatMath": 8
   },
   {
-      "name": "손혜린",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "손혜린",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "신기륜",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "신기륜",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "신예서",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "멀티미디어학과",
-      "csatEng": 2,
-      "csatMath": ""
+    "name": "신예서",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "멀티미디어학과",
+    "csatEng": 2,
+    "csatMath": ""
   },
   {
-      "name": "신재영",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 2,
-      "csatMath": ""
+    "name": "신재영",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 2,
+    "csatMath": ""
   },
   {
-      "name": "안정연",
-      "engCls": "문풀A",
-      "mtCls": "미적분3",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 4
+    "name": "안정연",
+    "engCls": "문풀A",
+    "mtCls": "미적분3",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 4
   },
   {
-      "name": "안현빈",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "안현빈",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "양아연",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 5
+    "name": "양아연",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 5
   },
   {
-      "name": "양예진",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 3
+    "name": "양예진",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 3
   },
   {
-      "name": "양정환",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "양정환",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "양진호",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "사회복지학과",
-      "csatEng": 5,
-      "csatMath": 6
+    "name": "양진호",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "사회복지학과",
+    "csatEng": 5,
+    "csatMath": 6
   },
   {
-      "name": "양혜림",
-      "engCls": "",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 5,
-      "csatMath": 7
+    "name": "양혜림",
+    "engCls": "",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 5,
+    "csatMath": 7
   },
   {
-      "name": "원민지",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 5,
-      "csatMath": ""
+    "name": "원민지",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 5,
+    "csatMath": ""
   },
   {
-      "name": "원세빈",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "원세빈",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "유수화",
-      "engCls": "기본반",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 3
+    "name": "유수화",
+    "engCls": "기본반",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 3
   },
   {
-      "name": "유승현",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 5,
-      "csatMath": 5
+    "name": "유승현",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 5,
+    "csatMath": 5
   },
   {
-      "name": "유지연",
-      "engCls": "기본반",
-      "mtCls": "미적분2",
-      "Cls": "멀티미디어학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "유지연",
+    "engCls": "기본반",
+    "mtCls": "미적분2",
+    "Cls": "멀티미디어학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "유지원",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 5,
-      "csatMath": 5
+    "name": "유지원",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 5,
+    "csatMath": 5
   },
   {
-      "name": "이나경",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "행정학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이나경",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "행정학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이동헌",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이동헌",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이선우",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "사회복지학과",
-      "csatEng": 4,
-      "csatMath": 6
+    "name": "이선우",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "사회복지학과",
+    "csatEng": 4,
+    "csatMath": 6
   },
   {
-      "name": "이선유",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "이선유",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "이소온",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이소온",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이소은",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "이소은",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "이수빈_1",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": 2,
-      "csatMath": 5
+    "name": "이수빈_1",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": 2,
+    "csatMath": 5
   },
   {
-      "name": "이수빈_2",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경찰행정학과",
-      "csatEng": 6,
-      "csatMath": ""
+    "name": "이수빈_2",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경찰행정학과",
+    "csatEng": 6,
+    "csatMath": ""
   },
   {
-      "name": "이수빈_3",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "이수빈_3",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "이수아",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "이수아",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "이신엽",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이신엽",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이연지",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "이연지",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "이용재",
-      "engCls": "기본반",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이용재",
+    "engCls": "기본반",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이우신",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "이우신",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "이유나",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": 3,
-      "csatMath": 4
+    "name": "이유나",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": 3,
+    "csatMath": 4
   },
   {
-      "name": "이은서",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이은서",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이은지",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이은지",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이의정",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이의정",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이재원_1",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": 2,
-      "csatMath": 7
+    "name": "이재원_1",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": 2,
+    "csatMath": 7
   },
   {
-      "name": "이재원_2",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 7,
-      "csatMath": 5
+    "name": "이재원_2",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 7,
+    "csatMath": 5
   },
   {
-      "name": "이주호",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 3
+    "name": "이주호",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 3
   },
   {
-      "name": "이지우",
-      "engCls": "문풀B",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 5
+    "name": "이지우",
+    "engCls": "문풀B",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 5
   },
   {
-      "name": "이하은",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "이하은",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "이효우",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 7
+    "name": "이효우",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 7
   },
   {
-      "name": "인서준",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "인서준",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "임다은",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 2,
-      "csatMath": ""
+    "name": "임다은",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 2,
+    "csatMath": ""
   },
   {
-      "name": "임지호",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": 2,
-      "csatMath": 5
+    "name": "임지호",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": 2,
+    "csatMath": 5
   },
   {
-      "name": "장윤서",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "멀티미디어학과",
-      "csatEng": 3,
-      "csatMath": 5
+    "name": "장윤서",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "멀티미디어학과",
+    "csatEng": 3,
+    "csatMath": 5
   },
   {
-      "name": "전예슬",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 6,
-      "csatMath": ""
+    "name": "전예슬",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 6,
+    "csatMath": ""
   },
   {
-      "name": "전지민",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 5,
-      "csatMath": 4
+    "name": "전지민",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 5,
+    "csatMath": 4
   },
   {
-      "name": "전지연",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 2
+    "name": "전지연",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 2
   },
   {
-      "name": "전진경",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "광고홍보학과",
-      "csatEng": 4,
-      "csatMath": ""
+    "name": "전진경",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "광고홍보학과",
+    "csatEng": 4,
+    "csatMath": ""
   },
   {
-      "name": "전찬웅",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "멀티미디어학과",
-      "csatEng": 8,
-      "csatMath": 8
+    "name": "전찬웅",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "멀티미디어학과",
+    "csatEng": 8,
+    "csatMath": 8
   },
   {
-      "name": "정동현",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "정동현",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "정민혜",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 5,
-      "csatMath": 8
+    "name": "정민혜",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 5,
+    "csatMath": 8
   },
   {
-      "name": "정병권",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 1,
-      "csatMath": ""
+    "name": "정병권",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 1,
+    "csatMath": ""
   },
   {
-      "name": "정서연",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 4,
-      "csatMath": 5
+    "name": "정서연",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 4,
+    "csatMath": 5
   },
   {
-      "name": "정원석",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 2,
-      "csatMath": 5
+    "name": "정원석",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 2,
+    "csatMath": 5
   },
   {
-      "name": "정준민",
-      "engCls": "적용",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 6,
-      "csatMath": 3
+    "name": "정준민",
+    "engCls": "적용",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 6,
+    "csatMath": 3
   },
   {
-      "name": "정하림",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 6,
-      "csatMath": ""
+    "name": "정하림",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 6,
+    "csatMath": ""
   },
   {
-      "name": "정현태",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 5,
-      "csatMath": 4
+    "name": "정현태",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 5,
+    "csatMath": 4
   },
   {
-      "name": "조민혁",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 2,
-      "csatMath": 1
+    "name": "조민혁",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 2,
+    "csatMath": 1
   },
   {
-      "name": "조수연",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": 4,
-      "csatMath": 7
+    "name": "조수연",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": 4,
+    "csatMath": 7
   },
   {
-      "name": "조영우",
-      "engCls": "",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 5,
-      "csatMath": 5
+    "name": "조영우",
+    "engCls": "",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 5,
+    "csatMath": 5
   },
   {
-      "name": "조예지",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "심리학과",
-      "csatEng": "",
-      "csatMath": ""
+    "name": "조예지",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "심리학과",
+    "csatEng": "",
+    "csatMath": ""
   },
   {
-      "name": "조준희",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "경영학과",
-      "csatEng": 4,
-      "csatMath": 5
-  },
-  {
-      "name": "지유경",
-      "engCls": "적용",
-      "mtCls": "미적분2",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 7,
-      "csatMath": 7
-  },
-  {
-      "name": "지효현",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
-  },
-  {
-      "name": "차규진",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
-  },
-  {
-      "name": "천승현",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "행정학과",
-      "csatEng": 2,
-      "csatMath": ""
-  },
-  {
-      "name": "최민석",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": "",
-      "csatMath": ""
-  },
-  {
-      "name": "최유정",
-      "engCls": "적용",
-      "mtCls": "",
-      "Cls": "멀티미디어학과",
-      "csatEng": 3,
-      "csatMath": 3
-  },
-  {
-      "name": "최진주",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "건강관리학과",
-      "csatEng": 5,
-      "csatMath": ""
-  },
-  {
-      "name": "한성빈",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 4
-  },
-  {
-      "name": "한에스더",
-      "engCls": "기본반",
-      "mtCls": "미적분2",
-      "Cls": "경영학과",
-      "csatEng": 3,
-      "csatMath": 4
-  },
-  {
-      "name": "허윤재",
-      "engCls": "기본반",
-      "mtCls": "",
-      "Cls": "사회복지학과",
-      "csatEng": 7,
-      "csatMath": ""
-  },
-  {
-      "name": "홍승리",
-      "engCls": "문풀B",
-      "mtCls": "미적분3",
-      "Cls": "컴퓨터공학과",
-      "csatEng": 3,
-      "csatMath": 1
-  },
-  {
-      "name": "황태현",
-      "engCls": "문풀A",
-      "mtCls": "",
-      "Cls": "영화학과",
-      "csatEng": 8,
-      "csatMath": 8
+    "name": "조준희",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "경영학과",
+    "csatEng": 4,
+    "csatMath": 5
+  },
+  {
+    "name": "지유경",
+    "engCls": "적용",
+    "mtCls": "미적분2",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 7,
+    "csatMath": 7
+  },
+  {
+    "name": "지효현",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
+  },
+  {
+    "name": "차규진",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
+  },
+  {
+    "name": "천승현",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "행정학과",
+    "csatEng": 2,
+    "csatMath": ""
+  },
+  {
+    "name": "최민석",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": "",
+    "csatMath": ""
+  },
+  {
+    "name": "최유정",
+    "engCls": "적용",
+    "mtCls": "",
+    "Cls": "멀티미디어학과",
+    "csatEng": 3,
+    "csatMath": 3
+  },
+  {
+    "name": "최진주",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "건강관리학과",
+    "csatEng": 5,
+    "csatMath": ""
+  },
+  {
+    "name": "한성빈",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 4
+  },
+  {
+    "name": "한에스더",
+    "engCls": "기본반",
+    "mtCls": "미적분2",
+    "Cls": "경영학과",
+    "csatEng": 3,
+    "csatMath": 4
+  },
+  {
+    "name": "허윤재",
+    "engCls": "기본반",
+    "mtCls": "",
+    "Cls": "사회복지학과",
+    "csatEng": 7,
+    "csatMath": ""
+  },
+  {
+    "name": "홍승리",
+    "engCls": "문풀B",
+    "mtCls": "미적분3",
+    "Cls": "컴퓨터공학과",
+    "csatEng": 3,
+    "csatMath": 1
+  },
+  {
+    "name": "황태현",
+    "engCls": "문풀A",
+    "mtCls": "",
+    "Cls": "영화학과",
+    "csatEng": 8,
+    "csatMath": 8
   }
 ]

@@ -1,58 +1,75 @@
 <template>
-  <swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
-
+  <swiper
+    :slides-per-view="1"
+    :pagination="{ dynamicBullets: true }"
+    :modules="modules"
+  >
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="clCls1ChartData" :options="clCls1ChartOptions" v-if="clCls1ChartData" />
+        <Bar
+          :data="clCls1ChartData"
+          :options="clCls1ChartOptions"
+          v-if="clCls1ChartData"
+        />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="clCls2ChartData" :options="clCls2ChartOptions" v-if="clCls2ChartData" />
-      </div>
-    </swiper-slide>
-
-
-    <swiper-slide>
-      <div class="test-bar">
-        <Bar :data="clCls3ChartData" :options="clCls3ChartOptions" v-if="clCls3ChartData" />
+        <Bar
+          :data="clCls2ChartData"
+          :options="clCls2ChartOptions"
+          v-if="clCls2ChartData"
+        />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="lnrAlgbrChartData" :options="lnrAlgbrChartOptions" v-if="lnrAlgbrChartData" />
+        <Bar
+          :data="clCls3ChartData"
+          :options="clCls3ChartOptions"
+          v-if="clCls3ChartData"
+        />
       </div>
     </swiper-slide>
 
-
+    <swiper-slide>
+      <div class="test-bar">
+        <Bar
+          :data="lnrAlgbrChartData"
+          :options="lnrAlgbrChartOptions"
+          v-if="lnrAlgbrChartData"
+        />
+      </div>
+    </swiper-slide>
   </swiper>
 
   <div class="test-bar">
-    <bar :data="totalMathChartData" :options="totalMathChartOptions" v-if="totalMathChartData" />
+    <bar
+      :data="totalMathChartData"
+      :options="totalMathChartOptions"
+      v-if="totalMathChartData"
+    />
   </div>
-
-
-
 </template>
 
 <script>
-import { Bar } from "vue-chartjs";
-import { Chart, registerables } from "chart.js";
-import { Swiper, SwiperSlide } from "vue-awesome-swiper";
-import { Pagination } from "swiper";
-import axios from "axios";
+import { Bar } from 'vue-chartjs';
+import { Chart, registerables } from 'chart.js';
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+import { Pagination } from 'swiper';
+import axios from 'axios';
 
 // import swiper module styles
-import "swiper/css";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 Chart.register(...registerables);
 
 export default {
-  props: ["selectedStudent"],
-  name: "cmpMathBar",
+  props: ['selectedStudent'],
+  name: 'cmpMathBar',
   components: {
     Swiper,
     SwiperSlide,
@@ -76,14 +93,13 @@ export default {
       plugins: {
         legend: {
           labels: {
-            font: { family: "SUITE-SemiBold", size: 14 },
+            font: { family: 'SUITE-SemiBold', size: 14 },
           },
         },
       },
     };
 
     return {
-      
       clCls1ChartData: null,
       clCls1ChartOptions: {
         ...chartOptions,
@@ -125,8 +141,6 @@ export default {
         ...chartOptions,
         scales: { y: { max: 100 }, x: { grid: { display: false } } },
       },
-
-
     };
   },
 
@@ -153,36 +167,47 @@ export default {
       }
     },
 
-
     async updateClcls1ChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls1.json");
-      const avgCls1Data = response.data; 
+      const response = await axios.get(
+        'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls1.json'
+      );
+      const avgCls1Data = response.data;
 
       if (this.selectedStudent) {
         const { clcls1feb, clcls1mar, clcls1apr } = this.selectedStudent;
 
         this.clCls1ChartData = {
-          labels: ["2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
+          labels: [
+            '2월',
+            '3월',
+            '4월',
+            '5월',
+            '6월',
+            '7월',
+            '8월',
+            '9월',
+            '10월',
+          ],
           datasets: [
             {
-              type: "bar",
-              label: "미적분1",
-              backgroundColor: "rgba(102, 205, 170, 0.2)",
-              borderColor: "rgb(102, 205, 170)",
+              type: 'bar',
+              label: '미적분1',
+              backgroundColor: 'rgba(102, 205, 170, 0.2)',
+              borderColor: 'rgb(102, 205, 170)',
               data: [clcls1feb, clcls1mar, clcls1apr],
               borderWidth: 2,
-              borderRadius: [{topLeft: 20, topRight: 20}],
+              borderRadius: [{ topLeft: 20, topRight: 20 }],
             },
             {
-              type: "line",
-              label: "평균",
+              type: 'line',
+              label: '평균',
               data: [
                 avgCls1Data.avgCls1Feb,
                 avgCls1Data.avgCls1Mar,
                 avgCls1Data.avgCls1Apr,
               ],
-              backgroundColor: "rgb(102, 205, 170, 0.6)",
-              borderColor: "rgb(102, 205, 170, 0.6)",
+              backgroundColor: 'rgb(102, 205, 170, 0.6)',
+              borderColor: 'rgb(102, 205, 170, 0.6)',
             },
           ],
         };
@@ -190,32 +215,31 @@ export default {
     },
 
     async updateClcls2ChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls2.json");
+      const response = await axios.get(
+        'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls2.json'
+      );
       const avgCls2Data = response.data;
-      
+
       if (this.selectedStudent) {
         const { clcls2apr } = this.selectedStudent;
 
         this.clCls2ChartData = {
-          labels: ["4월", "5월", "6월", "7월", "8월", "9월", "10월"],
+          labels: ['4월', '5월', '6월', '7월', '8월', '9월', '10월'],
           datasets: [
             {
-              type: "bar",
-              label: "미적분2",
-              backgroundColor: "rgba(204, 122, 198, 0.2)",
-              borderColor: "rgb(204, 122, 198)",
+              type: 'bar',
+              label: '미적분2',
+              backgroundColor: 'rgba(204, 122, 198, 0.2)',
+              borderColor: 'rgb(204, 122, 198)',
               data: [clcls2apr],
               borderWidth: 2,
             },
             {
-              type: "line",
-              label: "평균",
-              data: [
-                avgCls2Data.avgCls2Mar,
-                avgCls2Data.avgCls2Apr,
-              ],
-              backgroundColor: "rgb(204, 122, 198, 0.6)",
-              borderColor: "rgb(204, 122, 198, 0.6)",
+              type: 'line',
+              label: '평균',
+              data: [avgCls2Data.avgCls2Mar, avgCls2Data.avgCls2Apr],
+              backgroundColor: 'rgb(204, 122, 198, 0.6)',
+              borderColor: 'rgb(204, 122, 198, 0.6)',
             },
           ],
         };
@@ -223,8 +247,10 @@ export default {
     },
 
     async updateClcls3ChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls3.json");
-      const avgCls3Data = response.data; 
+      const response = await axios.get(
+        'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgCls3.json'
+      );
+      const avgCls3Data = response.data;
 
       // console.log("avgLogicData : ", avgLogicData)
 
@@ -232,24 +258,22 @@ export default {
         const { clcls3may } = this.selectedStudent;
 
         this.clCls3ChartData = {
-          labels: ["5월"],
+          labels: ['5월'],
           datasets: [
             {
-              type: "bar",
-              label: "미적분3",
-              backgroundColor: "rgba(255, 159, 64, 0.2)",
-              borderColor: "rgb(255, 159, 64)",
+              type: 'bar',
+              label: '미적분3',
+              backgroundColor: 'rgba(255, 159, 64, 0.2)',
+              borderColor: 'rgb(255, 159, 64)',
               data: [clcls3may],
               borderWidth: 2,
             },
             {
-              type: "line",
-              label: "평균",
-              data: [
-                avgCls3Data.avgLogicJan,
-              ],
-              backgroundColor: "rgb(255, 159, 64, 0.4)",
-              borderColor: "rgb(255, 159, 64, 0.4)",
+              type: 'line',
+              label: '평균',
+              data: [avgCls3Data.avgLogicJan],
+              backgroundColor: 'rgb(255, 159, 64, 0.4)',
+              borderColor: 'rgb(255, 159, 64, 0.4)',
             },
           ],
         };
@@ -264,24 +288,24 @@ export default {
         const { algbrajun, algbrajul } = this.selectedStudent;
 
         this.lnrAlgbrChartData = {
-          labels: ["6월"],
+          labels: ['6월'],
           datasets: [
             {
-              type: "bar",
-              label: "선형대수학",
-              backgroundColor: "rgba(197, 167, 63, 0.2)",
-              borderColor: "rgb(197, 167, 63)",
+              type: 'bar',
+              label: '선형대수학',
+              backgroundColor: 'rgba(197, 167, 63, 0.2)',
+              borderColor: 'rgb(197, 167, 63)',
               data: [algbrajun, algbrajul],
               borderWidth: 2,
             },
             {
-              type: "line",
-              label: "평균",
+              type: 'line',
+              label: '평균',
               data: [
                 // avgAlgbraData.avgReadJan,
               ],
-              backgroundColor: "rgb(197, 167, 63, 0.4)",
-              borderColor: "rgb(197, 167, 63, 0.4)",
+              backgroundColor: 'rgb(197, 167, 63, 0.4)',
+              borderColor: 'rgb(197, 167, 63, 0.4)',
             },
           ],
         };
@@ -289,50 +313,51 @@ export default {
     },
 
     async updateTotalMathChartData() {
-      const response = await axios.get("https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgMathTot.json");
+      const response = await axios.get(
+        'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/math/avgMathTot.json'
+      );
       const avgMathTotData = response.data;
 
       if (this.selectedStudent) {
         const { totmathfeb, totmathmar, totmathapr } = this.selectedStudent;
 
         this.totalMathChartData = {
-          labels: ["2월", "3월", "4월", "5월", "6월", "7월", "8월", "9월", "10월"],
+          labels: [
+            '2월',
+            '3월',
+            '4월',
+            '5월',
+            '6월',
+            '7월',
+            '8월',
+            '9월',
+            '10월',
+          ],
           datasets: [
             {
-              type: "bar",
-              label: "총점",
-              backgroundColor: "rgba(160, 160, 160, 0.2)",
-              borderColor: "rgb(160, 160, 160)",
-              data: [ totmathfeb, totmathmar, totmathapr ],
+              type: 'bar',
+              label: '총점',
+              backgroundColor: 'rgba(160, 160, 160, 0.2)',
+              borderColor: 'rgb(160, 160, 160)',
+              data: [totmathfeb, totmathmar, totmathapr],
               borderWidth: 2,
-              borderRadius: [{topLeft: 20, topRight: 20}],
+              borderRadius: [{ topLeft: 20, topRight: 20 }],
             },
             {
-              type: "line",
-              label: "평균",
+              type: 'line',
+              label: '평균',
               data: [
                 avgMathTotData.avgMathTotJan,
                 avgMathTotData.avgMathTotFeb,
                 avgMathTotData.avgMathTotMar,
               ],
-              backgroundColor: "rgb(160, 160, 160, 0.4)",
-              borderColor: "rgb(160, 160, 160, 0.4)",
+              backgroundColor: 'rgb(160, 160, 160, 0.4)',
+              borderColor: 'rgb(160, 160, 160, 0.4)',
             },
           ],
         };
       }
     },
-
-
-
-
-
-
-
-
-
-
-
   },
 };
 </script>

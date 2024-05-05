@@ -1,34 +1,46 @@
 <template>
-  <swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
+  <swiper
+    :slides-per-view="1"
+    :pagination="{ dynamicBullets: true }"
+    :modules="modules"
+  >
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="gramchartData" :options="gramchartOptions" v-if="gramchartData" />
+        <Bar
+          :data="gramchartData"
+          :options="gramchartOptions"
+          v-if="gramchartData"
+        />
       </div>
     </swiper-slide>
 
     <swiper-slide>
       <div class="test-bar">
-        <Bar :data="vocaChartData" :options="vocaChartOptions" v-if="vocaChartData" />
+        <Bar
+          :data="vocaChartData"
+          :options="vocaChartOptions"
+          v-if="vocaChartData"
+        />
       </div>
     </swiper-slide>
   </swiper>
 </template>
 
 <script>
-import { Bar } from "vue-chartjs";
-import { Chart, registerables } from "chart.js";
-import { Swiper, SwiperSlide } from "vue-awesome-swiper";
-import { Pagination } from "swiper";
+import { Bar } from 'vue-chartjs';
+import { Chart, registerables } from 'chart.js';
+import { Swiper, SwiperSlide } from 'vue-awesome-swiper';
+import { Pagination } from 'swiper';
 
 // import swiper module styles
-import "swiper/css";
-import "swiper/css/pagination";
+import 'swiper/css';
+import 'swiper/css/pagination';
 
 Chart.register(...registerables);
 
 export default {
-  props: ["selectedStudent"],
-  name: "cmpBar",
+  props: ['selectedStudent'],
+  name: 'cmpBar',
   components: {
     Swiper,
     SwiperSlide,
@@ -51,7 +63,7 @@ export default {
       plugins: {
         legend: {
           labels: {
-            font: { family: "SUITE-SemiBold", size: 14 },
+            font: { family: 'SUITE-SemiBold', size: 14 },
           },
         },
       },
@@ -89,31 +101,31 @@ export default {
       if (this.selectedStudent) {
         const { gramjan, gramfeb, grammar, gramapr } = this.selectedStudent;
         this.gramchartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ['1월', '2월', '3월', '4월'],
           datasets: [
             {
-              type: "bar",
-              label: "문법",
-              backgroundColor: "rgba(255, 99, 132, 0.2)",
-              borderColor: "rgb(255, 99, 132)",
+              type: 'bar',
+              label: '문법',
+              backgroundColor: 'rgba(255, 99, 132, 0.2)',
+              borderColor: 'rgb(255, 99, 132)',
               data: [gramjan, gramfeb, grammar, gramapr],
               borderWidth: 2,
               datalabels: {
-                anchor: "start",
-                align: "start",
-                offset: "-35",
+                anchor: 'start',
+                align: 'start',
+                offset: '-35',
               },
             },
             {
-              type: "line",
-              label: "평균",
+              type: 'line',
+              label: '평균',
               data: [],
-              backgroundColor: "rgb(255, 99, 132, 0.4)",
-              borderColor: "rgb(255, 99, 132, 0.4)",
+              backgroundColor: 'rgb(255, 99, 132, 0.4)',
+              borderColor: 'rgb(255, 99, 132, 0.4)',
               datalabels: {
-                anchor: "start",
-                align: "start",
-                offset: "15",
+                anchor: 'start',
+                align: 'start',
+                offset: '15',
               },
             },
           ],
@@ -125,31 +137,31 @@ export default {
       if (this.selectedStudent) {
         const { vocajan, vocafeb, vocamar, vocaapr } = this.selectedStudent;
         this.vocaChartData = {
-          labels: ["1월", "2월", "3월", "4월"],
+          labels: ['1월', '2월', '3월', '4월'],
           datasets: [
             {
-              type: "bar",
-              label: "어휘",
-              backgroundColor: "rgba(54, 162, 235, 0.2)",
-              borderColor: "rgb(54, 162, 235)",
+              type: 'bar',
+              label: '어휘',
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              borderColor: 'rgb(54, 162, 235)',
               data: [vocajan, vocafeb, vocamar, vocaapr],
               borderWidth: 2,
               datalabels: {
-                anchor: "start",
-                align: "start",
-                offset: "-35",
+                anchor: 'start',
+                align: 'start',
+                offset: '-35',
               },
             },
             {
-              type: "line",
-              label: "어휘",
+              type: 'line',
+              label: '어휘',
               data: [],
-              backgroundColor: "rgb(54, 162, 235, 0.4)",
-              borderColor: "rgb(54, 162, 235, 0.4)",
+              backgroundColor: 'rgb(54, 162, 235, 0.4)',
+              borderColor: 'rgb(54, 162, 235, 0.4)',
               datalabels: {
-                anchor: "start",
-                align: "start",
-                offset: "15",
+                anchor: 'start',
+                align: 'start',
+                offset: '15',
               },
             },
           ],

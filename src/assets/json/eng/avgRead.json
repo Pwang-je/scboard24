@@ -1,12 +1,12 @@
 ﻿{
-    "avgReadJan": 27.7,
-    "avgReadFeb": 27.3,
-    "avgReadMar": 27.3,
-    "avgReadApr": null,
-    "avgReadMay": null,
-    "avgReadJun": null,
-    "avgReadJul": null,
-    "avgReadAug": null,
-    "avgReadSep": null,
-    "avgReadOct": null
+  "avgReadJan": 27.7,
+  "avgReadFeb": 27.3,
+  "avgReadMar": 27.3,
+  "avgReadApr": null,
+  "avgReadMay": null,
+  "avgReadJun": null,
+  "avgReadJul": null,
+  "avgReadAug": null,
+  "avgReadSep": null,
+  "avgReadOct": null
 }

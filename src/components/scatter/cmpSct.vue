@@ -1,300 +1,292 @@
 <template>
-    <div>
-        <div v-if="chartData && chartData.datasets.length > 0" class="sct-size">
-            <Scatter 
-                :data="chartData"
-                :options="chartOptions"
-            />
-        </div>
-        <div v-else-if="selectedMonth && !chartData" class="no-data">
-            선택된 달에 대한 데이터가 없습니다.
-        </div>
+  <div>
+    <div v-if="chartData && chartData.datasets.length > 0" class="sct-size">
+      <Scatter :data="chartData" :options="chartOptions" />
     </div>
+    <div v-else-if="selectedMonth && !chartData" class="no-data">
+      선택된 달에 대한 데이터가 없습니다.
+    </div>
+  </div>
 </template>
 
-
-
 <script>
-import { ref, onMounted, watch } from "vue";
-import { Scatter } from "vue-chartjs";
-import { Chart, registerables } from "chart.js";
+import { ref, onMounted, watch } from 'vue';
+import { Scatter } from 'vue-chartjs';
+import { Chart, registerables } from 'chart.js';
 
 Chart.register(...registerables);
 
 export default {
-    name: "cmpSct",
-    components: {
-        Scatter,
+  name: 'cmpSct',
+  components: {
+    Scatter,
+  },
+  props: {
+    selectedMonth: {
+      type: String,
+      required: false,
     },
-    props: {
-        selectedMonth: {
-            type: String,
-            required: false,
-        },
-    },
+  },
 
-    setup(props) {
+  setup(props) {
     const monthlyData = [
-        {
-            month: "March",
-            data: [
-                {
-                    location: "듀이카",
-                    points: [
-                        {"x":"60","y":"100"},
-                        {"x":"75","y":"100"},
-                        {"x":"67.5","y":"100"},
-                        {"x":"65","y":"96"},
-                        {"x":"35","y":"96"},
-                        {"x":"57.5","y":"88"},
-                        {"x":"62.5","y":"84"},
-                        {"x":"42.5","y":"84"},
-                        {"x":"47.5","y":"80"},
-                        {"x":"32.5","y":"76"},
-                        {"x":"47.5","y":"64"},
-                        {"x":"45","y":"64"},
-                        {"x":"35","y":"56"},
-                        {"x":"30","y":"52"},
-                        {"x":"37.5","y":"48"},
-                        {"x":"37.5","y":"44"},
-                        {"x":"45","y":"44"},
-                        {"x":"30","y":"32"},
-                        {"x":"30","y":"32"},
-                        {"x":"22.5","y":"28"},
-                        {"x":"32.5","y":"28"},
-                        {"x":"27.5","y":"24"},
-                        {"x":"62.5","y":"24"},
-                        {"x":"32.5","y":"16"},
-                        {"x":"32.5","y":"16"},
-                        {"x":"37.5","y":"16"},
-                        {"x":"30","y":"8"},
-                    ],
-                },
-                {
-                    location: "강남",
-                    points: [
-                        {"x":"27.5","y":"100"},
-                        {"x":"40","y":"100"},
-                        {"x":"42.5","y":"96"},
-                        {"x":"62.5","y":"96"},
-                        {"x":"65","y":"96"},
-                        {"x":"52.5","y":"96"},
-                        {"x":"62.5","y":"92"},
-                        {"x":"47.5","y":"92"},
-                        {"x":"72.5","y":"92"},
-                        {"x":"47.5","y":"92"},
-                        {"x":"50","y":"88"},
-                        {"x":"60","y":"88"},
-                        {"x":"47.5","y":"88"},
-                        {"x":"37.5","y":"88"},
-                        {"x":"22.5","y":"88"},
-                        {"x":"35","y":"88"},
-                        {"x":"40","y":"88"},
-                        {"x":"45","y":"84"},
-                        {"x":"27.5","y":"84"},
-                        {"x":"35","y":"84"},
-                        {"x":"42.5","y":"84"},
-                        {"x":"80","y":"84"},
-                        {"x":"65","y":"80"},
-                        {"x":"35","y":"80"},
-                        {"x":"25","y":"80"},
-                        {"x":"45","y":"80"},
-                        {"x":"37.5","y":"80"},
-                        {"x":"45","y":"76"},
-                        {"x":"67.5","y":"76"},
-                        {"x":"52.5","y":"76"},
-                        {"x":"55","y":"76"},
-                        {"x":"40","y":"72"},
-                        {"x":"45","y":"64"},
-                        {"x":"35","y":"64"},
-                        {"x":"30","y":"64"},
-                        {"x":"20","y":"64"},
-                        {"x":"27.5","y":"60"},
-                        {"x":"60","y":"60"},
-                        {"x":"32.5","y":"60"},
-                        {"x":"35","y":"56"},
-                        {"x":"30","y":"56"},
-                        {"x":"25","y":"52"},
-                        {"x":"62.5","y":"52"},
-                        {"x":"32.5","y":"52"},
-                        {"x":"47.5","y":"48"},
-                        {"x":"42.5","y":"36"},
-                        {"x":"50","y":"36"},
-                        {"x":"50","y":"36"},
-                        {"x":"50","y":"36"},
-                        {"x":"27.5","y":"28"},
-                        {"x":"30","y":"20"},
-                        {"x":"40","y":"16"},
-                        {"x":"42.5","y":"12"},
-                    ]
-                },
-                {
-                    location: "일산",
-                    points: [
-                        {"x":"42.5","y":"96"},
-                        {"x":"62.5","y":"96"},
-                        {"x":"25","y":"96"},
-                        {"x":"65","y":"96"},
-                        {"x":"57.5","y":"92"},
-                        {"x":"55","y":"92"},
-                        {"x":"57.5","y":"88"},
-                        {"x":"42.5","y":"88"},
-                        {"x":"35","y":"88"},
-                        {"x":"47.5","y":"88"},
-                        {"x":"60","y":"88"},
-                        {"x":"52.5","y":"80"},
-                        {"x":"35","y":"80"},
-                        {"x":"50","y":"80"},
-                        {"x":"47.5","y":"76"},
-                        {"x":"35","y":"76"},
-                        {"x":"40","y":"76"},
-                        {"x":"80","y":"76"},
-                        {"x":"40","y":"68"},
-                        {"x":"47.5","y":"68"},
-                        {"x":"32.5","y":"60"},
-                        {"x":"57.5","y":"60"},
-                        {"x":"42.5","y":"56"},
-                        {"x":"55","y":"56"},
-                        {"x":"45","y":"52"},
-                    ],
-                },
-                {
-                    location: "노원",
-                    points: [
-                        {"x":"60","y":"100"},
-                        {"x":"27.5","y":"96"},
-                        {"x":"47.5","y":"92"},
-                        {"x":"45","y":"92"},
-                        {"x":"67.5","y":"92"},
-                        {"x":"50","y":"92"},
-                        {"x":"32.5","y":"88"},
-                        {"x":"52.5","y":"84"},
-                        {"x":"72.5","y":"84"},
-                        {"x":"27.5","y":"84"},
-                        {"x":"57.5","y":"84"},
-                        {"x":"40","y":"80"},
-                        {"x":"55","y":"80"},
-                        {"x":"32.5","y":"72"},
-                        {"x":"47.5","y":"68"},
-                        {"x":"30","y":"68"},
-                        {"x":"62.5","y":"68"},
-                        {"x":"42.5","y":"64"},
-                        {"x":"32.5","y":"52"},
-                        {"x":"55","y":"48"},
-                        {"x":"37.5","y":"44"},
-                        {"x":"30","y":"44"},
-                        {"x":"32.5","y":"36"},
-                        {"x":"42.5","y":"32"},
-                        {"x":"42.5","y":"16"},
-                    ]
-                },
-            ]
-        },
-
+      {
+        month: 'March',
+        data: [
+          {
+            location: '듀이카',
+            points: [
+              { x: '60', y: '100' },
+              { x: '75', y: '100' },
+              { x: '67.5', y: '100' },
+              { x: '65', y: '96' },
+              { x: '35', y: '96' },
+              { x: '57.5', y: '88' },
+              { x: '62.5', y: '84' },
+              { x: '42.5', y: '84' },
+              { x: '47.5', y: '80' },
+              { x: '32.5', y: '76' },
+              { x: '47.5', y: '64' },
+              { x: '45', y: '64' },
+              { x: '35', y: '56' },
+              { x: '30', y: '52' },
+              { x: '37.5', y: '48' },
+              { x: '37.5', y: '44' },
+              { x: '45', y: '44' },
+              { x: '30', y: '32' },
+              { x: '30', y: '32' },
+              { x: '22.5', y: '28' },
+              { x: '32.5', y: '28' },
+              { x: '27.5', y: '24' },
+              { x: '62.5', y: '24' },
+              { x: '32.5', y: '16' },
+              { x: '32.5', y: '16' },
+              { x: '37.5', y: '16' },
+              { x: '30', y: '8' },
+            ],
+          },
+          {
+            location: '강남',
+            points: [
+              { x: '27.5', y: '100' },
+              { x: '40', y: '100' },
+              { x: '42.5', y: '96' },
+              { x: '62.5', y: '96' },
+              { x: '65', y: '96' },
+              { x: '52.5', y: '96' },
+              { x: '62.5', y: '92' },
+              { x: '47.5', y: '92' },
+              { x: '72.5', y: '92' },
+              { x: '47.5', y: '92' },
+              { x: '50', y: '88' },
+              { x: '60', y: '88' },
+              { x: '47.5', y: '88' },
+              { x: '37.5', y: '88' },
+              { x: '22.5', y: '88' },
+              { x: '35', y: '88' },
+              { x: '40', y: '88' },
+              { x: '45', y: '84' },
+              { x: '27.5', y: '84' },
+              { x: '35', y: '84' },
+              { x: '42.5', y: '84' },
+              { x: '80', y: '84' },
+              { x: '65', y: '80' },
+              { x: '35', y: '80' },
+              { x: '25', y: '80' },
+              { x: '45', y: '80' },
+              { x: '37.5', y: '80' },
+              { x: '45', y: '76' },
+              { x: '67.5', y: '76' },
+              { x: '52.5', y: '76' },
+              { x: '55', y: '76' },
+              { x: '40', y: '72' },
+              { x: '45', y: '64' },
+              { x: '35', y: '64' },
+              { x: '30', y: '64' },
+              { x: '20', y: '64' },
+              { x: '27.5', y: '60' },
+              { x: '60', y: '60' },
+              { x: '32.5', y: '60' },
+              { x: '35', y: '56' },
+              { x: '30', y: '56' },
+              { x: '25', y: '52' },
+              { x: '62.5', y: '52' },
+              { x: '32.5', y: '52' },
+              { x: '47.5', y: '48' },
+              { x: '42.5', y: '36' },
+              { x: '50', y: '36' },
+              { x: '50', y: '36' },
+              { x: '50', y: '36' },
+              { x: '27.5', y: '28' },
+              { x: '30', y: '20' },
+              { x: '40', y: '16' },
+              { x: '42.5', y: '12' },
+            ],
+          },
+          {
+            location: '일산',
+            points: [
+              { x: '42.5', y: '96' },
+              { x: '62.5', y: '96' },
+              { x: '25', y: '96' },
+              { x: '65', y: '96' },
+              { x: '57.5', y: '92' },
+              { x: '55', y: '92' },
+              { x: '57.5', y: '88' },
+              { x: '42.5', y: '88' },
+              { x: '35', y: '88' },
+              { x: '47.5', y: '88' },
+              { x: '60', y: '88' },
+              { x: '52.5', y: '80' },
+              { x: '35', y: '80' },
+              { x: '50', y: '80' },
+              { x: '47.5', y: '76' },
+              { x: '35', y: '76' },
+              { x: '40', y: '76' },
+              { x: '80', y: '76' },
+              { x: '40', y: '68' },
+              { x: '47.5', y: '68' },
+              { x: '32.5', y: '60' },
+              { x: '57.5', y: '60' },
+              { x: '42.5', y: '56' },
+              { x: '55', y: '56' },
+              { x: '45', y: '52' },
+            ],
+          },
+          {
+            location: '노원',
+            points: [
+              { x: '60', y: '100' },
+              { x: '27.5', y: '96' },
+              { x: '47.5', y: '92' },
+              { x: '45', y: '92' },
+              { x: '67.5', y: '92' },
+              { x: '50', y: '92' },
+              { x: '32.5', y: '88' },
+              { x: '52.5', y: '84' },
+              { x: '72.5', y: '84' },
+              { x: '27.5', y: '84' },
+              { x: '57.5', y: '84' },
+              { x: '40', y: '80' },
+              { x: '55', y: '80' },
+              { x: '32.5', y: '72' },
+              { x: '47.5', y: '68' },
+              { x: '30', y: '68' },
+              { x: '62.5', y: '68' },
+              { x: '42.5', y: '64' },
+              { x: '32.5', y: '52' },
+              { x: '55', y: '48' },
+              { x: '37.5', y: '44' },
+              { x: '30', y: '44' },
+              { x: '32.5', y: '36' },
+              { x: '42.5', y: '32' },
+              { x: '42.5', y: '16' },
+            ],
+          },
+        ],
+      },
     ];
 
-        const chartData = ref(null);
-        const chartOptions = {
-            scales: {
-                x: {
-                    title: {
-                        display: true,
-                        text: "Eng",
-                    },
-                },
-                y: {
-                    title: {
-                        display: true,
-                        text: "Math",
-                    },
-                },
-            },
-            responsive: true,
-            maintainAspectRatio: false,
-            devicePixelRatio: 2,
-            plugins: {
-                datalabels: {
-                    display: false,
-                },
-                legend: {
-                    position: "top",
-                },
-                title: {
-                    display: true,
-                    text: "자연계열 영어 수학 점수분포",
-                },                
-            },
-            animation: {
-                duration: 1200,
-                easing: 'easeInOutExpo'
-            },
+    const chartData = ref(null);
+    const chartOptions = {
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: 'Eng',
+          },
+        },
+        y: {
+          title: {
+            display: true,
+            text: 'Math',
+          },
+        },
+      },
+      responsive: true,
+      maintainAspectRatio: false,
+      devicePixelRatio: 2,
+      plugins: {
+        datalabels: {
+          display: false,
+        },
+        legend: {
+          position: 'top',
+        },
+        title: {
+          display: true,
+          text: '자연계열 영어 수학 점수분포',
+        },
+      },
+      animation: {
+        duration: 1200,
+        easing: 'easeInOutExpo',
+      },
+    };
+
+    const findDataForMonth = month => {
+      return monthlyData.find(data => data.month === month) || null;
+    };
+
+    const updateChartData = data => {
+      if (data) {
+        chartData.value = {
+          datasets: generateChartData(data.data),
         };
+      } else {
+        chartData.value = null; // 데이터가 없으면 null 설정
+      }
+    };
 
+    const generateChartData = selectedData => {
+      const datasets = [];
 
-        const findDataForMonth = (month) => {
-            return monthlyData.find((data) => data.month === month) || null;
+      const colors = {
+        듀이카: 'rgb(255, 205, 86)',
+        강남: 'rgb(255, 99, 132)',
+        노원: 'rgb(6,166,108)',
+        일산: 'rgb(54, 162, 235)',
+      };
+
+      selectedData.forEach(item => {
+        const dataset = {
+          label: item.location,
+          data: item.points.map(point => ({ x: point.x, y: point.y })),
+          pointRadius: 5,
+          backgroundColor: colors[item.location],
         };
+        datasets.push(dataset);
+      });
+      return datasets;
+    };
 
+    onMounted(() => {
+      const data = findDataForMonth(props.selectedMonth);
+      updateChartData(data);
+    });
 
-        const updateChartData = (data) => {
-            if (data) {
-                chartData.value = {
-                    datasets: generateChartData(data.data),
-                };
-            } else {
-                chartData.value = null; // 데이터가 없으면 null 설정
-            }
-        };
+    watch(
+      () => props.selectedMonth,
+      newMonth => {
+        const data = findDataForMonth(newMonth);
+        updateChartData(data);
+      }
+    );
 
-
-        const generateChartData = (selectedData) => {
-            const datasets = [];
-
-            const colors = {
-                듀이카: "rgb(255, 205, 86)",
-                강남: "rgb(255, 99, 132)",
-                노원: "rgb(6,166,108)",
-                일산: "rgb(54, 162, 235)",
-            };
-
-            selectedData.forEach((item) => {
-                const dataset = {
-                    label: item.location,
-                    data: item.points.map((point) => ({x: point.x, y: point.y})),
-                    pointRadius: 5,
-                    backgroundColor: colors[item.location],
-                };
-                datasets.push(dataset);
-            });
-            return datasets;
-        };
-
-        onMounted(() => {
-            const data = findDataForMonth(props.selectedMonth);
-            updateChartData(data);
-        });
-
-        watch(() => props.selectedMonth, (newMonth) => {
-            const data = findDataForMonth(newMonth);
-            updateChartData(data);
-        });
-
-        return { chartData, chartOptions };
-
-    },
-
+    return { chartData, chartOptions };
+  },
 };
 </script>
 <style>
 .sct-size {
-    height: 28.75rem;
+  height: 28.75rem;
 }
 .no-data {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 28.75rem; /* 메시지가 원래 차트 자리를 차지하도록 같은 높이 설정 */
-    font-size: 1.2rem;
-    color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28.75rem; /* 메시지가 원래 차트 자리를 차지하도록 같은 높이 설정 */
+  font-size: 1.2rem;
+  color: #666;
 }
 </style>
