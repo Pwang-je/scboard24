@@ -1,5 +1,8 @@
 <template>
-  <div>
+  <div class="chart-wrap">
+    <div class="chart-header">
+      <h2>논리 <span :class="changeIcon">{{ changeIcon }}</span> {{ changeValue }}</h2>
+    </div>
     <Line :data="chartData" :options="chartOptions" v-if="chartData" />
   </div>
 </template>
@@ -17,7 +20,9 @@ export default {
   data() {
     return {
       chartData: null,
-      chartOptions: {}
+      chartOptions: this.baseOptions('논리'),
+      changeIcon: '',
+      changeValue: 0
     };
   },
   created() {
@@ -25,7 +30,7 @@ export default {
     this.loadChartData();
   },
   methods: {
-    baseOptions(title) {
+    baseOptions() {
       return {
         responsive: true,
         maintainAspectRatio: false,
@@ -44,11 +49,11 @@ export default {
         plugins: {
           legend: { display: false },
           title: {
-            display: true,
-            text: title,
-            align: 'start',
-            font: { size: 30, weight: 'bold', family: 'omyu_pretty' },
-            padding: { top: 0, bottom: 5 }
+            display: false, // 제목 표시를 숨김 (커스텀 제목 사용)
+            // text: title,
+            // align: 'start',
+            // font: { size: 30, weight: 'bold', family: 'omyu_pretty' },
+            // padding: { top: 0, bottom: 5 }
           },
         },
         animation: { duration: 1200, easing: 'easeInOutBack' }
@@ -69,9 +74,9 @@ export default {
 
           const lastMonthIndex = data.length - 2;
           const change = data[data.length - 1] - data[lastMonthIndex];
-          const changeText = change >= 0 ? `+${change.toFixed(1)}` : change.toFixed(1);
+          this.changeValue = change.toFixed(1);
+          this.changeIcon = change >= 0 ? '↑' : '↓'; // 아이콘으로 화살표 사용
 
-          this.chartOptions.plugins.title.text = `논리 ${changeText}`;
           this.chartData = {
             labels: ['1월', '2월', '3월', '4월'],
             datasets: [{
@@ -81,7 +86,7 @@ export default {
               borderColor: 'rgb(255, 159, 64)',
               borderWidth: 2,
               tension: 0.4,
-              fill: true              
+              fill: true
             }]
           };
         } else {
@@ -92,12 +97,17 @@ export default {
         alert('차트 데이터를 로드하는 데 실패했습니다.');
       }
     }
-
   }
 };
 </script>
 
-
 <style scoped>
-/* CSS 스타일 */
+.chart-wrap {
+  height: 100px;
+}
+.chart-header h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
 </style>
