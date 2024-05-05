@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Line :data="monthlyGramChartData" :options="monthlyChartOptions" v-if="monthlyGramChartData" />
+    <div v-for="chartData in chartsData" :key="chartData.title">
+      <Line :data="chartData.data" :options="chartData.options" v-if="chartData.data" />
+    </div>
   </div>
 </template>
 
@@ -12,95 +14,74 @@ import axios from 'axios';
 Chart.register(...registerables);
 
 export default {
-  name: 'cmpMonthly',
+  name: 'cmpCharts',
   components: {
-    Line, // Bar에서 Line으로 변경
+    Line
   },
-
   data() {
-    const baseChartOptions = {
-      responsive: true,
-      maintainAspectRatio: false,
-      devicePixelRatio: 2,
-      scales: {
-        y: {
-          suggestedMax: 25, // y축의 최대 값 조정
-        },
-        x: {
-          grid: {
+    return {
+      chartsData: [
+        { key: 'grammar', title: '문법', data: null, options: this.baseOptions('문법') },
+        { key: 'vocabulary', title: '어휘', data: null, options: this.baseOptions('어휘') },
+        { key: 'logic', title: '논리', data: null, options: this.baseOptions('논리') },
+        { key: 'reading', title: '독해', data: null, options: this.baseOptions('독해') },
+      ],
+    };
+  },
+  created() {
+    this.loadAllChartData();
+  },
+  methods: {
+    baseOptions(title) {
+      return {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            suggestedMax: 100,
+            grid: { display: false },
             display: false,
           },
+          x: { display: false, grid: { display: false } },
         },
-      },
-      plugins: {
-        legend: {
-          labels: {
-            font: {
-              family: 'omyu_pretty',
-              size: 14,
-            },
+        plugins: {
+          legend: { display: false },
+          title: {
+            display: true,
+            text: title,
+            align: 'start',
+            font: { size: 30, weight: 'bold', family: 'omyu_pretty' },
+            padding: { top: 0, bottom: 5 },
           },
         },
-        title: {
-          display: true,
-          align: 'start',
-          text: '문법', // 차트 제목
-          font: {
-            size: 30,
-            weight: 'bold',
-            family: 'omyu_pretty',
-          },
-          padding: {
-            top: 0,
-            bottom: 5,
-          },
-        },
-      },
-      animation: {
-        duration: 1200,
-        easing: 'easeInOutBack',
-      },
-    };
-
-    return {
-      monthlyGramChartData: null,
-      monthlyChartOptions: baseChartOptions,
-    };
-  },
-
-  created() {
-    this.updateMonthlyGramChartData();
-  },
-
-  methods: {
-    async updateMonthlyGramChartData() {
+        animation: { duration: 1200, easing: 'easeInOutBack' },
+      };
+    },
+    async loadAllChartData() {
       try {
-        const response = await axios.get(
-          'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json'
-        );
-        const { monthlygramjan, monthlygramfeb, monthlygrammar, monthlygramapr } = response.data;
-        console.log(response.data);
-        this.monthlyGramChartData = {
-          labels: ['1월', '2월', '3월', '4월'],
-          datasets: [
-            {
-              type: 'line', // 차트 유형을 line으로 설정
-              data: [monthlygramjan, monthlygramfeb, monthlygrammar, monthlygramapr],
+        const response = await axios.get('https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json');
+        this.chartsData.forEach(chart => {
+          const baseKey = `monthly${chart.key}`;
+          chart.data = {
+            labels: ['1월', '2월', '3월', '4월'],
+            datasets: [{
+              type: 'line',
+              data: [response.data[`${baseKey}jan`], response.data[`${baseKey}feb`], response.data[`${baseKey}mar`], response.data[`${baseKey}apr`]],
               backgroundColor: 'rgba(255, 99, 132, 0.5)',
               borderColor: 'rgb(255, 99, 132)',
               borderWidth: 2,
-              tension: 0.4, // 선의 곡률을 추가
-            },
-          ],
-        };
+              tension: 0.4
+            }]
+          };
+        });
       } catch (error) {
         console.error('Data fetch error:', error);
       }
-    },
-  },
+    }
+  }
 };
 </script>
 
 <style scoped>
-/* 여기에 필요한 CSS 스타일을 추가하세요 */
+/* 스타일 추가 */
 </style>

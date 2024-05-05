@@ -22,7 +22,11 @@
       <cmpEngBarAvg :selected-student="selectedStudent" />
     </div>
 
-    <cmpEngBarMonthly />
+    <!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
+    <cmpGrammar v-if="selectedStudent" />
+    <cmpVoca v-if="selectedStudent" />
+    <cmpLogic v-if="selectedStudent" />
+    <cmpRead v-if="selectedStudent" />
 
     <div>
       <cmpRadar
@@ -44,7 +48,11 @@
 import Dropdown from 'primevue/dropdown';
 import cmpEngBarAvg from './components/bar/cmpEngBarAvg.vue';
 import cmpMathBarAvg from './components/bar/cmpMathBarAvg.vue';
-import cmpEngBarMonthly from './components/bar/cmpEngBarMonthly';
+import cmpGrammar from './components/bar/cmpGrammar';
+import cmpVoca from './components/bar/cmpVoca';
+import cmpLogic from './components/bar/cmpLogic';
+import cmpRead from './components/bar/cmpRead';
+
 import cmpRadar from './components/radar/cmpRadar.vue';
 import cmpPie from './components/pie/cmpPie.vue';
 import cmpStat from './components/status/cmpStat.vue';
@@ -55,7 +63,10 @@ export default {
   components: {
     Dropdown,
     cmpEngBarAvg,
-    cmpEngBarMonthly,
+    cmpGrammar,
+    cmpVoca,
+    cmpLogic,
+    cmpRead,
     cmpMathBarAvg,
     cmpRadar,
     cmpPie,
@@ -110,7 +121,5 @@ export default {
 </script>
 
 <style>
-p-dropdown-label p-inputtext p-placeholder {
-  font-size: 1px;
-}
+
 </style>
