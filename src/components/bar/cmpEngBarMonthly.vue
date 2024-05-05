@@ -1,5 +1,11 @@
 <template>
-  <div></div>
+  <div>
+    <Bar
+      :data="monthyGramChartData"
+      :options="chartOptions"
+      v-if="monthyGramChartData"
+    />
+  </div>
 </template>
 <script>
 import { Bar } from 'vue-chartjs';
@@ -13,30 +19,41 @@ export default {
   components: {
     Bar,
   },
-  
+
   data() {
     const chartOptions = {
       responsive: true,
       maintainAspectRatio: false,
       devicePixelRatio: 2,
       scales: {
-        y: { max: 0},
+        y: { max: 100 },
       },
-      title: {
-        display: true,
-        align: 'start',
-        font: {
-          size: 15,
-          weight: 'bold',
-          family: 'omyu_pretty'
+      plugins: {
+        legend: {
+          labels: {
+            font: { family: 'omyu_pretty', size: 14 },
+          },
         },
-        padding: {
-          top: 0,
-          bottom: 5,
+        title: {
+          display: true,
+          align: 'start',
+          font: {
+            size: 30,
+            weight: 'bold',
+            family: 'omyu_pretty',
+          },
+          padding: {
+            top: 0,
+            bottom: 5,
+          },
         },
       },
-    },
-  
+      animation: {
+        duration: 1200,
+        easing: 'easeInOutBack',
+      },
+    };
+
     return {
       monthyGramChartData: null,
       monthyChartOptions: {
@@ -45,28 +62,39 @@ export default {
           ...chartOptions.plugins,
           title: {
             ...chartOptions.plugins.title,
-            text: 'Gram'
+            text: '문법',
           },
         },
-      }
-    }
+        scales: { y: { max: 25 }, x: { grid: { display: false } } },
+      },
+    };
   },
 
   created() {
-    
+    this.updateMonthyGramChartData();
   },
-
+  // TODO -. something problems here.
   methods: {
-
     async updateMonthyGramChartData() {
-      const response = await axios.get('');
-    }
+      const response = await axios.get(
+        'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json'
+      );
+      const mhyData = response.data;
+      console.log(mhydata);
 
-
-
-  }
-
-
+      const { gramjan, gramfeb, grammar, gramapr } = mhyData;
+      this.monthyGramChartData = {
+        labels: ['1', '2', '3', '4'],
+        datasets: [
+          {
+            type: 'line',
+            data: [gramjan, gramfeb, grammar, gramapr],
+            borderColor: 'rgb(255, 99, 132)',
+          },
+        ],
+      };
+    },
+  },
 };
 </script>
 <style></style>

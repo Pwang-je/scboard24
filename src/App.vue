@@ -25,6 +25,8 @@
       <cmpEngBarAvg :selected-student="selectedStudent" />
     </div>
 
+    <cmpEngBarMonthly />
+
     <div>
       <cmpRadar
         :selectedStudentName="selectedStudent ? selectedStudent.name : ''"
@@ -45,6 +47,7 @@
 import Dropdown from 'primevue/dropdown';
 import cmpEngBarAvg from './components/bar/cmpEngBarAvg.vue';
 import cmpMathBarAvg from './components/bar/cmpMathBarAvg.vue';
+import cmpEngBarMonthly from './components/bar/cmpEngBarMonthly';
 import cmpRadar from './components/radar/cmpRadar.vue';
 import cmpPie from './components/pie/cmpPie.vue';
 import cmpStat from './components/status/cmpStat.vue';
@@ -55,6 +58,7 @@ export default {
   components: {
     Dropdown,
     cmpEngBarAvg,
+    cmpEngBarMonthly,
     cmpMathBarAvg,
     cmpRadar,
     cmpPie,
