@@ -31,6 +31,7 @@ export default {
         maintainAspectRatio: false,
         scales: {
           y: {
+            beginAtZero: true,
             suggestedMax: 100,
             grid: { display: false },
             display: false
@@ -79,7 +80,8 @@ export default {
               backgroundColor: 'rgba(75, 192, 192, 0.5)',
               borderColor: 'rgb(75, 192, 192)',
               borderWidth: 2,
-              tension: 0.4
+              tension: 0.4,
+              fill: true
             }]
           };
         } else {

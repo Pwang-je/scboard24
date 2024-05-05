@@ -31,6 +31,7 @@ export default {
         maintainAspectRatio: false,
         scales: {
           y: {
+            beginAtZero: true,
             suggestedMax: 100,
             grid: { display: false },
             display: false
@@ -76,10 +77,11 @@ export default {
             datasets: [{
               type: 'line',
               data: data,
-              backgroundColor: 'rgb(54, 162, 235)',
+              backgroundColor: 'rgba(54, 162, 235, 0.5)',
               borderColor: 'rgb(54, 162, 235)',
               borderWidth: 2,
-              tension: 0.1
+              tension: 0.1,
+              fill: true
             }]
           };
         } else {
