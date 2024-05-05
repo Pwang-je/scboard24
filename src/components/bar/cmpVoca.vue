@@ -1,7 +1,7 @@
 <template>
   <div class="chart-wrap">
     <div class="chart-header">
-      <h2>어휘 <span :class="changeIcon">{{ changeIcon }}</span> {{ changeValue }}</h2>
+      <h2>어휘 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}</h2>
     </div>
     <Line :data="chartData" :options="chartOptions" v-if="chartData" />
   </div>
@@ -28,6 +28,11 @@ export default {
   created() {
     this.chartOptions = this.baseOptions('어휘'); // 차트 옵션 초기화
     this.loadChartData();
+  },
+  computed: {
+    arrowClass() {
+      return this.changeValue >= 0 ? 'arrow-up' : 'arrow-down';
+    }
   },
   methods: {
     baseOptions() {
@@ -82,7 +87,14 @@ export default {
             datasets: [{
               type: 'line',
               data: data,
-              backgroundColor: 'rgba(54, 162, 235, 0.5)',
+              backgroundColor: (ctx) => {
+                const canvas = ctx.chart.ctx;
+                const gradient = canvas.createLinearGradient(0,0,0,160);
+                gradient.addColorStop(0, 'rgb(54, 162, 235)');
+                gradient.addColorStop(0.5, 'white');
+                gradient.addColorStop(1, 'white');
+                return gradient;
+              },
               borderColor: 'rgb(54, 162, 235)',
               borderWidth: 2,
               tension: 0.4,
@@ -109,5 +121,11 @@ export default {
   display: flex;
   align-items: center;
   font-size: 1.5em;
+}
+.arrow-up {
+  color: blue;
+}
+.arrow-down {
+  color: red;
 }
 </style>

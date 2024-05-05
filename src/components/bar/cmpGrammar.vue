@@ -1,7 +1,7 @@
 <template>
   <div class="chart-wrap">
     <div class="chart-header">
-      <h2>문법 <span :class="changeIcon">{{ changeIcon }}</span> {{ changeValue }}</h2>
+      <h2>문법 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}</h2>
     </div>
     <Line :data="chartData" :options="chartOptions" v-if="chartData" />
   </div>
@@ -26,14 +26,20 @@ export default {
     };
   },
   created() {
-    this.chartOptions = this.baseOptions('문법'); // 차트 옵션 초기화
+    this.chartOptions = this.baseOptions('문법');
     this.loadChartData();
+  },
+  computed: {
+    arrowClass() {
+      return this.changeValue >= 0 ? 'arrow-up' : 'arrow-down';
+    }
   },
   methods: {
     baseOptions(title) {
       return {
         responsive: true,
         maintainAspectRatio: false,
+        devicePixelRatio: 5,
         scales: {
           y: {
             beginAtZero: true,
@@ -49,7 +55,7 @@ export default {
         plugins: {
           legend: { display: false },
           title: {
-            display: false, // 제목 표시를 숨김 (커스텀 제목 사용)
+            display: false,
             text: title,
             align: 'start',
             font: { size: 30, weight: 'bold', family: 'omyu_pretty' },
@@ -62,7 +68,6 @@ export default {
     async loadChartData() {
       try {
         const response = await axios.get('https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json');
-
         if (response.status === 200 && response.data) {
           const dataKey = 'monthlygram';
           const data = [
@@ -71,19 +76,25 @@ export default {
             response.data[dataKey + 'mar'],
             response.data[dataKey + 'apr']
           ];
-
           const lastMonthIndex = data.length - 2;
           const change = data[data.length - 1] - data[lastMonthIndex];
           this.changeValue = change.toFixed(1);
-          this.changeIcon = change >= 0 ? '↑' : '↓'; // 아이콘으로 화살표 사용
-
+          this.changeIcon = change >= 0 ? '↑' : '↓';
           this.chartData = {
             labels: ['1월', '2월', '3월', '4월'],
             datasets: [{
               type: 'line',
               data: data,
-              backgroundColor: 'rgba(255, 99, 132, 0.5)',
+              backgroundColor: (ctx) => {
+                const canvas = ctx.chart.ctx;
+                const gradient = canvas.createLinearGradient(0,0,0,160);
+                gradient.addColorStop(0, 'rgb(255, 99, 132)');
+                gradient.addColorStop(0.5, 'white');
+                gradient.addColorStop(1, 'white');
+                return gradient;
+              },
               borderColor: 'rgb(255, 99, 132)',
+              strokeColor: 'rgb(255, 99, 132)',
               borderWidth: 2,
               tension: 0.4,
               fill: true
@@ -109,5 +120,11 @@ export default {
   display: flex;
   align-items: center;
   font-size: 1.5em;
+}
+.arrow-up {
+  color: blue;
+}
+.arrow-down {
+  color: red;
 }
 </style>
