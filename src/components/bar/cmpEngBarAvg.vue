@@ -10,7 +10,7 @@
           :data="gramChartData"
           :options="gramchartOptions"
           v-if="gramChartData"
-          class="chart-size"
+          class="chart-style"
         />
       </div>
     </swiper-slide>
@@ -21,7 +21,7 @@
           :data="vocaChartData"
           :options="vocaChartOptions"
           v-if="vocaChartData"
-          class="chart-size"
+          class="chart-style"
         />
       </div>
     </swiper-slide>
@@ -32,7 +32,7 @@
           :data="logicChartData"
           :options="logicChartOptions"
           v-if="logicChartData"
-          class="chart-size"
+          class="chart-style"
         />
       </div>
     </swiper-slide>
@@ -43,7 +43,7 @@
           :data="readChartData"
           :options="readChartOptions"
           v-if="readChartData"
-          class="chart-size"
+          class="chart-style"
         />
       </div>
     </swiper-slide>
@@ -54,7 +54,7 @@
       :data="totEngChartData"
       :options="totEngChartOptions"
       v-if="totEngChartData"
-      class="chart-size"
+      class="chart-style"
     />
   </div>
 </template>
@@ -465,5 +465,8 @@ export default {
 <style>
 .chart-size {
   height: 300px;
+}
+.chart-style {
+  @apply pb-5 pl-2 pr-2 chart-size;
 }
 </style>

@@ -1,14 +1,16 @@
 <template>
-  <div class="text-center rounded-md" style="background-color: blue">
-    {{ studentInfo.engCls }}
-  </div>
+  <div class="flex items-center justify-around col-span-2">
+    <div class="text-center rounded-md stat-font">
+      {{ studentInfo.engCls }}
+    </div>
 
-  <div class="text-center rounded-md" style="background-color: red">
-    {{ studentInfo.mtCls }}
-  </div>
+    <div class="text-center rounded-md stat-font">
+      {{ studentInfo.mtCls }}
+    </div>
 
-  <div class="text-center rounded-md" style="background-color: green">
-    {{ studentInfo.Cls }}
+    <div class="text-center rounded-md stat-font">
+      {{ studentInfo.Cls }}
+    </div>
   </div>
 </template>
 <script>
@@ -68,4 +70,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.stat-font {
+  font-size: 14px;
+}
+</style>

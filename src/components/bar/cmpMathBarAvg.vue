@@ -5,7 +5,7 @@
     :modules="modules"
   >
     <swiper-slide>
-      <div class="test-bar">
+      <div class="chart-style">
         <Bar
           :data="clCls1ChartData"
           :options="clCls1ChartOptions"
@@ -15,7 +15,7 @@
     </swiper-slide>
 
     <swiper-slide>
-      <div class="test-bar">
+      <div class="chart-style">
         <Bar
           :data="clCls2ChartData"
           :options="clCls2ChartOptions"
@@ -25,7 +25,7 @@
     </swiper-slide>
 
     <swiper-slide>
-      <div class="test-bar">
+      <div class="chart-style">
         <Bar
           :data="clCls3ChartData"
           :options="clCls3ChartOptions"
@@ -35,7 +35,7 @@
     </swiper-slide>
 
     <swiper-slide>
-      <div class="test-bar">
+      <div class="chart-style">
         <Bar
           :data="lnrAlgbrChartData"
           :options="lnrAlgbrChartOptions"
@@ -45,7 +45,7 @@
     </swiper-slide>
   </swiper>
 
-  <div class="test-bar">
+  <div class="chart-style">
     <bar
       :data="totalMathChartData"
       :options="totalMathChartOptions"
@@ -362,4 +362,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.chart-size {
+  height: 300px;
+}
+.chart-style {
+  @apply pb-5 pl-2 pr-2 chart-size;
+}
+</style>

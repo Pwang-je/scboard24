@@ -1,19 +1,19 @@
 <template>
   <div class="container mx-auto">
-    <div class="grid content-center grid-cols-2 m-4">
-      <div class="grid grid-cols-1 gap-3">
+    <div class="grid content-center grid-cols-3 m-4">
+      <div class="col-span-1">
         <Dropdown
           v-model="selectedStudent"
           :options="students"
           optionLabel="name"
-          placeholder="Select a student"
+          placeholder="Select"
           filter
           class="w-full"
         >
         </Dropdown>
       </div>
 
-      <div class="grid content-center grid-cols-3 gap-3">
+      <div class="content-center col-span-2 gap-1">
         <cmpStat
           :selectedStudentName="selectedStudent ? selectedStudent.name : ''"
           class=""
@@ -26,14 +26,13 @@
     </div>
 
     <div>
-      <cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
-    </div>
-
-    <div>
       <cmpRadar
         :selectedStudentName="selectedStudent ? selectedStudent.name : ''"
         style="height: 100%"
       />
+    </div>
+    <div>
+      <cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
     </div>
 
     <div>
@@ -109,4 +108,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+p-dropdown-label p-inputtext p-placeholder {
+  font-size: 1px;
+}
+</style>
