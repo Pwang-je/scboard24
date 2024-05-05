@@ -79,6 +79,7 @@ export default {
           'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/monthlyScore.json'
         );
         const { monthlygramjan, monthlygramfeb, monthlygrammar, monthlygramapr } = response.data;
+        console.log(response.data);
         this.monthlyGramChartData = {
           labels: ['1월', '2월', '3월', '4월'],
           datasets: [
