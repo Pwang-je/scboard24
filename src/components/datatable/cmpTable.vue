@@ -81,31 +81,15 @@ export default {
 				const response = await axios.get(
 					'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/tableData.json',
 				);
-				console.log('response', response); // 전체 응답을 확인합니다.
-				// 'hasOwnProperty'를 안전하게 호출하기 위해 Object.prototype의 메서드를 직접 사용하지 않습니다.
-				if (
-					response.data &&
-					Object.prototype.hasOwnProperty.call(response.data, this.selectedMonth)
-				) {
-					this.filteredData = response.data[this.selectedMonth];
-					// 배열이 비어있지 않은지 추가로 확인합니다.
-					if (!this.filteredData.length) {
-						console.warn('Data for this month is empty:', this.selectedMonth);
-					}
-				} else {
-					console.error('No data found for the month:', this.selectedMonth);
-					this.filteredData = []; // 데이터가 없는 경우 안전하게 빈 배열로 설정합니다.
-				}
-				console.log('Filtered Data:', this.filteredData); // 필터된 데이터를 로그합니다.
-
-				// IMPORTANT -. If MATH score is empty, treat as 'blank'.
+				this.filteredData = response.data[this.selectedMonth] || [];
+				//IMPORTANT -. If MATH score is empty, treat as 'blank'.
 				this.filteredData.forEach(item => {
 					if (!item.mathScore) {
-						item.mathScore = ''; // 수학 점수가 비어있으면 공백으로 처리합니다.
+						item.mathScore = '';
 					}
 				});
 			} catch (error) {
-				console.error('Error loading data:', error); // 오류가 발생한 경우 로그를 찍습니다.
+				console.error('Error loading data: ', error);
 			}
 		},
 		getDepotClass(dePart) {
