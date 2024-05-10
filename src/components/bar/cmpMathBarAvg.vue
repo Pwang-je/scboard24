@@ -199,7 +199,7 @@ export default {
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgCls2Data.avgCls2Mar, avgCls2Data.avgCls2Apr],
+							data: [avgCls2Data.avgCls2Apr],
 							backgroundColor: 'rgb(204, 122, 198, 0.6)',
 							borderColor: 'rgb(204, 122, 198, 0.6)',
 						},
