@@ -18,19 +18,19 @@ import axios from 'axios';
 
 export default {
 	name: 'cmpStat',
-	props: ['selectedStudentName'], // prop에서 props로 변경
+	props: ['selectedStudentName'],
 
 	data() {
 		return {
 			studentInfo: {
 				name: '',
-				engCls: '', // engClas에서 engCls로 변경
+				engCls: '',
 				mtCls: '',
 				Cls: '',
 				csatEng: '',
 				csatMath: '',
 			},
-			loading: false, // 로딩 상태 추가
+			loading: false,
 		};
 	},
 
@@ -47,7 +47,7 @@ export default {
 			try {
 				const response = await axios.get(
 					`https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/statData.json?name=${this.selectedStudentName}`,
-				); // 백틱과 ${} 수정
+				);
 
 				console.log('selected name : ', this.selectedStudentName);
 
