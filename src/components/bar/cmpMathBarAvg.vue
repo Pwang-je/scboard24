@@ -1,31 +1,31 @@
 <template>
 	<swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
 		<swiper-slide>
-			<div class="chart-style">
+			<div class="p-5 h-80">
 				<Bar :data="clCls1ChartData" :options="clCls1ChartOptions" v-if="clCls1ChartData" />
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="chart-style">
+			<div class="p-5 h-80">
 				<Bar :data="clCls2ChartData" :options="clCls2ChartOptions" v-if="clCls2ChartData" />
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="chart-style">
+			<div class="p-5 h-80">
 				<Bar :data="clCls3ChartData" :options="clCls3ChartOptions" v-if="clCls3ChartData" />
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="chart-style">
+			<div class="p-5 h-80">
 				<Bar :data="lnrAlgbrChartData" :options="lnrAlgbrChartOptions" v-if="lnrAlgbrChartData" />
 			</div>
 		</swiper-slide>
 	</swiper>
 
-	<div class="chart-style">
+	<div class="p-5 h-80">
 		<bar :data="totalMathChartData" :options="totalMathChartOptions" v-if="totalMathChartData" />
 	</div>
 </template>
@@ -195,6 +195,7 @@ export default {
 							borderColor: 'rgb(204, 122, 198)',
 							data: [clcls2apr],
 							borderWidth: 2,
+							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
@@ -229,6 +230,7 @@ export default {
 							borderColor: 'rgb(255, 159, 64)',
 							data: [clcls3may],
 							borderWidth: 2,
+							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
@@ -259,6 +261,7 @@ export default {
 							borderColor: 'rgb(197, 167, 63)',
 							data: [algbrajun, algbrajul],
 							borderWidth: 2,
+							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
@@ -314,11 +317,4 @@ export default {
 };
 </script>
 
-<style>
-.chart-size {
-	height: 300px;
-}
-.chart-style {
-	@apply pb-5 pl-2 pr-2 chart-size;
-}
-</style>
+<style></style>

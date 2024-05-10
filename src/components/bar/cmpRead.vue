@@ -1,5 +1,5 @@
 <template>
-	<div class="chart-wrap">
+	<div class="h-24">
 		<div class="chart-header">
 			<h2>
 				독해 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
@@ -120,13 +120,10 @@ export default {
 </script>
 
 <style scoped>
-.chart-wrap {
-	height: 100px;
-}
 .chart-header h2 {
 	display: flex;
 	align-items: center;
-	font-size: 1.5em;
+	font-size: 1.2em;
 }
 .arrow-up {
 	color: blue;

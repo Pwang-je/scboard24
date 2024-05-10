@@ -22,21 +22,21 @@
 			<cmpEngBarAvg :selected-student="selectedStudent" />
 		</div>
 
-		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
+		<div class="container grid grid-cols-2 gap-3 p-3">
+			<cmpGrammar v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+			<cmpVoca v-if="selectedStudent" />
+			<cmpLogic v-if="selectedStudent" />
+			<cmpRead v-if="selectedStudent" />
+		</div>
 
-		<div class="grid grid-cols-2">
+		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
+		<div class="grid grid-cols-1">
 			<cmpRadar
 				:selectedStudentName="selectedStudent ? selectedStudent.name : ''"
 				style="height: 100%"
 			/>
-
-			<div class="grid grid-cols-2 gap-2">
-				<cmpGrammar v-if="selectedStudent" />
-				<cmpVoca v-if="selectedStudent" />
-				<cmpLogic v-if="selectedStudent" />
-				<cmpRead v-if="selectedStudent" />
-			</div>
 		</div>
+
 		<div>
 			<cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
 		</div>

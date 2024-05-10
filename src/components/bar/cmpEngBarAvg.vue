@@ -1,56 +1,56 @@
 <template>
 	<swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
 		<swiper-slide>
-			<div class="test-bar">
+			<div class="p-4 pb-6">
 				<Bar
 					:data="gramChartData"
 					:options="gramchartOptions"
 					v-if="gramChartData"
-					class="chart-style"
+					class="rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="test-bar">
+			<div class="p-4 pb-6">
 				<Bar
 					:data="vocaChartData"
 					:options="vocaChartOptions"
 					v-if="vocaChartData"
-					class="chart-style"
+					class="rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="test-bar">
+			<div class="p-4 pb-6">
 				<Bar
 					:data="logicChartData"
 					:options="logicChartOptions"
 					v-if="logicChartData"
-					class="chart-style"
+					class="rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="test-bar">
+			<div class="p-4 pb-6">
 				<Bar
 					:data="readChartData"
 					:options="readChartOptions"
 					v-if="readChartData"
-					class="chart-style"
+					class="rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
 	</swiper>
 
-	<div class="test-bar">
+	<div class="p-4 pb-6">
 		<bar
 			:data="totEngChartData"
 			:options="totEngChartOptions"
 			v-if="totEngChartData"
-			class="chart-style"
+			class="rounded-lg shadow-lg border-style h-96"
 		/>
 	</div>
 </template>
@@ -97,21 +97,21 @@ export default {
 						font: { family: 'omyu_pretty', size: 14 },
 					},
 				},
-				// title: {
-				//   display: true,
-				//   align: 'start',
-				//   // position: 'left',
-				//   // text: 'dt',
-				//   font: {
-				//     size: 30,
-				//     weight: 'bold',
-				//     family: 'omyu_pretty'
-				//   },
-				//   padding: {
-				//     top: 0,
-				//     bottom: 5
-				//   }
-				// }
+				title: {
+					display: true,
+					// align: 'start',
+					// position: 'left',
+					// text: 'dt',
+					font: {
+						size: 26,
+						weight: 'normal',
+						family: 'omyu_pretty',
+					},
+					padding: {
+						top: 0,
+						bottom: 5,
+					},
+				},
 			},
 			animation: {
 				duration: 1200,
@@ -127,7 +127,7 @@ export default {
 					...chartOptions.plugins,
 					title: {
 						...chartOptions.plugins.title,
-						// text: '문법'
+						text: '문법',
 					},
 				},
 				scales: { y: { max: 25 }, x: { grid: { display: false } } },
@@ -140,7 +140,7 @@ export default {
 					...chartOptions.plugins,
 					title: {
 						...chartOptions.plugins.title,
-						// text: '어휘'
+						text: '어휘',
 					},
 				},
 				scales: { y: { max: 12.5 }, x: { grid: { display: false } } },
@@ -153,7 +153,7 @@ export default {
 					...chartOptions.plugins,
 					title: {
 						...chartOptions.plugins.title,
-						// text: '논리'
+						text: '논리',
 					},
 				},
 				scales: { y: { max: 12.5 }, x: { grid: { display: false } } },
@@ -166,7 +166,7 @@ export default {
 					...chartOptions.plugins,
 					title: {
 						...chartOptions.plugins.title,
-						// text: '독해'
+						text: '독해',
 					},
 				},
 				scales: { y: { max: 50 }, x: { grid: { display: false } } },
@@ -404,10 +404,7 @@ export default {
 </script>
 
 <style>
-.chart-size {
-	height: 300px;
-}
-.chart-style {
-	@apply pb-5 pl-2 pr-2 chart-size;
+.border-style {
+	border: 1px solid #f5f5f5;
 }
 </style>
