@@ -1,9 +1,13 @@
 <template>
-	<div class="h-24">
-		<h3>
-			문법 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
-		</h3>
-		<Line :data="chartData" :options="chartOptions" v-if="chartData" />
+	<div class="container">
+		<div class="grid">
+			<h3>
+				문법 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
+			</h3>
+		</div>
+		<div class="h-20">
+			<Line :data="chartData" :options="chartOptions" v-if="chartData" />
+		</div>
 	</div>
 </template>
 

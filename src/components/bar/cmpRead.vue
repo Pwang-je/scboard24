@@ -1,11 +1,13 @@
 <template>
-	<div class="h-24">
-		<div class="chart-header">
-			<h2>
+	<div class="container">
+		<div class="grid">
+			<h3>
 				독해 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
-			</h2>
+			</h3>
 		</div>
-		<Line :data="chartData" :options="chartOptions" v-if="chartData" />
+		<div class="h-20">
+			<Line :data="chartData" :options="chartOptions" v-if="chartData" />
+		</div>
 	</div>
 </template>
 

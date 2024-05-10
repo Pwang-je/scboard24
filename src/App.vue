@@ -24,9 +24,9 @@
 
 		<div class="container grid grid-cols-2 gap-3 p-3">
 			<cmpGrammar v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
-			<cmpVoca v-if="selectedStudent" />
-			<cmpLogic v-if="selectedStudent" />
-			<cmpRead v-if="selectedStudent" />
+			<cmpVoca v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+			<cmpLogic v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+			<cmpRead v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
 		</div>
 
 		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
