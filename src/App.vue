@@ -23,16 +23,19 @@
 		</div>
 
 		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
-		<cmpGrammar v-if="selectedStudent" />
-		<cmpVoca v-if="selectedStudent" />
-		<cmpLogic v-if="selectedStudent" />
-		<cmpRead v-if="selectedStudent" />
 
-		<div>
+		<div class="grid grid-cols-2">
 			<cmpRadar
 				:selectedStudentName="selectedStudent ? selectedStudent.name : ''"
 				style="height: 100%"
 			/>
+
+			<div class="grid grid-cols-2 gap-2">
+				<cmpGrammar v-if="selectedStudent" />
+				<cmpVoca v-if="selectedStudent" />
+				<cmpLogic v-if="selectedStudent" />
+				<cmpRead v-if="selectedStudent" />
+			</div>
 		</div>
 		<div>
 			<cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
