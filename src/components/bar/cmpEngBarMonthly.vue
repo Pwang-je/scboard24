@@ -36,6 +36,7 @@ export default {
 			return {
 				responsive: true,
 				maintainAspectRatio: false,
+				devicePixelRatio: 2,
 				scales: {
 					y: {
 						suggestedMax: 100,
