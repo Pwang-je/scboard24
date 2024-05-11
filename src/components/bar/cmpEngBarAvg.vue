@@ -103,7 +103,7 @@ export default {
 					// position: 'left',
 					// text: 'dt',
 					font: {
-						size: 30,
+						size: 24,
 						weight: 'normal',
 						family: 'skbori',
 					},

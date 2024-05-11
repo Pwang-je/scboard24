@@ -30,11 +30,8 @@
 		</div>
 
 		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
-		<div class="grid grid-cols-1">
-			<cmpRadar
-				:selectedStudentName="selectedStudent ? selectedStudent.name : ''"
-				style="height: 100%"
-			/>
+		<div class="grid grid-cols-1 mt-2">
+			<cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name : ''" />
 		</div>
 
 		<div>

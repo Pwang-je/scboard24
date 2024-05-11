@@ -1,7 +1,12 @@
 <template>
-	<div>
-		<div>
-			<Radar v-if="loaded" :data="chartData" :options="radarChartOptions" />
+	<div class="container">
+		<div class="grid p-4">
+			<Radar
+				v-if="loaded"
+				:data="chartData"
+				:options="radarChartOptions"
+				class="p-4 bg-white rounded-lg shadow-lg border-style radar-height"
+			/>
 		</div>
 	</div>
 </template>
@@ -37,6 +42,10 @@ export default {
 		radarChartOptions: {
 			responsive: true,
 			maintainAspectRatio: false,
+			devicePixelRatio: 2,
+			scales: {
+				r: { max: 100 },
+			},
 			animation: {
 				duration: 1200,
 				easing: 'easeInOutBack',
@@ -44,10 +53,18 @@ export default {
 			plugins: {
 				legend: {
 					position: 'top',
+					labels: {
+						font: { family: 'skbori', size: 14 },
+					},
 				},
 				title: {
-					display: false,
+					display: true,
 					text: '과목별 점수 비교',
+					font: {
+						size: 24,
+						weight: 'normal',
+						family: 'skbori',
+					},
 				},
 			},
 		},
@@ -115,4 +132,8 @@ export default {
 	},
 };
 </script>
-<style></style>
+<style>
+.radar-height {
+	height: 30rem;
+}
+</style>

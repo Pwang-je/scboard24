@@ -1,32 +1,57 @@
 <template>
 	<swiper :slides-per-view="1" :pagination="{ dynamicBullets: true }" :modules="modules">
 		<swiper-slide>
-			<div class="p-5 h-80">
-				<Bar :data="clCls1ChartData" :options="clCls1ChartOptions" v-if="clCls1ChartData" />
+			<div class="p-4 pb-6">
+				<Bar
+					:data="clCls1ChartData"
+					:options="clCls1ChartOptions"
+					v-if="clCls1ChartData"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
+				/>
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="p-5 h-80">
-				<Bar :data="clCls2ChartData" :options="clCls2ChartOptions" v-if="clCls2ChartData" />
+			<div class="p-4 pb-6">
+				<Bar
+					:data="clCls2ChartData"
+					:options="clCls2ChartOptions"
+					v-if="clCls2ChartData"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
+				/>
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="p-5 h-80">
-				<Bar :data="clCls3ChartData" :options="clCls3ChartOptions" v-if="clCls3ChartData" />
+			<div class="p-4 pb-6">
+				<Bar
+					:data="clCls3ChartData"
+					:options="clCls3ChartOptions"
+					v-if="clCls3ChartData"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
+				/>
 			</div>
 		</swiper-slide>
 
 		<swiper-slide>
-			<div class="p-5 h-80">
-				<Bar :data="lnrAlgbrChartData" :options="lnrAlgbrChartOptions" v-if="lnrAlgbrChartData" />
+			<div class="p-4 pb-6">
+				<Bar
+					:data="lnrAlgbrChartData"
+					:options="lnrAlgbrChartOptions"
+					v-if="lnrAlgbrChartData"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
+				/>
 			</div>
 		</swiper-slide>
 	</swiper>
 
-	<div class="p-5 h-80">
-		<bar :data="totalMathChartData" :options="totalMathChartOptions" v-if="totalMathChartData" />
+	<div class="p-4 pb-6">
+		<bar
+			:data="totalMathChartData"
+			:options="totalMathChartOptions"
+			v-if="totalMathChartData"
+			class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
+		/>
 	</div>
 </template>
 
@@ -72,6 +97,22 @@ export default {
 						font: { size: 14 },
 					},
 				},
+				title: {
+					display: true,
+					font: {
+						size: 24,
+						weight: 'normal',
+						family: 'skbori',
+					},
+					padding: {
+						top: 0,
+						bottom: 5,
+					},
+				},
+			},
+			animation: {
+				duration: 1200,
+				easing: 'easeInOutBack',
 			},
 		};
 
@@ -79,42 +120,91 @@ export default {
 			clCls1ChartData: null,
 			clCls1ChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '미적분 1',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 
 			clCls2ChartData: null,
 			clCls2ChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '미적분 2',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 
 			clCls3ChartData: null,
 			clCls3ChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '미적분 3',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 
 			lnrAlgbrChartData: null,
 			lnrAlgbrChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '선형대수학',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 
 			mltvrChartData: null,
 			mltvrChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '다변수미적분',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 
 			engnrChartData: null,
 			engnrChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '공학수학',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 
 			totalMathChartData: null,
 			totalMathChartOptions: {
 				...chartOptions,
+				plugins: {
+					...chartOptions.plugins,
+					title: {
+						...chartOptions.plugins.title,
+						text: '수학 총점',
+					},
+				},
 				scales: { y: { max: 100 }, x: { grid: { display: false } } },
 			},
 		};
@@ -157,7 +247,7 @@ export default {
 					datasets: [
 						{
 							type: 'bar',
-							label: '미적분1',
+							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(102, 205, 170, 0.2)',
 							borderColor: 'rgb(102, 205, 170)',
 							data: [clcls1feb, clcls1mar, clcls1apr],
@@ -190,7 +280,7 @@ export default {
 					datasets: [
 						{
 							type: 'bar',
-							label: '미적분2',
+							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(204, 122, 198, 0.2)',
 							borderColor: 'rgb(204, 122, 198)',
 							data: [clcls2apr],
@@ -225,7 +315,7 @@ export default {
 					datasets: [
 						{
 							type: 'bar',
-							label: '미적분3',
+							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(255, 159, 64, 0.2)',
 							borderColor: 'rgb(255, 159, 64)',
 							data: [clcls3may],
@@ -256,7 +346,7 @@ export default {
 					datasets: [
 						{
 							type: 'bar',
-							label: '선형대수학',
+							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(197, 167, 63, 0.2)',
 							borderColor: 'rgb(197, 167, 63)',
 							data: [algbrajun, algbrajul],
@@ -291,7 +381,7 @@ export default {
 					datasets: [
 						{
 							type: 'bar',
-							label: '총점',
+							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(160, 160, 160, 0.2)',
 							borderColor: 'rgb(160, 160, 160)',
 							data: [totmathfeb, totmathmar, totmathapr],
@@ -317,4 +407,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+* {
+	font-family: 'skbori', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
+}
+</style>

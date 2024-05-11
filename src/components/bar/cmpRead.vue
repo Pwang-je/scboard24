@@ -2,10 +2,14 @@
 	<div class="container bg-white">
 		<div class="grid">
 			<h3 class="pl-6 text-xl">
-				독해 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
+				독해
+				<span :class="arrowClass"
+					><b>{{ changeIcon }}</b></span
+				>
+				{{ changeValue }}
 			</h3>
 		</div>
-		<div class="h-20">
+		<div class="h-24">
 			<Line :data="chartData" :options="chartOptions" v-if="chartData" />
 		</div>
 	</div>
@@ -43,6 +47,7 @@ export default {
 			return {
 				responsive: true,
 				maintainAspectRatio: false,
+				devicePixelRatio: 2,
 				scales: {
 					y: {
 						beginAtZero: true,
@@ -121,16 +126,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.chart-header h2 {
-	display: flex;
-	align-items: center;
-	font-size: 1.2em;
-}
-.arrow-up {
-	color: blue;
-}
-.arrow-down {
-	color: red;
-}
-</style>
+<style scoped></style>
