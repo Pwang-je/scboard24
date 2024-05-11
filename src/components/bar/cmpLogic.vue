@@ -1,7 +1,7 @@
 <template>
-	<div class="container">
+	<div class="container bg-white">
 		<div class="grid">
-			<h3>
+			<h3 class="pl-6 text-xl">
 				논리 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
 			</h3>
 		</div>
@@ -61,7 +61,7 @@ export default {
 						display: false, // 제목 표시를 숨김 (커스텀 제목 사용)
 						// text: title,
 						// align: 'start',
-						// font: { size: 30, weight: 'bold', family: 'omyu_pretty' },
+						// font: { size: 30, weight: 'bold', family: 'skbori' },
 						// padding: { top: 0, bottom: 5 }
 					},
 				},
@@ -126,6 +126,9 @@ export default {
 	display: flex;
 	align-items: center;
 	font-size: 1.2em;
+}
+* {
+	font-family: 'skbori';
 }
 .arrow-up {
 	color: blue;

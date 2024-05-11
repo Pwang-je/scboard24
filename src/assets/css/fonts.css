@@ -1,7 +1,8 @@
 @font-face {
-  font-family: 'SKYBORI';
+  font-family: 'skbori';
   src: url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SKYBORI/SKYBORI.ttf') format('truetype'),
        url('https://cdn.jsdelivr.net/gh/fontbee/font@main/SKYBORI/SKYBORI.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
+  font-size: 1.2rem;
 }

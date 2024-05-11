@@ -6,7 +6,7 @@
 					:data="gramChartData"
 					:options="gramchartOptions"
 					v-if="gramChartData"
-					class="rounded-lg shadow-lg border-style h-96"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
@@ -17,7 +17,7 @@
 					:data="vocaChartData"
 					:options="vocaChartOptions"
 					v-if="vocaChartData"
-					class="rounded-lg shadow-lg border-style h-96"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
@@ -28,7 +28,7 @@
 					:data="logicChartData"
 					:options="logicChartOptions"
 					v-if="logicChartData"
-					class="rounded-lg shadow-lg border-style h-96"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
@@ -39,7 +39,7 @@
 					:data="readChartData"
 					:options="readChartOptions"
 					v-if="readChartData"
-					class="rounded-lg shadow-lg border-style h-96"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
 				/>
 			</div>
 		</swiper-slide>
@@ -50,7 +50,7 @@
 			:data="totEngChartData"
 			:options="totEngChartOptions"
 			v-if="totEngChartData"
-			class="rounded-lg shadow-lg border-style h-96"
+			class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
 		/>
 	</div>
 </template>
@@ -94,7 +94,7 @@ export default {
 			plugins: {
 				legend: {
 					labels: {
-						font: { family: 'omyu_pretty', size: 14 },
+						font: { family: 'skbori', size: 16 },
 					},
 				},
 				title: {
@@ -103,9 +103,9 @@ export default {
 					// position: 'left',
 					// text: 'dt',
 					font: {
-						size: 26,
+						size: 30,
 						weight: 'normal',
-						family: 'omyu_pretty',
+						family: 'skbori',
 					},
 					padding: {
 						top: 0,
@@ -406,5 +406,11 @@ export default {
 <style>
 .border-style {
 	border: 1px solid #f5f5f5;
+}
+* {
+	font-family: 'skbori', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1rem;
 }
 </style>

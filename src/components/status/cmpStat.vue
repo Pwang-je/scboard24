@@ -1,14 +1,14 @@
 <template>
 	<div class="flex items-center justify-around col-span-2">
-		<div class="text-center rounded-md stat-font">
+		<div class="text-lg text-center rounded-md stat-font">
 			{{ studentInfo.engCls }}
 		</div>
 
-		<div class="text-center rounded-md stat-font">
+		<div class="text-lg text-center rounded-md stat-font">
 			{{ studentInfo.mtCls }}
 		</div>
 
-		<div class="text-center rounded-md stat-font">
+		<div class="text-lg text-center rounded-md stat-font">
 			{{ studentInfo.Cls }}
 		</div>
 	</div>
@@ -70,8 +70,4 @@ export default {
 };
 </script>
 
-<style>
-.stat-font {
-	font-size: 14px;
-}
-</style>
+<style></style>

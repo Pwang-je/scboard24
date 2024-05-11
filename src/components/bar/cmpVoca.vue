@@ -1,9 +1,9 @@
 <template>
-	<div class="container">
+	<div class="container bg-white">
 		<div class="grid">
-			<h2>
+			<h3 class="pl-6 text-xl">
 				어휘 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
-			</h2>
+			</h3>
 		</div>
 		<div class="h-20">
 			<Line :data="chartData" :options="chartOptions" v-if="chartData" />

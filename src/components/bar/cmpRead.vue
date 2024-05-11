@@ -1,7 +1,7 @@
 <template>
-	<div class="container">
+	<div class="container bg-white">
 		<div class="grid">
-			<h3>
+			<h3 class="pl-6 text-xl">
 				독해 <span :class="arrowClass">{{ changeIcon }}</span> {{ changeValue }}
 			</h3>
 		</div>
