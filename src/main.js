@@ -6,7 +6,7 @@ import 'primevue/resources/primevue.css'; // core CSS
 import 'primeicons/primeicons.css'; // icons
 import 'swiper/swiper-bundle.css';
 import '@/assets/css/tailwind.css';
-import '@/assets/css/fonts.css';
+// import '@/assets/css/fonts.css';
 
 const app = createApp(App);
 

@@ -69,7 +69,7 @@ export default {
 			plugins: {
 				legend: {
 					labels: {
-						font: { family: 'SUITE-SemiBold', size: 14 },
+						font: { size: 14 },
 					},
 				},
 			},
