@@ -4,7 +4,7 @@
 			<Scatter :data="chartData" :options="chartOptions" />
 		</div>
 		<div v-else-if="selectedMonth && !chartData" class="no-data">
-			선택된 달에 대한 데이터가 없습니다.
+			선택된 달에 대한 데이터가 없어요.
 		</div>
 	</div>
 </template>
