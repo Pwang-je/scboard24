@@ -1,26 +1,32 @@
 <template>
-	<div class="test-pie">
-		<Dropdown
-			v-model="selectedMonth"
-			:options="formattedMonthlyData"
-			optionLabel="label"
-			optionValue="value"
-			placeholder="Select a month"
-		/>
-		<Pie
-			:data="selectedData"
-			:options="pieChartOptions"
-			v-if="selectedData && selectedMonth"
-			:key="selectedMonth"
-		/>
-	</div>
+	<div class="container">
+		<div class="grid grid-cols-1 p-2 m-4">
+			<Dropdown
+				v-model="selectedMonth"
+				:options="formattedMonthlyData"
+				optionLabel="label"
+				optionValue="value"
+				placeholder="Select a month"
+				class="w-full"
+			/>
+		</div>
+		<div class="grid grid-cols-1 chart-height">
+			<Pie
+				:data="selectedData"
+				:options="pieChartOptions"
+				v-if="selectedData && selectedMonth"
+				:key="selectedMonth"
+				class="bg-white p-2"
+			/>
+		</div>
 
-	<div>
-		<cmpSct v-if="selectedMonth" :selected-month="selectedMonth" />
-	</div>
+		<div class="grid grid-cols-1 chart-height">
+			<cmpSct v-if="selectedMonth" :selected-month="selectedMonth" class="bg-white p-2 m-4" />
+		</div>
 
-	<div>
-		<cmpTable v-if="selectedMonth" :selected-month="selectedMonth" />
+		<div class="grid grid-cols-1 hcart-height mt-8">
+			<cmpTable v-if="selectedMonth" :selected-month="selectedMonth" />
+		</div>
 	</div>
 </template>
 
@@ -138,8 +144,7 @@ export default {
 </script>
 
 <style>
-.test-pie {
-	width: 100%;
-	height: 400px;
+.chart-height {
+	height: 30rem;
 }
 </style>

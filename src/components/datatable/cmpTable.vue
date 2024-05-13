@@ -14,6 +14,13 @@
 			scrollable
 			scrollHeight="600px"
 		>
+			<template #header>
+				<div class="flex flex-wrap align-items-center justify-content-between gap-2">
+					<span class="text-xl text-900 font-bold"
+						>{{ this.selectedMonth }} Score Report for all branches.</span
+					>
+				</div>
+			</template>
 			<Column field="stdName" header="이름" sortable style="min-width: 100px"></Column>
 
 			<!-- NOTE -. This part shows the colour change for each Department. -->
