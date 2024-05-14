@@ -58,7 +58,7 @@ export default {
 					},
 				},
 				title: {
-					display: true,
+					display: false,
 					text: '과목별 점수 비교',
 					font: {
 						size: 24,
@@ -134,6 +134,6 @@ export default {
 </script>
 <style>
 .radar-height {
-	height: 30rem;
+	height: 26rem;
 }
 </style>

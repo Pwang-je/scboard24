@@ -1,6 +1,6 @@
 <template>
 	<div class="container mx-auto">
-		<!-- TODO -. this part will change grids. -->
+		<!-- TODO -. this part will changing. -->
 		<div class="grid grid-cols-2 m-4">
 			<div class=""></div>
 			<div class=""></div>
@@ -12,7 +12,7 @@
 					v-model="selectedStudent"
 					:options="students"
 					optionLabel="name"
-					placeholder="Select"
+					placeholder="Name"
 					filter
 					class="w-full"
 				>
@@ -24,14 +24,19 @@
 			</div>
 		</div>
 
-		<div>
+		<div class="container">
+			<span v-if="selectedStudent" class="p-3 text-xl font-bold text-900">
+				<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-bar"></span>
+				&nbsp; 과목별 &nbsp; '영어' &nbsp; 점수
+			</span>
 			<cmpEngBarAvg :selected-student="selectedStudent" />
 		</div>
 
 		<div class="container grid gap-3 p-3">
 			<div class="grid grid-cols-1">
-				<span v-if="selectedStudent" class="pi pi-sort-alt-slash text-xl text-900 font-bold"
-					>&nbsp; 지난달 대비 과목별 성적 증감률</span
+				<span v-if="selectedStudent" class="text-xl font-bold text-900">
+					<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-sort-alt"></span>
+					&nbsp; 지난달 대비 성적 증감률_전체 분원</span
 				>
 			</div>
 			<div class="grid grid-cols-2">
@@ -43,11 +48,21 @@
 		</div>
 
 		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
-		<div class="grid grid-cols-1 mt-2">
+		<div class="container pt-6">
+			<span v-if="selectedStudent" class="p-3 text-xl font-bold text-900">
+				<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-star-half"></span>
+				&nbsp; 과목별&nbsp; 비교&nbsp; 점수
+			</span>
+			<!-- <div class="grid grid-cols-1 mt-2"> -->
 			<cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name : ''" />
+			<!-- </div> -->
 		</div>
 
-		<div>
+		<div class="container pt-6">
+			<span v-if="selectedStudent" class="p-3 text-xl font-bold text-900">
+				<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-bar"></span>
+				&nbsp; 과목별 &nbsp; '수학' &nbsp; 점수
+			</span>
 			<cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
 		</div>
 
