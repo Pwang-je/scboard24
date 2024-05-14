@@ -5,9 +5,5 @@ module.exports = defineConfig({
 
 module.exports = {
 	publicPath: '/scboard24',
-<<<<<<< HEAD
+	outputDir: 'docs',
 };
-=======
-	outputDir: 'docs'
-}
->>>>>>> 3198ea4ffb32ec095f3ee861ecd2d838042485e8
