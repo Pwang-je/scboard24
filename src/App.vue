@@ -1,6 +1,6 @@
 <template>
 	<div class="container mx-auto">
-		// TODO -. this part will change grids.
+		<!-- TODO -. this part will change grids. -->
 		<div class="grid grid-cols-2 m-4">
 			<div class=""></div>
 			<div class=""></div>
@@ -28,11 +28,18 @@
 			<cmpEngBarAvg :selected-student="selectedStudent" />
 		</div>
 
-		<div class="container grid grid-cols-2 gap-3 p-3">
-			<cmpGrammar v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
-			<cmpVoca v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
-			<cmpLogic v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
-			<cmpRead v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+		<div class="container grid gap-3 p-3">
+			<div class="grid grid-cols-1">
+				<span v-if="selectedStudent" class="pi pi-sort-alt-slash text-xl text-900 font-bold"
+					>&nbsp; 지난달 대비 과목별 성적 증감률</span
+				>
+			</div>
+			<div class="grid grid-cols-2">
+				<cmpGrammar v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+				<cmpVoca v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+				<cmpLogic v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+				<cmpRead v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
+			</div>
 		</div>
 
 		<!-- <cmpEngBarMonthly v-if="selectedStudent" /> -->
