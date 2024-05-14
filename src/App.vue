@@ -1,5 +1,11 @@
 <template>
 	<div class="container mx-auto">
+		// TODO -. this part will change grids.
+		<div class="grid grid-cols-2 m-4">
+			<div class=""></div>
+			<div class=""></div>
+		</div>
+
 		<div class="grid content-center grid-cols-3 m-4">
 			<div class="col-span-1">
 				<Dropdown
