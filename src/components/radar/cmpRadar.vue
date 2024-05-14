@@ -30,8 +30,8 @@ export default {
 	},
 
 	watch: {
-		selectedStudentName(newSelectedStudentName) {
-			console.log('raDar.vue selectedStudentName: ', newSelectedStudentName);
+		selectedStudentName() {
+			// console.log('raDar.vue selectedStudentName: ', newSelectedStudentName);
 			this.getStudentData();
 		},
 	},

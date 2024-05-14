@@ -94,7 +94,7 @@ export default {
 			plugins: {
 				legend: {
 					labels: {
-						font: { family: 'skbori', size: 16 },
+						font: { family: 'skbori', size: 14 },
 					},
 				},
 				title: {

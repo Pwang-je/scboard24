@@ -36,7 +36,7 @@
 			<div class="grid grid-cols-1">
 				<span v-if="selectedStudent" class="text-xl font-bold text-900">
 					<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-sort-alt"></span>
-					&nbsp; 지난달 대비 성적 증감률_전체 분원</span
+					&nbsp; 지난달 대비 성적 증감률&nbsp; _ &nbsp;전체 분원</span
 				>
 			</div>
 			<div class="grid grid-cols-2">
@@ -51,14 +51,14 @@
 		<div class="container pt-6">
 			<span v-if="selectedStudent" class="p-3 text-xl font-bold text-900">
 				<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-star-half"></span>
-				&nbsp; 과목별&nbsp; 비교&nbsp; 점수
+				&nbsp; 과목별&nbsp; 비교&nbsp; 점수 (100점 환산 기준)
 			</span>
 			<!-- <div class="grid grid-cols-1 mt-2"> -->
 			<cmpRadar :selectedStudentName="selectedStudent ? selectedStudent.name : ''" />
 			<!-- </div> -->
 		</div>
 
-		<div class="container pt-6">
+		<div class="container pt-6" v-if="hasMathScores">
 			<span v-if="selectedStudent" class="p-3 text-xl font-bold text-900">
 				<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-bar"></span>
 				&nbsp; 과목별 &nbsp; '수학' &nbsp; 점수
@@ -66,7 +66,7 @@
 			<cmpMathBarAvg v-if="hasMathScores" :selected-student="selectedStudent" />
 		</div>
 
-		<div>
+		<div class="container">
 			<cmpPie />
 		</div>
 	</div>
@@ -105,8 +105,12 @@ export default {
 		return {
 			selectedStudent: null,
 			students: [],
-			hasMathScores: false, // 수학 점수 존재 여부 확인
+			hasMathScores: true, // 수학 점수 존재 여부 확인
 		};
+	},
+
+	mounted() {
+		this.hasMathScores = !cmpMathBarAvg;
 	},
 
 	created() {

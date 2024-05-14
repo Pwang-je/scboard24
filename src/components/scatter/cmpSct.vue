@@ -1,8 +1,17 @@
 <template>
+	<span v-if="selectedMonth" class="p-3 text-xl font-bold text-900">
+		<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-scatter"></span>
+		&nbsp; 자연계열&nbsp; 영어 + 수학&nbsp; 점수분포
+	</span>
 	<div>
 		<div v-if="chartData && chartData.datasets.length > 0" class="sct-size">
-			<Scatter :data="chartData" :options="chartOptions" />
+			<Scatter
+				:data="chartData"
+				:options="chartOptions"
+				class="bg-white rounded-lg shadow-lg border-style"
+			/>
 		</div>
+
 		<div v-else-if="selectedMonth && !chartData" class="no-data">
 			선택된 달에 대한 데이터가 없어요.
 		</div>
@@ -776,14 +785,14 @@ export default {
 			maintainAspectRatio: false,
 			devicePixelRatio: 2,
 			plugins: {
-				datalabels: {
-					display: false,
-				},
+				// datalabels: {
+				// 	display: false,
+				// },
 				legend: {
 					position: 'top',
 				},
 				title: {
-					display: true,
+					display: false,
 					text: '자연계열 영어 수학 점수분포',
 				},
 			},
@@ -821,7 +830,7 @@ export default {
 				const dataset = {
 					label: item.location,
 					data: item.points.map(point => ({ x: point.x, y: point.y })),
-					pointRadius: 5,
+					pointRadius: 4,
 					backgroundColor: colors[item.location],
 				};
 				datasets.push(dataset);
@@ -848,7 +857,7 @@ export default {
 </script>
 <style>
 .sct-size {
-	height: 28.75rem;
+	height: 32rem;
 }
 .no-data {
 	display: flex;

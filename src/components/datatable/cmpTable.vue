@@ -1,4 +1,8 @@
 <template>
+	<span v-if="selectedMonth" class="p-3 text-xl font-bold text-900">
+		<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-table"></span>
+		&nbsp; {{ this.selectedMonth }}&nbsp; 전체 분원 성적 리스트
+	</span>
 	<div>
 		<DataTable
 			v-if="filteredData.length > 0"
@@ -13,14 +17,15 @@
 			responsiveLayout="scroll"
 			scrollable
 			scrollHeight="600px"
+			class="bg-white rounded-lg shadow-lg border-style"
 		>
-			<template #header>
-				<div class="flex flex-wrap align-items-center justify-content-between gap-2">
-					<span class="text-xl text-900 font-bold"
+			<!-- <template #header>
+				<div class="flex flex-wrap gap-2 align-items-center justify-content-between">
+					<span class="text-xl font-bold text-900"
 						>{{ this.selectedMonth }} Score Report for all branches.</span
 					>
 				</div>
-			</template>
+			</template> -->
 			<Column field="stdName" header="이름" sortable style="min-width: 100px"></Column>
 
 			<!-- NOTE -. This part shows the colour change for each Department. -->

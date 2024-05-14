@@ -35,8 +35,8 @@ export default {
 	},
 
 	watch: {
-		selectedStudentName(newSelectedStudentName) {
-			console.log('cmpStat.vue selectedStudentName: ', newSelectedStudentName);
+		selectedStudentName() {
+			// console.log('cmpStat.vue selectedStudentName: ', newSelectedStudentName);
 			this.getStudentData();
 		},
 	},
@@ -49,7 +49,7 @@ export default {
 					`https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/statData.json?name=${this.selectedStudentName}`,
 				);
 
-				console.log('selected name : ', this.selectedStudentName);
+				// console.log('selected name : ', this.selectedStudentName);
 
 				const selectedStudent = response.data.find(
 					student => student.name === this.selectedStudentName,

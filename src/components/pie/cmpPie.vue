@@ -10,21 +10,26 @@
 				class="w-full"
 			/>
 		</div>
-		<div class="grid grid-cols-1 chart-height">
+
+		<span v-if="selectedMonth" class="p-3 text-xl font-bold text-900">
+			<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-pie"></span>
+			&nbsp; 점수별&nbsp; 인원&nbsp; 분포표
+		</span>
+		<div class="grid grid-cols-1 m-4 chart-height">
 			<Pie
 				:data="selectedData"
 				:options="pieChartOptions"
 				v-if="selectedData && selectedMonth"
 				:key="selectedMonth"
-				class="bg-white p-2"
+				class="p-2 bg-white rounded-lg shadow-lg chart-height border-style"
 			/>
 		</div>
 
-		<div class="grid grid-cols-1 chart-height">
-			<cmpSct v-if="selectedMonth" :selected-month="selectedMonth" class="bg-white p-2 m-4" />
+		<div class="grid grid-cols-1 m-4">
+			<cmpSct v-if="selectedMonth" :selected-month="selectedMonth" class="p-2 m-4 bg-white" />
 		</div>
 
-		<div class="grid grid-cols-1 hcart-height mt-8">
+		<div class="grid grid-cols-1 m-4">
 			<cmpTable v-if="selectedMonth" :selected-month="selectedMonth" />
 		</div>
 	</div>
@@ -84,7 +89,7 @@ export default {
 					position: 'top',
 				},
 				title: {
-					display: true,
+					display: false,
 					text: '점수별 인원 분포',
 				},
 			},
@@ -145,6 +150,9 @@ export default {
 
 <style>
 .chart-height {
-	height: 30rem;
+	height: 36rem;
+}
+.border-style {
+	border: 1px solid #f5f5f5;
 }
 </style>
