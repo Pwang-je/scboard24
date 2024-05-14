@@ -1,8 +1,10 @@
 <template>
+	<!-- FIXME -. [pi-table] margin-left -->
 	<span v-if="selectedMonth" class="p-3 text-xl font-bold text-900">
 		<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-table"></span>
 		&nbsp; {{ this.selectedMonth }}&nbsp; 전체 분원 성적 리스트
 	</span>
+	<!-- TODO -. field-branCh FIXED ROW -->
 	<div>
 		<DataTable
 			v-if="filteredData.length > 0"
@@ -16,16 +18,8 @@
 			selectionMode="single"
 			responsiveLayout="scroll"
 			scrollable
-			scrollHeight="600px"
-			class="bg-white rounded-lg shadow-lg border-style"
+			scrollHeight="650px"
 		>
-			<!-- <template #header>
-				<div class="flex flex-wrap gap-2 align-items-center justify-content-between">
-					<span class="text-xl font-bold text-900"
-						>{{ this.selectedMonth }} Score Report for all branches.</span
-					>
-				</div>
-			</template> -->
 			<Column field="stdName" header="이름" sortable style="min-width: 100px"></Column>
 
 			<!-- NOTE -. This part shows the colour change for each Department. -->
@@ -35,7 +29,7 @@
 				</template>
 			</Column>
 
-			<Column field="branCh" header="계열" sortable style="min-width: 120px"></Column>
+			<!-- <Column field="branCh" header="계열" sortable style="min-width: 120px"></Column> -->
 			<Column field="engScore" header="영어점수" sortable style="min-width: 120px"></Column>
 			<Column field="mathScore" header="수학점수" sortable style="min-width: 120px"></Column>
 			<template #footer>

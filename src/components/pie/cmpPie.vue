@@ -21,15 +21,15 @@
 				:options="pieChartOptions"
 				v-if="selectedData && selectedMonth"
 				:key="selectedMonth"
-				class="p-2 bg-white rounded-lg shadow-lg chart-height border-style"
+				class="p-2 chart-height"
 			/>
 		</div>
 
-		<div class="grid grid-cols-1 m-4">
+		<div class="grid grid-cols-1">
 			<cmpSct v-if="selectedMonth" :selected-month="selectedMonth" class="p-2 m-4 bg-white" />
 		</div>
 
-		<div class="grid grid-cols-1 m-4">
+		<div class="grid grid-cols-1">
 			<cmpTable v-if="selectedMonth" :selected-month="selectedMonth" />
 		</div>
 	</div>

@@ -32,14 +32,14 @@
 			<cmpEngBarAvg :selected-student="selectedStudent" />
 		</div>
 
-		<div class="container grid gap-3 p-3">
+		<div class="container grid p-3">
 			<div class="grid grid-cols-1">
 				<span v-if="selectedStudent" class="text-xl font-bold text-900">
 					<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-sort-alt"></span>
 					&nbsp; 지난달 대비 성적 증감률&nbsp; _ &nbsp;전체 분원</span
 				>
 			</div>
-			<div class="grid grid-cols-2">
+			<div class="grid grid-cols-2 gap-4 mt-4">
 				<cmpGrammar v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
 				<cmpVoca v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
 				<cmpLogic v-if="selectedStudent" class="rounded-lg shadow-lg border-style" />
