@@ -1,6 +1,4 @@
 <template>
-	<!-- FIXME -. [pi-chart-scatter] margin-left -->
-
 	<span v-if="selectedMonth" class="p-3 text-xl font-bold text-900">
 		<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-scatter"></span>
 		&nbsp; 자연계열&nbsp; 영어 + 수학&nbsp; 점수분포
@@ -446,7 +444,7 @@ export default {
 </script>
 <style>
 .sct-size {
-	height: 32rem;
+	height: 28rem;
 }
 .no-data {
 	display: flex;

@@ -15,7 +15,7 @@
 			<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-chart-pie"></span>
 			&nbsp; 점수별&nbsp; 인원&nbsp; 분포표
 		</span>
-		<div class="grid grid-cols-1 m-4 chart-height">
+		<div class="grid grid-cols-1">
 			<Pie
 				:data="selectedData"
 				:options="pieChartOptions"
