@@ -3,7 +3,7 @@
 		<!-- TODO -. this part will changing. -->
 		<div class="grid grid-cols-2 m-4">
 			<div class="p-4 h-20 flex justify-end">
-				<img src="@/assets/img/N_logo.png" class="" />
+				<img src="@/assets/img/N_logo.png" class="img-size" />
 			</div>
 			<div class="inline-block align-middle text-left text-slate-500 pt-4">
 				<span class="font-semibold"> 'N' &nbsp;2024y &nbsp;#1s </span><br />
@@ -157,4 +157,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.img-size {
+	width: 40px;
+	height: 41px;
+}
+</style>
