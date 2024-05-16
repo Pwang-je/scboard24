@@ -2,7 +2,7 @@
 	<div class="container mx-auto">
 		<!-- TODO -. this part will changing. -->
 		<div class="grid grid-cols-2 m-4">
-			<div class="p-4 h-20 flex justify-end">
+			<div class="p-4 h-20 flex justify-center">
 				<img src="@/assets/img/N_logo.png" class="img-size" />
 			</div>
 			<div class="inline-block align-middle text-left text-slate-500 pt-4">
