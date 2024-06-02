@@ -66,7 +66,7 @@ export default {
 				this.chartsData.forEach(chart => {
 					const baseKey = `monthly${chart.key}`;
 					chart.data = {
-						labels: ['1월', '2월', '3월', '4월'],
+						labels: ['1월', '2월', '3월', '4월', '5월'],
 						datasets: [
 							{
 								type: 'line',
@@ -75,6 +75,7 @@ export default {
 									response.data[`${baseKey}feb`],
 									response.data[`${baseKey}mar`],
 									response.data[`${baseKey}apr`],
+									response.data[`${baseKey}may`],
 								],
 								backgroundColor: 'rgba(255, 99, 132, 0.5)',
 								borderColor: 'rgb(255, 99, 132)',

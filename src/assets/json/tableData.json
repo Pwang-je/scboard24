@@ -4587,8 +4587,2232 @@
     }
   ],
   "May": [
-    
-  ],
+    {
+        "stdName": "권하영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 87.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "선지우",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 87.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "정세빈",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 87.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김승찬",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 85,
+        "mathScore": 84
+    },
+    {
+        "stdName": "설애린",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 85,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박솔빈",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 85,
+        "mathScore": ""
+    },
+    {
+        "stdName": "전서영",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 85,
+        "mathScore": 80
+    },
+    {
+        "stdName": "강은진",
+        "dePart": "노원",
+        "branCh": "일반인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김영경",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김재혁",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김은솔",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김진영",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김주아",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김태우",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김호중",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "오신우",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정다훈",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 82.5,
+        "mathScore": 68
+    },
+    {
+        "stdName": "정승민",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 82.5,
+        "mathScore": 88
+    },
+    {
+        "stdName": "최윤서",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 82.5,
+        "mathScore": 48
+    },
+    {
+        "stdName": "이지우_D",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 82.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "홍서영",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 82.5,
+        "mathScore": 84
+    },
+    {
+        "stdName": "김솔내",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 80,
+        "mathScore": ""
+    },
+    {
+        "stdName": "방대성",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 80,
+        "mathScore": 76
+    },
+    {
+        "stdName": "유서인",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 80,
+        "mathScore": 96
+    },
+    {
+        "stdName": "이동현",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 80,
+        "mathScore": ""
+    },
+    {
+        "stdName": "전연수",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 80,
+        "mathScore": ""
+    },
+    {
+        "stdName": "인서준",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 80,
+        "mathScore": 16
+    },
+    {
+        "stdName": "임지호",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 80,
+        "mathScore": ""
+    },
+    {
+        "stdName": "홍승리",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 80,
+        "mathScore": 96
+    },
+    {
+        "stdName": "김은희",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 77.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박시원",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 77.5,
+        "mathScore": 84
+    },
+    {
+        "stdName": "박지민",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 77.5,
+        "mathScore": 60
+    },
+    {
+        "stdName": "성효민",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 77.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이광영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 77.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "신재혁",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 77.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이윤서",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 77.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "조강현",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 77.5,
+        "mathScore": 84
+    },
+    {
+        "stdName": "김주해",
+        "dePart": "강남",
+        "branCh": "인문일반",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김지연",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "양종현",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이소온",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "장서윤",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이지우_N",
+        "dePart": "노원",
+        "branCh": "일반인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이우신",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이한울",
+        "dePart": "노원",
+        "branCh": "일반인문",
+        "engScore": 75,
+        "mathScore": ""
+    },
+    {
+        "stdName": "고영규",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 72.5,
+        "mathScore": 56
+    },
+    {
+        "stdName": "권재승",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김재림",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 72.5,
+        "mathScore": 60
+    },
+    {
+        "stdName": "서준서",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 72.5,
+        "mathScore": 60
+    },
+    {
+        "stdName": "서태랑",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "안섬규",
+        "dePart": "강남",
+        "branCh": "인문학사",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "윤지윤",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이윤아",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이지애",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이은지",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "한채윤",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 72.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "구민정",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김보경",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 70,
+        "mathScore": 36
+    },
+    {
+        "stdName": "김윤지",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 70,
+        "mathScore": 64
+    },
+    {
+        "stdName": "김민서_N",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 70,
+        "mathScore": 72
+    },
+    {
+        "stdName": "김윤성",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 70,
+        "mathScore": 36
+    },
+    {
+        "stdName": "김지훈",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김준형",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 70,
+        "mathScore": 52
+    },
+    {
+        "stdName": "김진형",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 70,
+        "mathScore": 36
+    },
+    {
+        "stdName": "박수아",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박진형",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 70,
+        "mathScore": 96
+    },
+    {
+        "stdName": "신예서",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "양아연",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "윤성원",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "진한빛",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이효우",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 70,
+        "mathScore": 52
+    },
+    {
+        "stdName": "최민석",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 70,
+        "mathScore": ""
+    },
+    {
+        "stdName": "곽기민",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 67.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김강민",
+        "dePart": "노원",
+        "branCh": "인문일반",
+        "engScore": 67.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "백수연",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 67.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "엄정현",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 67.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "조현지",
+        "dePart": "노원",
+        "branCh": "인문일반",
+        "engScore": 67.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최민서",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 67.5,
+        "mathScore": 56
+    },
+    {
+        "stdName": "최정훈",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 67.5,
+        "mathScore": 88
+    },
+    {
+        "stdName": "홍윤기",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 67.5,
+        "mathScore": 80
+    },
+    {
+        "stdName": "권정연",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "강효원",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김서현",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 65,
+        "mathScore": 40
+    },
+    {
+        "stdName": "박재우",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "설동혁",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "송정원",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박준혁",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 65,
+        "mathScore": 72
+    },
+    {
+        "stdName": "양현유",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "어석민",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 65,
+        "mathScore": 88
+    },
+    {
+        "stdName": "전상현",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정예은",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이의정",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 65,
+        "mathScore": 60
+    },
+    {
+        "stdName": "차하영",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 65,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김나원",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 62.5,
+        "mathScore": 68
+    },
+    {
+        "stdName": "김예림",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 62.5,
+        "mathScore": 48
+    },
+    {
+        "stdName": "김지우",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 62.5,
+        "mathScore": 48
+    },
+    {
+        "stdName": "김호준",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 62.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "나희연",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 62.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김혜빈",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 62.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "백태경",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 62.5,
+        "mathScore": 68
+    },
+    {
+        "stdName": "유수화",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 62.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "이동헌",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 62.5,
+        "mathScore": 24
+    },
+    {
+        "stdName": "전민우",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 62.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정하진",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 62.5,
+        "mathScore": 92
+    },
+    {
+        "stdName": "조현호",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 62.5,
+        "mathScore": 60
+    },
+    {
+        "stdName": "조현성",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 62.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "감효정",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 60,
+        "mathScore": 60
+    },
+    {
+        "stdName": "강민지",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "곽내현",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김유은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김유빈",
+        "dePart": "노원",
+        "branCh": "일반인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김태현",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 60,
+        "mathScore": 48
+    },
+    {
+        "stdName": "김정민",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "류시현",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 60,
+        "mathScore": 20
+    },
+    {
+        "stdName": "서효리",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 60,
+        "mathScore": 48
+    },
+    {
+        "stdName": "유능한",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 60,
+        "mathScore": 92
+    },
+    {
+        "stdName": "유해미",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 60,
+        "mathScore": 52
+    },
+    {
+        "stdName": "박효린",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "변민석",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "윤인권",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이지원",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 60,
+        "mathScore": 88
+    },
+    {
+        "stdName": "이승빈",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 60,
+        "mathScore": 68
+    },
+    {
+        "stdName": "이수빈_1",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정수환",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 60,
+        "mathScore": 76
+    },
+    {
+        "stdName": "장예슬",
+        "dePart": "노원",
+        "branCh": "인문학사",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이재원_1",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "제서현",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "전지민",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최희주",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 60,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김도린",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 57.5,
+        "mathScore": 40
+    },
+    {
+        "stdName": "김수민",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 57.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김윤경",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 57.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김기범_N",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 57.5,
+        "mathScore": 64
+    },
+    {
+        "stdName": "김현우",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 57.5,
+        "mathScore": 80
+    },
+    {
+        "stdName": "나하진",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 57.5,
+        "mathScore": 84
+    },
+    {
+        "stdName": "백정안",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 57.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "신민경",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 57.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "안정연",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 57.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "이동희",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 57.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "이정운",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 57.5,
+        "mathScore": 52
+    },
+    {
+        "stdName": "이수빈_3",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 57.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "조민혁",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 57.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "함지윤",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 57.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김근호",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 55,
+        "mathScore": 52
+    },
+    {
+        "stdName": "김보담",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": 80
+    },
+    {
+        "stdName": "김민우",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": 88
+    },
+    {
+        "stdName": "김요단",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김은지",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김정후",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김윤환",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김지현",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박채원",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박세영",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "송영원",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 55,
+        "mathScore": 68
+    },
+    {
+        "stdName": "심은지",
+        "dePart": "노원",
+        "branCh": "자연일반",
+        "engScore": 55,
+        "mathScore": 64
+    },
+    {
+        "stdName": "변부윤",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "신민정",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "양예진",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이성준",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이재윤",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": 44
+    },
+    {
+        "stdName": "임성수",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 55,
+        "mathScore": 48
+    },
+    {
+        "stdName": "윤아영",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 55,
+        "mathScore": 60
+    },
+    {
+        "stdName": "이도경",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 55,
+        "mathScore": 44
+    },
+    {
+        "stdName": "이수아",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정희선_2",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "조준우",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": 88
+    },
+    {
+        "stdName": "최아영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최아원",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최연수",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "허지웅",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "지효현",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": ""
+    },
+    {
+        "stdName": "한성빈",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 55,
+        "mathScore": 60
+    },
+    {
+        "stdName": "김도연",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 52.5,
+        "mathScore": 40
+    },
+    {
+        "stdName": "김연희",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 52.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김서우",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 52.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김홍주",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 52.5,
+        "mathScore": 80
+    },
+    {
+        "stdName": "이수빈",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 52.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "손성원",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 52.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "임도경",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 52.5,
+        "mathScore": 68
+    },
+    {
+        "stdName": "장승원",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 52.5,
+        "mathScore": 24
+    },
+    {
+        "stdName": "조제현",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 52.5,
+        "mathScore": 80
+    },
+    {
+        "stdName": "이주호_D",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 52.5,
+        "mathScore": 68
+    },
+    {
+        "stdName": "최서연",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 52.5,
+        "mathScore": 36
+    },
+    {
+        "stdName": "최유정",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 52.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "황보효진",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 52.5,
+        "mathScore": 36
+    },
+    {
+        "stdName": "곽병준",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 50,
+        "mathScore": 56
+    },
+    {
+        "stdName": "김수연",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 50,
+        "mathScore": 52
+    },
+    {
+        "stdName": "김연호",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 50,
+        "mathScore": 68
+    },
+    {
+        "stdName": "김유민",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 50,
+        "mathScore": 80
+    },
+    {
+        "stdName": "김태영(남)",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박서연",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김지윤",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "서보성",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박상준",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 50,
+        "mathScore": 76
+    },
+    {
+        "stdName": "유지연",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 50,
+        "mathScore": 24
+    },
+    {
+        "stdName": "이정필",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 50,
+        "mathScore": 24
+    },
+    {
+        "stdName": "이소은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정지은",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "황수민",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 50,
+        "mathScore": ""
+    },
+    {
+        "stdName": "강민영",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김나영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김나현",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김재훈",
+        "dePart": "노원",
+        "branCh": "인문일반",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김태영(여)",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 47.5,
+        "mathScore": 64
+    },
+    {
+        "stdName": "김하윤",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박건",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "유민주",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 47.5,
+        "mathScore": 44
+    },
+    {
+        "stdName": "유호경",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 47.5,
+        "mathScore": 60
+    },
+    {
+        "stdName": "송동욱",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 47.5,
+        "mathScore": 76
+    },
+    {
+        "stdName": "원세빈",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이연경",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "전주빈",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 47.5,
+        "mathScore": 48
+    },
+    {
+        "stdName": "조윤화",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최인혜",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최지훈",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "장윤서",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "조준희",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "홍지민",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 47.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김민채",
+        "dePart": "노원",
+        "branCh": "일반인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김현영",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김준호",
+        "dePart": "일산",
+        "branCh": "일반자연",
+        "engScore": 45,
+        "mathScore": 32
+    },
+    {
+        "stdName": "서동석",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 45,
+        "mathScore": 28
+    },
+    {
+        "stdName": "문경희",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박성수",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 45,
+        "mathScore": 72
+    },
+    {
+        "stdName": "이경근",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 45,
+        "mathScore": 84
+    },
+    {
+        "stdName": "이예원",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이준영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "신지은",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이선우",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 45,
+        "mathScore": 24
+    },
+    {
+        "stdName": "이희명",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 45,
+        "mathScore": 56
+    },
+    {
+        "stdName": "임성빈",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정한울",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최준원",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 45,
+        "mathScore": 16
+    },
+    {
+        "stdName": "전지연",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정동현",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최한준",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "한나래",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 45,
+        "mathScore": 36
+    },
+    {
+        "stdName": "차규진",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 45,
+        "mathScore": ""
+    },
+    {
+        "stdName": "강윤아",
+        "dePart": "노원",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "고은지",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 42.5,
+        "mathScore": 32
+    },
+    {
+        "stdName": "권수빈",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 42.5,
+        "mathScore": 44
+    },
+    {
+        "stdName": "김윤주",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 42.5,
+        "mathScore": 84
+    },
+    {
+        "stdName": "김재성",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 42.5,
+        "mathScore": 40
+    },
+    {
+        "stdName": "박소현",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "백은혜",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "백주원",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "신형은",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박효정",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 42.5,
+        "mathScore": 20
+    },
+    {
+        "stdName": "신비",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "유승현",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "심지현",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": 28
+    },
+    {
+        "stdName": "유준하",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "윤영환",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 42.5,
+        "mathScore": 24
+    },
+    {
+        "stdName": "임지영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정다녕",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최선필",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 42.5,
+        "mathScore": 48
+    },
+    {
+        "stdName": "전진경",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "하연주",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 42.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김준성",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 40,
+        "mathScore": 64
+    },
+    {
+        "stdName": "김지영",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김종은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "노서진",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "서준혁",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 40,
+        "mathScore": 100
+    },
+    {
+        "stdName": "박수민",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 40,
+        "mathScore": 48
+    },
+    {
+        "stdName": "우태희",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "변정현",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "오보영",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "장한별",
+        "dePart": "노원",
+        "branCh": "자연일반",
+        "engScore": 40,
+        "mathScore": 44
+    },
+    {
+        "stdName": "정원석",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "최준우",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 40,
+        "mathScore": 12
+    },
+    {
+        "stdName": "지유경",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "홍예원",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 40,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김가은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 37.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박서진",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 37.5,
+        "mathScore": 44
+    },
+    {
+        "stdName": "백주현",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 37.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "송민서",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 37.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "임재혁",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 37.5,
+        "mathScore": 72
+    },
+    {
+        "stdName": "이용재",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 37.5,
+        "mathScore": 28
+    },
+    {
+        "stdName": "정하림",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 37.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "천승현",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 37.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김단아",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김세민",
+        "dePart": "일산",
+        "branCh": "학사자연",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "권영웅",
+        "dePart": "노원",
+        "branCh": "학사자연",
+        "engScore": 35,
+        "mathScore": 44
+    },
+    {
+        "stdName": "김은상",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김혜은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "백승우",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 35,
+        "mathScore": 40
+    },
+    {
+        "stdName": "성은우",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "문정민",
+        "dePart": "일산",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "신창민",
+        "dePart": "노원",
+        "branCh": "인문일반",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "서보은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "이선유",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "임정호",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 35,
+        "mathScore": 40
+    },
+    {
+        "stdName": "정병권",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 35,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김동현",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 32.5,
+        "mathScore": 52
+    },
+    {
+        "stdName": "김예은",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 32.5,
+        "mathScore": 40
+    },
+    {
+        "stdName": "김하슬린",
+        "dePart": "노원",
+        "branCh": "인문일반",
+        "engScore": 32.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "전선희",
+        "dePart": "강남",
+        "branCh": "학사자연",
+        "engScore": 32.5,
+        "mathScore": 60
+    },
+    {
+        "stdName": "정민욱",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 32.5,
+        "mathScore": 68
+    },
+    {
+        "stdName": "이하은",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 32.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정현태",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 32.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김다혜",
+        "dePart": "일산",
+        "branCh": "일반인문",
+        "engScore": 30,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김세희",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 30,
+        "mathScore": ""
+    },
+    {
+        "stdName": "문해찬",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 30,
+        "mathScore": 36
+    },
+    {
+        "stdName": "서정열",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 30,
+        "mathScore": 68
+    },
+    {
+        "stdName": "정세나",
+        "dePart": "강남",
+        "branCh": "학사인문",
+        "engScore": 30,
+        "mathScore": ""
+    },
+    {
+        "stdName": "정세영",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 30,
+        "mathScore": 28
+    },
+    {
+        "stdName": "김기범_D",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 27.5,
+        "mathScore": 20
+    },
+    {
+        "stdName": "김유리",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 27.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "백은서",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 27.5,
+        "mathScore": 28
+    },
+    {
+        "stdName": "양진호",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 27.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "전희서",
+        "dePart": "강남",
+        "branCh": "일반인문",
+        "engScore": 27.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "주성연",
+        "dePart": "노원",
+        "branCh": "일반자연",
+        "engScore": 27.5,
+        "mathScore": 28
+    },
+    {
+        "stdName": "정서연",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 27.5,
+        "mathScore": ""
+    },
+    {
+        "stdName": "권수민",
+        "dePart": "노원",
+        "branCh": "학사인문",
+        "engScore": 25,
+        "mathScore": ""
+    },
+    {
+        "stdName": "김미소",
+        "dePart": "듀이카",
+        "branCh": "학사자연",
+        "engScore": 25,
+        "mathScore": 36
+    },
+    {
+        "stdName": "이지은",
+        "dePart": "강남",
+        "branCh": "일반자연",
+        "engScore": 25,
+        "mathScore": 36
+    },
+    {
+        "stdName": "허윤재",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 25,
+        "mathScore": ""
+    },
+    {
+        "stdName": "박기현",
+        "dePart": "듀이카",
+        "branCh": "학사인문",
+        "engScore": 20
+    }
+],
   "June": [
     
   ],

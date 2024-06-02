@@ -240,7 +240,7 @@ export default {
 			const avgCls1Data = response.data;
 
 			if (this.selectedStudent) {
-				const { clcls1feb, clcls1mar, clcls1apr } = this.selectedStudent;
+				const { clcls1feb, clcls1mar, clcls1apr, clcls1may } = this.selectedStudent;
 
 				this.clCls1ChartData = {
 					labels: ['2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -250,14 +250,19 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(102, 205, 170, 0.2)',
 							borderColor: 'rgb(102, 205, 170)',
-							data: [clcls1feb, clcls1mar, clcls1apr],
+							data: [clcls1feb, clcls1mar, clcls1apr, clcls1may],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgCls1Data.avgCls1Feb, avgCls1Data.avgCls1Mar, avgCls1Data.avgCls1Apr],
+							data: [
+								avgCls1Data.avgCls1Feb,
+								avgCls1Data.avgCls1Mar,
+								avgCls1Data.avgCls1Apr,
+								avgCls1Data.avgCls1May,
+							],
 							backgroundColor: 'rgb(102, 205, 170, 0.6)',
 							borderColor: 'rgb(102, 205, 170, 0.6)',
 						},
@@ -273,7 +278,7 @@ export default {
 			const avgCls2Data = response.data;
 
 			if (this.selectedStudent) {
-				const { clcls2apr } = this.selectedStudent;
+				const { clcls2apr, clcls2may } = this.selectedStudent;
 
 				this.clCls2ChartData = {
 					labels: ['4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -283,14 +288,14 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(204, 122, 198, 0.2)',
 							borderColor: 'rgb(204, 122, 198)',
-							data: [clcls2apr],
+							data: [clcls2apr, clcls2may],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgCls2Data.avgCls2Apr],
+							data: [avgCls2Data.avgCls2Apr, avgCls2Data.avgCls2May],
 							backgroundColor: 'rgb(204, 122, 198, 0.6)',
 							borderColor: 'rgb(204, 122, 198, 0.6)',
 						},
@@ -325,7 +330,7 @@ export default {
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgCls3Data.avgLogicJan],
+							data: [avgCls3Data.avgCls3May],
 							backgroundColor: 'rgb(255, 159, 64, 0.4)',
 							borderColor: 'rgb(255, 159, 64, 0.4)',
 						},

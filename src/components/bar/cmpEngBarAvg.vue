@@ -215,7 +215,7 @@ export default {
 			const avgGramData = response.data;
 
 			if (this.selectedStudent) {
-				const { gramjan, gramfeb, grammar, gramapr } = this.selectedStudent;
+				const { gramjan, gramfeb, grammar, gramapr, grammay } = this.selectedStudent;
 
 				this.gramChartData = {
 					labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -225,7 +225,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(255, 99, 132, 0.2)',
 							borderColor: 'rgb(255, 99, 132)',
-							data: [gramjan, gramfeb, grammar, gramapr],
+							data: [gramjan, gramfeb, grammar, gramapr, grammay],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -237,6 +237,7 @@ export default {
 								avgGramData.avgGramFeb,
 								avgGramData.avgGramMar,
 								avgGramData.avgGramApr,
+								avgGramData.avgGramMay,
 							],
 							backgroundColor: 'rgb(255, 99, 132, 0.6)',
 							borderColor: 'rgb(255, 99, 132, 0.6)',
@@ -253,7 +254,7 @@ export default {
 			const avgVocaData = response.data;
 
 			if (this.selectedStudent) {
-				const { vocajan, vocafeb, vocamar, vocaapr } = this.selectedStudent;
+				const { vocajan, vocafeb, vocamar, vocaapr, vocamay } = this.selectedStudent;
 
 				this.vocaChartData = {
 					labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -263,7 +264,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(54, 162, 235, 0.2)',
 							borderColor: 'rgb(54, 162, 235)',
-							data: [vocajan, vocafeb, vocamar, vocaapr],
+							data: [vocajan, vocafeb, vocamar, vocaapr, vocamay],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -275,6 +276,7 @@ export default {
 								avgVocaData.avgVocaFeb,
 								avgVocaData.avgVocaMar,
 								avgVocaData.avgVocaApr,
+								avgVocaData.avgVocaMay,
 							],
 							backgroundColor: 'rgb(54, 162, 235, 0.6)',
 							borderColor: 'rgb(54, 162, 235, 0.6)',
@@ -293,7 +295,7 @@ export default {
 			// console.log("avgLogicData : ", avgLogicData)
 
 			if (this.selectedStudent) {
-				const { logicjan, logicfeb, logicmar, logicapr } = this.selectedStudent;
+				const { logicjan, logicfeb, logicmar, logicapr, logicmay } = this.selectedStudent;
 
 				this.logicChartData = {
 					labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -303,7 +305,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(255, 159, 64, 0.2)',
 							borderColor: 'rgb(255, 159, 64)',
-							data: [logicjan, logicfeb, logicmar, logicapr],
+							data: [logicjan, logicfeb, logicmar, logicapr, logicmay],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -315,6 +317,7 @@ export default {
 								avgLogicData.avgLogicFeb,
 								avgLogicData.avgLogicMar,
 								avgLogicData.avgLogicApr,
+								avgLogicData.avgLogicMay,
 							],
 							backgroundColor: 'rgb(255, 159, 64, 0.6)',
 							borderColor: 'rgb(255, 159, 64, 0.6)',
@@ -331,7 +334,7 @@ export default {
 			const avgReadData = response.data;
 
 			if (this.selectedStudent) {
-				const { readjan, readfeb, readmar, readapr } = this.selectedStudent;
+				const { readjan, readfeb, readmar, readapr, readmay } = this.selectedStudent;
 
 				this.readChartData = {
 					labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -341,7 +344,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(75, 192, 192, 0.2)',
 							borderColor: 'rgb(75, 192, 192)',
-							data: [readjan, readfeb, readmar, readapr],
+							data: [readjan, readfeb, readmar, readapr, readmay],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -353,6 +356,7 @@ export default {
 								avgReadData.avgReadFeb,
 								avgReadData.avgReadMar,
 								avgReadData.avgReadApr,
+								avgReadData.avgReadMay,
 							],
 							backgroundColor: 'rgb(75, 192, 192, 0.6)',
 							borderColor: 'rgb(75, 192, 192, 0.6)',
@@ -369,7 +373,7 @@ export default {
 			const avgTotData = response.data;
 
 			if (this.selectedStudent) {
-				const { totjan, totfeb, totmar, totapr } = this.selectedStudent;
+				const { totjan, totfeb, totmar, totapr, totmay } = this.selectedStudent;
 
 				this.totEngChartData = {
 					labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -379,7 +383,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(160, 160, 160, 0.2)',
 							borderColor: 'rgb(160, 160, 160)',
-							data: [totjan, totfeb, totmar, totapr],
+							data: [totjan, totfeb, totmar, totapr, totmay],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -391,6 +395,7 @@ export default {
 								avgTotData.avgTotFeb,
 								avgTotData.avgTotMar,
 								avgTotData.avgTotApr,
+								avgTotData.avgTotMay,
 							],
 							backgroundColor: 'rgb(160, 160, 160, 0.6)',
 							borderColor: 'rgb(160, 160, 160, 0.6)',
