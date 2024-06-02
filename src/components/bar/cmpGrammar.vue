@@ -85,13 +85,14 @@ export default {
 						response.data[dataKey + 'feb'],
 						response.data[dataKey + 'mar'],
 						response.data[dataKey + 'apr'],
+						response.data[dataKey + 'may'],
 					];
 					const lastMonthIndex = data.length - 2;
 					const change = data[data.length - 1] - data[lastMonthIndex];
 					this.changeValue = change.toFixed(1);
 					this.changeIcon = change >= 0 ? '↑' : '↓';
 					this.chartData = {
-						labels: ['1월', '2월', '3월', '4월'],
+						labels: ['1월', '2월', '3월', '4월', '5월'],
 						datasets: [
 							{
 								type: 'line',
