@@ -29,7 +29,7 @@
 			<cmpSct v-if="selectedMonth" :selected-month="selectedMonth" class="p-2 m-4 bg-white" />
 		</div>
 
-		<div class="grid grid-cols-1">
+		<div class="grid grid-cols-1 mt-4">
 			<cmpTable v-if="selectedMonth" :selected-month="selectedMonth" />
 		</div>
 	</div>

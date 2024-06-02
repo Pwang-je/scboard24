@@ -2,11 +2,11 @@
 	<div class="container mx-auto">
 		<!-- TODO -. this part will changing. -->
 		<div class="grid grid-cols-2 m-4">
-			<div class="p-4 h-20 flex justify-center">
+			<div class="flex justify-center h-20 p-4">
 				<img src="@/assets/img/N_logo.png" class="img-size" />
 			</div>
-			<div class="inline-block align-middle text-left text-slate-500 pt-4">
-				<span class="font-semibold"> 'N' &nbsp;2024y &nbsp;#1s </span><br />
+			<div class="inline-block pt-4 text-left align-middle text-slate-500">
+				<span class="font-semibold"> 'N' &nbsp;2024y &nbsp;#2 </span><br />
 				<span class="font-semibold"> &nbsp; 130 Members </span>
 			</div>
 		</div>
@@ -41,7 +41,7 @@
 			<div class="grid grid-cols-1">
 				<span v-if="selectedStudent" class="text-xl font-bold text-900">
 					<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-sort-alt"></span>
-					&nbsp; 지난달 대비 성적 증감률&nbsp; _ &nbsp;전체 분원</span
+					&nbsp; 지난달 대비 성적 증감률&nbsp; _ &nbsp;전체 분원 (100점 환산 기준)</span
 				>
 			</div>
 			<div class="grid grid-cols-2 gap-4 mt-4">
