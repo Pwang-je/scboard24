@@ -6,8 +6,8 @@
 				<img src="@/assets/img/N_logo.png" class="img-size" />
 			</div>
 			<div class="inline-block pt-4 text-left align-middle text-slate-500">
-				<span class="font-semibold"> 'N' &nbsp;2024y &nbsp;#2 </span><br />
-				<span class="font-semibold"> &nbsp; 130 Members </span>
+				<span class="font-semibold"> 'N' &nbsp;2024y &nbsp;#3 </span><br />
+				<span class="font-semibold"> &nbsp; 102 Members </span>
 			</div>
 		</div>
 
