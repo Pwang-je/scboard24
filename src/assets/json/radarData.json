@@ -3,15 +3,8 @@
         "name": "고유빈",
         "ttlgrScore": 40,
         "ttlvcScore": 40,
-        "ttllgScore": 80,
-        "ttlrdScore": 58
-    },
-    {
-        "name": "곽태원",
-        "ttlgrScore": 63,
-        "ttlvcScore": 40,
-        "ttllgScore": 73,
-        "ttlrdScore": 78
+        "ttllgScore": 60,
+        "ttlrdScore": 62
     },
     {
         "name": "권영도",
@@ -22,24 +15,17 @@
     },
     {
         "name": "권정연",
-        "ttlgrScore": 44,
-        "ttlvcScore": 44,
-        "ttllgScore": 60,
+        "ttlgrScore": 43,
+        "ttlvcScore": 45,
+        "ttllgScore": 57,
         "ttlrdScore": 74
     },
     {
         "name": "김가은",
         "ttlgrScore": 33,
-        "ttlvcScore": 27,
-        "ttllgScore": 60,
-        "ttlrdScore": 59
-    },
-    {
-        "name": "김건",
-        "ttlgrScore": 15,
-        "ttlvcScore": 30,
+        "ttlvcScore": 25,
         "ttllgScore": 40,
-        "ttlrdScore": 28
+        "ttlrdScore": 61
     },
     {
         "name": "김관웅",
@@ -49,39 +35,25 @@
         "ttlrdScore": 25
     },
     {
-        "name": "김근아",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
-    },
-    {
         "name": "김기범",
-        "ttlgrScore": 37,
+        "ttlgrScore": 38,
         "ttlvcScore": 20,
-        "ttllgScore": 40,
-        "ttlrdScore": 27
-    },
-    {
-        "name": "김나연",
-        "ttlgrScore": 80,
-        "ttlvcScore": 20,
-        "ttllgScore": 60,
-        "ttlrdScore": 85
+        "ttllgScore": 35,
+        "ttlrdScore": 26
     },
     {
         "name": "김단아",
-        "ttlgrScore": 40,
-        "ttlvcScore": 40,
-        "ttllgScore": 52,
-        "ttlrdScore": 62
+        "ttlgrScore": 38,
+        "ttlvcScore": 42,
+        "ttllgScore": 47,
+        "ttlrdScore": 63
     },
     {
         "name": "김도연",
-        "ttlgrScore": 45,
-        "ttlvcScore": 27,
-        "ttllgScore": 55,
-        "ttlrdScore": 63
+        "ttlgrScore": 42,
+        "ttlvcScore": 25,
+        "ttllgScore": 48,
+        "ttlrdScore": 59
     },
     {
         "name": "김동현",
@@ -92,87 +64,73 @@
     },
     {
         "name": "김미소",
-        "ttlgrScore": 25,
-        "ttlvcScore": 33,
+        "ttlgrScore": 28,
+        "ttlvcScore": 35,
         "ttllgScore": 20,
-        "ttlrdScore": 38
-    },
-    {
-        "name": "김민서",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
+        "ttlrdScore": 39
     },
     {
         "name": "김민우",
-        "ttlgrScore": 64,
-        "ttlvcScore": 48,
-        "ttllgScore": 45,
-        "ttlrdScore": 60
-    },
-    {
-        "name": "김민준",
-        "ttlgrScore": 20,
-        "ttlvcScore": 40,
-        "ttllgScore": 40,
-        "ttlrdScore": 20
+        "ttlgrScore": 62,
+        "ttlvcScore": 45,
+        "ttllgScore": 42,
+        "ttlrdScore": 59
     },
     {
         "name": "김서우",
         "ttlgrScore": 48,
         "ttlvcScore": 30,
-        "ttllgScore": 50,
-        "ttlrdScore": 64
+        "ttllgScore": 46,
+        "ttlrdScore": 66
     },
     {
         "name": "김세희",
-        "ttlgrScore": 34,
+        "ttlgrScore": 33,
         "ttlvcScore": 20,
-        "ttllgScore": 40,
-        "ttlrdScore": 34
+        "ttllgScore": 37,
+        "ttlrdScore": 35
     },
     {
         "name": "김유리",
-        "ttlgrScore": 35,
+        "ttlgrScore": 30,
         "ttlvcScore": 20,
-        "ttllgScore": 35,
-        "ttlrdScore": 41
+        "ttllgScore": 30,
+        "ttlrdScore": 40
     },
     {
         "name": "김유민",
-        "ttlgrScore": 28,
-        "ttlvcScore": 44,
-        "ttllgScore": 30,
+        "ttlgrScore": 25,
+        "ttlvcScore": 40,
+        "ttllgScore": 26,
         "ttlrdScore": 61
     },
     {
         "name": "김유은",
-        "ttlgrScore": 28,
-        "ttlvcScore": 60,
-        "ttllgScore": 47,
-        "ttlrdScore": 64
+        "ttlgrScore": 24,
+        "ttlvcScore": 54,
+        "ttllgScore": 43,
+        "ttlrdScore": 63
     },
     {
         "name": "김윤성",
-        "ttlgrScore": 57,
-        "ttlvcScore": 50,
-        "ttllgScore": 47,
-        "ttlrdScore": 40
+        "ttlgrScore": 50,
+        "ttlvcScore": 43,
+        "ttllgScore": 40,
+        "ttlrdScore": 38
     },
     {
         "name": "김윤환",
-        "ttlgrScore": 23,
-        "ttlvcScore": 30,
-        "ttllgScore": 40,
-        "ttlrdScore": 58
+        "ttlgrScore": 20,
+        "ttlvcScore": 33,
+        "ttllgScore": 35,
+        "ttlrdScore": 56
     },
     {
         "name": "김은상",
-        "ttlgrScore": 45,
-        "ttlvcScore": 35,
-        "ttllgScore": 50,
-        "ttlrdScore": 35
+        "ttlgrScore": 42,
+        "ttlvcScore": 34,
+        "ttllgScore": 42,
+        "ttlrdScore": 43
     },
     {
         "name": "김재성",
@@ -191,21 +149,14 @@
     {
         "name": "김종은",
         "ttlgrScore": 32,
-        "ttlvcScore": 55,
-        "ttllgScore": 48,
-        "ttlrdScore": 48
-    },
-    {
-        "name": "김지윤",
-        "ttlgrScore": 27,
-        "ttlvcScore": 40,
+        "ttlvcScore": 50,
         "ttllgScore": 47,
-        "ttlrdScore": 70
+        "ttlrdScore": 51
     },
     {
         "name": "김진경",
-        "ttlgrScore": 80,
-        "ttlvcScore": 60,
+        "ttlgrScore": 67,
+        "ttlvcScore": 53,
         "ttllgScore": 40,
         "ttlrdScore": 78
     },
@@ -218,10 +169,10 @@
     },
     {
         "name": "김하윤",
-        "ttlgrScore": 38,
-        "ttlvcScore": 27,
-        "ttllgScore": 35,
-        "ttlrdScore": 50
+        "ttlgrScore": 36,
+        "ttlvcScore": 28,
+        "ttllgScore": 30,
+        "ttlrdScore": 54
     },
     {
         "name": "김현영",
@@ -232,31 +183,24 @@
     },
     {
         "name": "김혜빈",
-        "ttlgrScore": 40,
-        "ttlvcScore": 50,
-        "ttllgScore": 55,
-        "ttlrdScore": 58
+        "ttlgrScore": 36,
+        "ttlvcScore": 48,
+        "ttllgScore": 48,
+        "ttlrdScore": 59
     },
     {
         "name": "김혜은",
-        "ttlgrScore": 35,
-        "ttlvcScore": 40,
-        "ttllgScore": 30,
-        "ttlrdScore": 38
+        "ttlgrScore": 30,
+        "ttlvcScore": 30,
+        "ttllgScore": 23,
+        "ttlrdScore": 40
     },
     {
         "name": "남여진",
-        "ttlgrScore": 35,
+        "ttlgrScore": 30,
         "ttlvcScore": 20,
-        "ttllgScore": 60,
-        "ttlrdScore": 58
-    },
-    {
-        "name": "류수찬",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
+        "ttllgScore": 43,
+        "ttlrdScore": 63
     },
     {
         "name": "맹지우",
@@ -280,25 +224,11 @@
         "ttlrdScore": ""
     },
     {
-        "name": "문해름",
-        "ttlgrScore": 30,
-        "ttlvcScore": 40,
-        "ttllgScore": "",
-        "ttlrdScore": 65
-    },
-    {
         "name": "문해찬",
         "ttlgrScore": 45,
         "ttlvcScore": 33,
         "ttllgScore": 30,
         "ttlrdScore": 48
-    },
-    {
-        "name": "박기현",
-        "ttlgrScore": 30,
-        "ttlvcScore": 40,
-        "ttllgScore": 53,
-        "ttlrdScore": 43
     },
     {
         "name": "박동민",
@@ -308,45 +238,17 @@
         "ttlrdScore": 35
     },
     {
-        "name": "박민지",
-        "ttlgrScore": 40,
-        "ttlvcScore": 40,
-        "ttllgScore": 60,
-        "ttlrdScore": 65
-    },
-    {
         "name": "박진형",
-        "ttlgrScore": 86,
-        "ttlvcScore": 56,
-        "ttllgScore": 76,
-        "ttlrdScore": 70
-    },
-    {
-        "name": "방민솔",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
-    },
-    {
-        "name": "백수연",
-        "ttlgrScore": 60,
-        "ttlvcScore": 60,
-        "ttllgScore": 53,
-        "ttlrdScore": 75
-    },
-    {
-        "name": "백은서",
-        "ttlgrScore": 10,
-        "ttlvcScore": 40,
-        "ttllgScore": 40,
-        "ttlrdScore": 30
+        "ttlgrScore": 78,
+        "ttlvcScore": 52,
+        "ttllgScore": 68,
+        "ttlrdScore": 68
     },
     {
         "name": "백정안",
         "ttlgrScore": 54,
-        "ttlvcScore": 52,
-        "ttllgScore": 60,
+        "ttlvcScore": 50,
+        "ttllgScore": 53,
         "ttlrdScore": 68
     },
     {
@@ -358,10 +260,10 @@
     },
     {
         "name": "변부윤",
-        "ttlgrScore": 38,
-        "ttlvcScore": 32,
-        "ttllgScore": 68,
-        "ttlrdScore": 65
+        "ttlgrScore": 37,
+        "ttlvcScore": 28,
+        "ttllgScore": 62,
+        "ttlrdScore": 66
     },
     {
         "name": "변준영",
@@ -379,16 +281,16 @@
     },
     {
         "name": "서태랑",
-        "ttlgrScore": 58,
-        "ttlvcScore": 64,
-        "ttllgScore": 76,
-        "ttlrdScore": 68
+        "ttlgrScore": 52,
+        "ttlvcScore": 62,
+        "ttllgScore": 67,
+        "ttlrdScore": 67
     },
     {
         "name": "선지우",
-        "ttlgrScore": 83,
-        "ttlvcScore": 45,
-        "ttllgScore": 75,
+        "ttlgrScore": 78,
+        "ttlvcScore": 44,
+        "ttllgScore": 70,
         "ttlrdScore": 89
     },
     {
@@ -406,13 +308,6 @@
         "ttlrdScore": 38
     },
     {
-        "name": "신기륜",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
-    },
-    {
         "name": "신예서",
         "ttlgrScore": 50,
         "ttlvcScore": 33,
@@ -420,17 +315,10 @@
         "ttlrdScore": 78
     },
     {
-        "name": "신재영",
-        "ttlgrScore": 10,
-        "ttlvcScore": 20,
-        "ttllgScore": 20,
-        "ttlrdScore": 45
-    },
-    {
         "name": "안정연",
         "ttlgrScore": 68,
         "ttlvcScore": 48,
-        "ttllgScore": 56,
+        "ttllgScore": 47,
         "ttlrdScore": 68
     },
     {
@@ -442,17 +330,10 @@
     },
     {
         "name": "양아연",
-        "ttlgrScore": 72,
-        "ttlvcScore": 52,
-        "ttllgScore": 76,
-        "ttlrdScore": 77
-    },
-    {
-        "name": "양예진",
-        "ttlgrScore": 40,
-        "ttlvcScore": 40,
-        "ttllgScore": 20,
-        "ttlrdScore": 55
+        "ttlgrScore": 65,
+        "ttlvcScore": 48,
+        "ttllgScore": 68,
+        "ttlrdScore": 74
     },
     {
         "name": "양정환",
@@ -484,24 +365,17 @@
     },
     {
         "name": "유수화",
-        "ttlgrScore": 60,
-        "ttlvcScore": 27,
+        "ttlgrScore": 50,
+        "ttlvcScore": 30,
         "ttllgScore": 33,
-        "ttlrdScore": 65
-    },
-    {
-        "name": "유승현",
-        "ttlgrScore": 40,
-        "ttlvcScore": 47,
-        "ttllgScore": 27,
-        "ttlrdScore": 45
+        "ttlrdScore": 63
     },
     {
         "name": "유지연",
-        "ttlgrScore": 33,
+        "ttlgrScore": 30,
         "ttlvcScore": 33,
-        "ttllgScore": 47,
-        "ttlrdScore": 53
+        "ttllgScore": 43,
+        "ttlrdScore": 56
     },
     {
         "name": "유지원",
@@ -519,10 +393,10 @@
     },
     {
         "name": "이동헌",
-        "ttlgrScore": 47,
-        "ttlvcScore": 60,
-        "ttllgScore": 60,
-        "ttlrdScore": 62
+        "ttlgrScore": 43,
+        "ttlvcScore": 55,
+        "ttllgScore": 50,
+        "ttlrdScore": 64
     },
     {
         "name": "이선우",
@@ -540,66 +414,45 @@
     },
     {
         "name": "이소온",
-        "ttlgrScore": 50,
-        "ttlvcScore": 44,
-        "ttllgScore": 56,
-        "ttlrdScore": 77
+        "ttlgrScore": 53,
+        "ttlvcScore": 43,
+        "ttllgScore": 52,
+        "ttlrdScore": 75
     },
     {
         "name": "이소은",
-        "ttlgrScore": 43,
+        "ttlgrScore": 40,
         "ttlvcScore": 35,
-        "ttllgScore": 50,
-        "ttlrdScore": 55
+        "ttllgScore": 40,
+        "ttlrdScore": 56
     },
     {
         "name": "이수빈_1",
-        "ttlgrScore": 72,
-        "ttlvcScore": 48,
-        "ttllgScore": 44,
-        "ttlrdScore": 58
-    },
-    {
-        "name": "이수빈_2",
-        "ttlgrScore": 40,
-        "ttlvcScore": "",
-        "ttllgScore": 40,
-        "ttlrdScore": 30
+        "ttlgrScore": 70,
+        "ttlvcScore": 47,
+        "ttllgScore": 42,
+        "ttlrdScore": 57
     },
     {
         "name": "이수빈_3",
-        "ttlgrScore": 33,
-        "ttlvcScore": 27,
-        "ttllgScore": 45,
-        "ttlrdScore": 61
+        "ttlgrScore": 28,
+        "ttlvcScore": 23,
+        "ttllgScore": 40,
+        "ttlrdScore": 60
     },
     {
         "name": "이수아",
-        "ttlgrScore": 50,
-        "ttlvcScore": 27,
-        "ttllgScore": 47,
-        "ttlrdScore": 55
-    },
-    {
-        "name": "이신엽",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
-    },
-    {
-        "name": "이연지",
-        "ttlgrScore": 50,
-        "ttlvcScore": 40,
-        "ttllgScore": 40,
-        "ttlrdScore": 43
+        "ttlgrScore": 45,
+        "ttlvcScore": 25,
+        "ttllgScore": 38,
+        "ttlrdScore": 50
     },
     {
         "name": "이용재",
-        "ttlgrScore": 30,
-        "ttlvcScore": 47,
-        "ttllgScore": 27,
-        "ttlrdScore": 22
+        "ttlgrScore": 35,
+        "ttlvcScore": 40,
+        "ttllgScore": 25,
+        "ttlrdScore": 26
     },
     {
         "name": "이우신",
@@ -616,25 +469,18 @@
         "ttlrdScore": 75
     },
     {
-        "name": "이은서",
-        "ttlgrScore": 10,
-        "ttlvcScore": 30,
-        "ttllgScore": 30,
-        "ttlrdScore": 30
-    },
-    {
         "name": "이은지",
         "ttlgrScore": 52,
-        "ttlvcScore": 44,
-        "ttllgScore": 44,
-        "ttlrdScore": 67
+        "ttlvcScore": 40,
+        "ttllgScore": 42,
+        "ttlrdScore": 68
     },
     {
         "name": "이의정",
-        "ttlgrScore": 56,
-        "ttlvcScore": 36,
-        "ttllgScore": 48,
-        "ttlrdScore": 60
+        "ttlgrScore": 52,
+        "ttlvcScore": 33,
+        "ttllgScore": 43,
+        "ttlrdScore": 63
     },
     {
         "name": "이재원_1",
@@ -673,24 +519,24 @@
     },
     {
         "name": "이효우",
-        "ttlgrScore": 50,
-        "ttlvcScore": 50,
-        "ttllgScore": 45,
-        "ttlrdScore": 65
+        "ttlgrScore": 48,
+        "ttlvcScore": 44,
+        "ttllgScore": 40,
+        "ttlrdScore": 62
     },
     {
         "name": "인서준",
         "ttlgrScore": 60,
-        "ttlvcScore": 75,
-        "ttllgScore": 75,
-        "ttlrdScore": 59
+        "ttlvcScore": 66,
+        "ttllgScore": 68,
+        "ttlrdScore": 56
     },
     {
         "name": "임지호",
-        "ttlgrScore": 80,
-        "ttlvcScore": 52,
-        "ttllgScore": 60,
-        "ttlrdScore": 86
+        "ttlgrScore": 75,
+        "ttlvcScore": 48,
+        "ttllgScore": 57,
+        "ttlrdScore": 84
     },
     {
         "name": "장윤서",
@@ -708,9 +554,9 @@
     },
     {
         "name": "전지민",
-        "ttlgrScore": 56,
-        "ttlvcScore": 45,
-        "ttllgScore": 52,
+        "ttlgrScore": 52,
+        "ttlvcScore": 40,
+        "ttllgScore": 47,
         "ttlrdScore": 63
     },
     {
@@ -722,24 +568,17 @@
     },
     {
         "name": "전진경",
-        "ttlgrScore": 30,
-        "ttlvcScore": 27,
-        "ttllgScore": 67,
-        "ttlrdScore": 63
-    },
-    {
-        "name": "전찬웅",
-        "ttlgrScore": 30,
-        "ttlvcScore": "",
-        "ttllgScore": 20,
-        "ttlrdScore": 15
+        "ttlgrScore": 28,
+        "ttlvcScore": 28,
+        "ttllgScore": 58,
+        "ttlrdScore": 64
     },
     {
         "name": "정동현",
-        "ttlgrScore": 33,
-        "ttlvcScore": 40,
-        "ttllgScore": 40,
-        "ttlrdScore": 40
+        "ttlgrScore": 32,
+        "ttlvcScore": 38,
+        "ttllgScore": 34,
+        "ttlrdScore": 45
     },
     {
         "name": "정민혜",
@@ -747,13 +586,6 @@
         "ttlvcScore": "",
         "ttllgScore": "",
         "ttlrdScore": ""
-    },
-    {
-        "name": "정병권",
-        "ttlgrScore": 40,
-        "ttlvcScore": 20,
-        "ttllgScore": 25,
-        "ttlrdScore": 38
     },
     {
         "name": "정서연",
@@ -764,10 +596,10 @@
     },
     {
         "name": "정원석",
-        "ttlgrScore": 43,
-        "ttlvcScore": 35,
-        "ttllgScore": 45,
-        "ttlrdScore": 49
+        "ttlgrScore": 38,
+        "ttlvcScore": 38,
+        "ttllgScore": 42,
+        "ttlrdScore": 52
     },
     {
         "name": "정준민",
@@ -799,31 +631,24 @@
     },
     {
         "name": "조수연",
-        "ttlgrScore": 75,
-        "ttlvcScore": 50,
-        "ttllgScore": 60,
-        "ttlrdScore": 80
+        "ttlgrScore": 70,
+        "ttlvcScore": 46,
+        "ttllgScore": 54,
+        "ttlrdScore": 82
     },
     {
         "name": "조영우",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": "",
-        "ttlrdScore": ""
-    },
-    {
-        "name": "조예지",
-        "ttlgrScore": 30,
-        "ttlvcScore": 20,
-        "ttllgScore": 30,
-        "ttlrdScore": 35
+        "ttlgrScore": 100,
+        "ttlvcScore": 40,
+        "ttllgScore": 40,
+        "ttlrdScore": 50
     },
     {
         "name": "조준희",
         "ttlgrScore": 42,
-        "ttlvcScore": 48,
-        "ttllgScore": 65,
-        "ttlrdScore": 58
+        "ttlvcScore": 47,
+        "ttllgScore": 56,
+        "ttlrdScore": 61
     },
     {
         "name": "지유경",
@@ -841,52 +666,24 @@
     },
     {
         "name": "차규진",
-        "ttlgrScore": 47,
-        "ttlvcScore": 30,
-        "ttllgScore": 40,
-        "ttlrdScore": 53
-    },
-    {
-        "name": "천승현",
-        "ttlgrScore": 35,
-        "ttlvcScore": 50,
-        "ttllgScore": 30,
-        "ttlrdScore": 30
+        "ttlgrScore": 45,
+        "ttlvcScore": 23,
+        "ttllgScore": 35,
+        "ttlrdScore": 60
     },
     {
         "name": "최민석",
-        "ttlgrScore": 66,
-        "ttlvcScore": 35,
-        "ttllgScore": 30,
-        "ttlrdScore": 61
-    },
-    {
-        "name": "최유정",
-        "ttlgrScore": 25,
+        "ttlgrScore": 67,
         "ttlvcScore": 30,
-        "ttllgScore": 50,
-        "ttlrdScore": 55
-    },
-    {
-        "name": "최진주",
-        "ttlgrScore": 10,
-        "ttlvcScore": 60,
-        "ttllgScore": 20,
-        "ttlrdScore": 35
+        "ttllgScore": 26,
+        "ttlrdScore": 63
     },
     {
         "name": "한성빈",
-        "ttlgrScore": 60,
-        "ttlvcScore": 45,
-        "ttllgScore": 55,
-        "ttlrdScore": 61
-    },
-    {
-        "name": "한에스더",
-        "ttlgrScore": "",
-        "ttlvcScore": "",
-        "ttllgScore": 20,
-        "ttlrdScore": 20
+        "ttlgrScore": 54,
+        "ttlvcScore": 44,
+        "ttllgScore": 50,
+        "ttlrdScore": 60
     },
     {
         "name": "허윤재",
@@ -897,12 +694,16 @@
     },
     {
         "name": "홍승리",
-        "ttlgrScore": 68,
-        "ttlvcScore": 56,
-        "ttllgScore": 56,
-        "ttlrdScore": 78
+        "ttlgrScore": 65,
+        "ttlvcScore": 53,
+        "ttllgScore": 53,
+        "ttlrdScore": 76
     },
     {
-        "name": "황태현"
+        "name": "황태현",
+        "ttlgrScore": "",
+        "ttlvcScore": "",
+        "ttllgScore": "",
+        "ttlrdScore": ""
     }
 ]
