@@ -317,7 +317,7 @@ export default {
 				const { clcls3may, clcls3jun } = this.selectedStudent;
 
 				this.clCls3ChartData = {
-					labels: ['5월'],
+					labels: ['5월', '6월', '7월', '8월', '9월', '10월'],
 					datasets: [
 						{
 							type: 'bar',
@@ -350,7 +350,7 @@ export default {
 				const { algbrajun } = this.selectedStudent;
 
 				this.lnrAlgbrChartData = {
-					labels: ['5월', '6월'],
+					labels: ['6월', '7월', '8월', '9월', '10월'],
 					datasets: [
 						{
 							type: 'bar',
