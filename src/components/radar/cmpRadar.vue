@@ -110,7 +110,7 @@ export default {
 					{
 						label: '전체 평균',
 						// data: [ttlgrScore, ttlvcScore, ttllgScore, ttlrdScore],
-						data: [47.3, 39.7, 50.7, 57.3],
+						data: [46.0, 42.8, 50.1, 58.3],
 						fill: true,
 						backgroundColor: 'rgba(255, 99, 132, 0.2)',
 						borderColor: 'rgb(255, 99, 132)',
