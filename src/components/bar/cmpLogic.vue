@@ -88,6 +88,7 @@ export default {
 						response.data[dataKey + 'apr'],
 						response.data[dataKey + 'may'],
 						response.data[dataKey + 'jun'],
+						response.data[dataKey + 'jul'],
 					];
 
 					const lastMonthIndex = data.length - 2;
@@ -96,7 +97,7 @@ export default {
 					this.changeIcon = change >= 0 ? '↑' : '↓'; // 아이콘으로 화살표 사용
 
 					this.chartData = {
-						labels: ['1월', '2월', '3월', '4월', '5월', '6월'],
+						labels: ['1월', '2월', '3월', '4월', '5월', '6월', '7월'],
 						datasets: [
 							{
 								type: 'line',

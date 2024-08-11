@@ -904,14 +904,6 @@
     "csatMath": 3
   },
   {
-    "name": "정하림",
-    "engCls": "적용",
-    "mtCls": "",
-    "Cls": "경영학과",
-    "csatEng": 6,
-    "csatMath": ""
-  },
-  {
     "name": "정현태",
     "engCls": "문풀A",
     "mtCls": "",
@@ -942,14 +934,6 @@
     "Cls": "컴퓨터공학과",
     "csatEng": 5,
     "csatMath": 5
-  },
-  {
-    "name": "조예지",
-    "engCls": "적용",
-    "mtCls": "",
-    "Cls": "심리학과",
-    "csatEng": "",
-    "csatMath": ""
   },
   {
     "name": "조준희",

@@ -1,10 +1,8 @@
 <template>
-	<!-- FIXME -. [pi-table] margin-left -->
 	<span v-if="selectedMonth" class="p-3 text-xl font-bold text-900">
 		<span class="p-2 bg-white border-2 border-gray-200 rounded-md pi pi-table"></span>
 		&nbsp; {{ this.selectedMonth }}&nbsp; 전체 분원 성적 리스트
 	</span>
-	<!-- TODO -. field-branCh FIXED ROW -->
 	<div>
 		<DataTable
 			v-if="filteredData.length > 0"
@@ -87,7 +85,6 @@ export default {
 					'https://raw.githubusercontent.com/Pwang-je/scboard24/master/src/assets/json/tableData.json',
 				);
 				this.filteredData = response.data[this.selectedMonth] || [];
-				//IMPORTANT -. If MATH score is empty, treat as 'blank'.
 				this.filteredData.forEach(item => {
 					if (!item.mathScore) {
 						item.mathScore = '';

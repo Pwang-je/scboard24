@@ -240,7 +240,8 @@ export default {
 			const avgCls1Data = response.data;
 
 			if (this.selectedStudent) {
-				const { clcls1feb, clcls1mar, clcls1apr, clcls1may, clcls1jun } = this.selectedStudent;
+				const { clcls1feb, clcls1mar, clcls1apr, clcls1may, clcls1jun, clcls1jul } =
+					this.selectedStudent;
 
 				this.clCls1ChartData = {
 					labels: ['2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -250,7 +251,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(102, 205, 170, 0.2)',
 							borderColor: 'rgb(102, 205, 170)',
-							data: [clcls1feb, clcls1mar, clcls1apr, clcls1may, clcls1jun],
+							data: [clcls1feb, clcls1mar, clcls1apr, clcls1may, clcls1jun, clcls1jul],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -263,6 +264,7 @@ export default {
 								avgCls1Data.avgCls1Apr,
 								avgCls1Data.avgCls1May,
 								avgCls1Data.avgCls1Jun,
+								avgCls1Data.avgCls1Jul,
 							],
 							backgroundColor: 'rgb(102, 205, 170, 0.6)',
 							borderColor: 'rgb(102, 205, 170, 0.6)',
@@ -279,7 +281,7 @@ export default {
 			const avgCls2Data = response.data;
 
 			if (this.selectedStudent) {
-				const { clcls2apr, clcls2may, clcls2jun } = this.selectedStudent;
+				const { clcls2apr, clcls2may, clcls2jun, clcls2jul } = this.selectedStudent;
 
 				this.clCls2ChartData = {
 					labels: ['4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -289,14 +291,19 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(204, 122, 198, 0.2)',
 							borderColor: 'rgb(204, 122, 198)',
-							data: [clcls2apr, clcls2may, clcls2jun],
+							data: [clcls2apr, clcls2may, clcls2jun, clcls2jul],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgCls2Data.avgCls2Apr, avgCls2Data.avgCls2May, avgCls2Data.avgCls2Jun],
+							data: [
+								avgCls2Data.avgCls2Apr,
+								avgCls2Data.avgCls2May,
+								avgCls2Data.avgCls2Jun,
+								avgCls2Data.avgCls2Jul,
+							],
 							backgroundColor: 'rgb(204, 122, 198, 0.6)',
 							borderColor: 'rgb(204, 122, 198, 0.6)',
 						},
@@ -314,7 +321,7 @@ export default {
 			// console.log("avgLogicData : ", avgLogicData)
 
 			if (this.selectedStudent) {
-				const { clcls3may, clcls3jun } = this.selectedStudent;
+				const { clcls3may, clcls3jun, clcls3jul } = this.selectedStudent;
 
 				this.clCls3ChartData = {
 					labels: ['5월', '6월', '7월', '8월', '9월', '10월'],
@@ -324,14 +331,14 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(255, 159, 64, 0.2)',
 							borderColor: 'rgb(255, 159, 64)',
-							data: [clcls3may, clcls3jun],
+							data: [clcls3may, clcls3jun, clcls3jul],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgCls3Data.avgCls3May, avgCls3Data.avgCls3Jun],
+							data: [avgCls3Data.avgCls3May, avgCls3Data.avgCls3Jun, avgCls3Data.avgCls3Jul],
 							backgroundColor: 'rgb(255, 159, 64, 0.4)',
 							borderColor: 'rgb(255, 159, 64, 0.4)',
 						},
@@ -347,7 +354,7 @@ export default {
 			const avgAlgbraData = response.data;
 
 			if (this.selectedStudent) {
-				const { algbrajun } = this.selectedStudent;
+				const { algbrajun, algbrajul } = this.selectedStudent;
 
 				this.lnrAlgbrChartData = {
 					labels: ['6월', '7월', '8월', '9월', '10월'],
@@ -357,14 +364,14 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(197, 167, 63, 0.2)',
 							borderColor: 'rgb(197, 167, 63)',
-							data: [algbrajun],
+							data: [algbrajun, algbrajul],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
 						{
 							type: 'line',
 							label: '평균',
-							data: [avgAlgbraData.avgAlgJun],
+							data: [avgAlgbraData.avgAlgJun, avgAlgbraData.avgAlgJul],
 							backgroundColor: 'rgb(197, 167, 63, 0.4)',
 							borderColor: 'rgb(197, 167, 63, 0.4)',
 						},
@@ -380,7 +387,8 @@ export default {
 			const avgMathTotData = response.data;
 
 			if (this.selectedStudent) {
-				const { totmathfeb, totmathmar, totmathapr, totmathmay, totmathjun } = this.selectedStudent;
+				const { totmathfeb, totmathmar, totmathapr, totmathmay, totmathjun, totmathjul } =
+					this.selectedStudent;
 
 				this.totalMathChartData = {
 					labels: ['2월', '3월', '4월', '5월', '6월', '7월', '8월', '9월', '10월'],
@@ -390,7 +398,7 @@ export default {
 							label: `${this.selectedStudent.name}`,
 							backgroundColor: 'rgba(160, 160, 160, 0.2)',
 							borderColor: 'rgb(160, 160, 160)',
-							data: [totmathfeb, totmathmar, totmathapr, totmathmay, totmathjun],
+							data: [totmathfeb, totmathmar, totmathapr, totmathmay, totmathjun, totmathjul],
 							borderWidth: 2,
 							borderRadius: [{ topLeft: 20, topRight: 20 }],
 						},
@@ -403,6 +411,7 @@ export default {
 								avgMathTotData.avgMathTotApr,
 								avgMathTotData.avgMathTotMay,
 								avgMathTotData.avgMathTotJun,
+								avgMathTotData.avgMathTotJul,
 							],
 							backgroundColor: 'rgb(160, 160, 160, 0.4)',
 							borderColor: 'rgb(160, 160, 160, 0.4)',
