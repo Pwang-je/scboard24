@@ -478,7 +478,7 @@ export default {
 								avgMathTotData.avgMathTotMay,
 								avgMathTotData.avgMathTotJun,
 								avgMathTotData.avgMathTotJul,
-								avgMathTotData.avgMAthTotAug,
+								avgMathTotData.avgMathTotAug,
 							],
 							backgroundColor: 'rgb(160, 160, 160, 0.4)',
 							borderColor: 'rgb(160, 160, 160, 0.4)',
