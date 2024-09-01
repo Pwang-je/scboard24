@@ -89,6 +89,7 @@ export default {
 						response.data[dataKey + 'may'],
 						response.data[dataKey + 'jun'],
 						response.data[dataKey + 'jul'],
+						response.data[dataKey + 'aug'],
 					];
 
 					const lastMonthIndex = data.length - 2;

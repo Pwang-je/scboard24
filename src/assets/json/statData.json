@@ -8,14 +8,6 @@
     "csatMath": 6
   },
   {
-    "name": "곽태원",
-    "engCls": "문풀B",
-    "mtCls": "미적분3",
-    "Cls": "컴퓨터공학과",
-    "csatEng": 2,
-    "csatMath": 7
-  },
-  {
     "name": "권영도",
     "engCls": "문풀B",
     "mtCls": "미적분3",
@@ -40,14 +32,6 @@
     "csatMath": ""
   },
   {
-    "name": "김건",
-    "engCls": "기본반",
-    "mtCls": "",
-    "Cls": "광고홍보학과",
-    "csatEng": 6,
-    "csatMath": ""
-  },
-  {
     "name": "김관웅",
     "engCls": "기본반",
     "mtCls": "미적분2",
@@ -69,14 +53,6 @@
     "mtCls": "미적분2",
     "Cls": "사회복지학과",
     "csatEng": "",
-    "csatMath": ""
-  },
-  {
-    "name": "김나연",
-    "engCls": "문풀B",
-    "mtCls": "",
-    "Cls": "심리학과",
-    "csatEng": 1,
     "csatMath": ""
   },
   {
@@ -110,14 +86,6 @@
     "Cls": "컴퓨터공학과",
     "csatEng": 4,
     "csatMath": 4
-  },
-  {
-    "name": "김민서",
-    "engCls": "문풀B",
-    "mtCls": "",
-    "Cls": "경영학과",
-    "csatEng": 2,
-    "csatMath": ""
   },
   {
     "name": "김민우",
@@ -204,14 +172,6 @@
     "engCls": "문풀B",
     "mtCls": "미적분3",
     "Cls": "컴퓨터공학과",
-    "csatEng": "",
-    "csatMath": ""
-  },
-  {
-    "name": "김정민",
-    "engCls": "문풀A",
-    "mtCls": "",
-    "Cls": "행정학과",
     "csatEng": "",
     "csatMath": ""
   },
