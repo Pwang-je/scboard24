@@ -43,6 +43,17 @@
 				/>
 			</div>
 		</swiper-slide>
+
+		<swiper-slide>
+			<div class="p-4 pb-6">
+				<Bar
+					:data="mltvrChartData"
+					:options="mltvrChartOptions"
+					v-if="mltvrChartData"
+					class="p-2 bg-white rounded-lg shadow-lg border-style h-96"
+				/>
+			</div>
+		</swiper-slide>
 	</swiper>
 
 	<div class="p-4 pb-6">
